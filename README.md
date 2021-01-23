@@ -6,6 +6,7 @@ Want to go through lecture videos faster without missing any information? Wish y
 ### Table of Contents
 - Walkthrough
 - Getting Started
+- Tweeking the Application
 - Next steps
 - Usage
 - Credits
@@ -46,7 +47,12 @@ where each page contains an image of the lecture video, and a transcription of t
     to generate a PDF of [this lecture video](tests/videos/input_1.mp4) with [these subtitles](```tests/subtitles/subtitles_1.vtt```)
 
 4. The generated PDF will be saved as *output.pdf*
-    
+
+### Tweeking the Application
+This application uses computer vision with OpenCV to detect when the instructor has moved on to the next PowerPoint slide, detect animations, etc.
+
+You can adjust the sensitivity to video frame changes in the ```src/video_segment_finder.py``` file. You can also visualize how well the application detect transitions and animations via the ```src/plot.py``` tool.
+
 ### Next Steps
 - [ ] Automatically generate subtitles
 - [ ] Wrap project into a web app?
