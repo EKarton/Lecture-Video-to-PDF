@@ -1,7 +1,7 @@
 # Convert Lecture Videos to PDF
 
 ### Description
-Want to go through lecture videos faster without missing any information? Wish you can **read** the lecture video instead of watching it? Now you can! With this python application, you can convert lecture videos to a PDF file! The PDF file will contain a screenshot of lecture slides presented in the video, along with a transcription of your instructor explaining those lecture slide. It can also tolerate instructors making annotations to their lecture slides and mild amounts of PowerPoint animations.
+Want to go through lecture videos faster without missing any information? Wish you can **read** the lecture video instead of watching it? Now you can! With this python application, you can convert lecture videos to a PDF file! The PDF file will contain a screenshot of lecture slides presented in the video, along with a transcription of your instructor explaining those lecture slide. It can also handle instructors making annotations on their lecture slides and mild amounts of PowerPoint animations.
 
 ### Table of Contents
 - Walkthrough
