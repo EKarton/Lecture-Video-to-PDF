@@ -30,7 +30,7 @@ After running the command line tool, they will get a PDF that looks like this:
     </p>
 </div>
 
-where each page contains an image of the lecture video, and a transcription explaining about that slide.
+where each page contains an image of the lecture video, and a transcription of the instructor explaining about that slide.
 
 
 ### Getting Started
