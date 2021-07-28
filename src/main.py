@@ -51,16 +51,19 @@ class CommandLineArgRunner:
         self, video_segment_finder, video_filepath, subtitle_parser, output_filepath
     ):
         # Get the selected frames
+        print('Getting selected frames')
         selected_frames_data = video_segment_finder.get_best_segment_frames(video_filepath)
         frame_nums = sorted(selected_frames_data.keys())
         selected_frames = [selected_frames_data[i]["frame"] for i in frame_nums]
 
         # Get the subtitles for each frame
+        print('Getting subtitles for each frame')
         segment_finder = SubtitleSegmentFinder(subtitle_parser.get_subtitle_parts())
         subtitle_breaks = [selected_frames_data[i]["timestamp"] for i in frame_nums]
         segments = segment_finder.get_subtitle_segments(subtitle_breaks)
 
         # Merge the frame and subtitles for each frame to create a pdf
+        print('Merging frames and subtitles')
         video_subtitle_pages = []
 
         for i in range(0, len(selected_frames)):
