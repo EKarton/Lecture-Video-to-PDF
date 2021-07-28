@@ -1,5 +1,5 @@
 import webvtt
-from time_utils import convert_clock_time_to_timestamp_ms
+from time_utils import convert_clock_time_to_timestamp_ms, convert_timestamp_ms_to_clock_time
 
 
 class SubtitlePart:
@@ -20,6 +20,12 @@ class SubtitlePart:
         self.end_time = end_time
         self.text = text
 
+    def __str__(self):
+        return "{}-{}".format(self.start_time, self.end_time)
+
+    def __repr__(self):
+        return self.__str__()
+
 
 class SubtitleWebVTTParser:
     """Parses the subtitles and its parts from a .vtt file
@@ -35,6 +41,7 @@ class SubtitleWebVTTParser:
 
     def get_subtitle_parts(self):
         """Parses and gets the subtitle parts from the subtitle's file
+           It also expands the subtitles in cases where there are gaps between subtitles
 
         Returns
         -------
@@ -48,6 +55,14 @@ class SubtitleWebVTTParser:
             clean_text = self.__filter_text__(caption.text)
 
             parts.append(SubtitlePart(start_time, end_time, clean_text))
+
+        # Extend certain subtitle times to fill in gaps
+        for i in range(len(parts) - 1):
+            cur = parts[i]
+            next = parts[i + 1]
+
+            if cur.end_time != next.start_time:
+                cur.end_time = next.start_time
 
         return parts
 
@@ -125,29 +140,12 @@ class SubtitleSegmentFinder:
 
         return segments
 
-    def __find_part__(self, timestamp_ms):
-        left = 0
-        right = len(self.parts) - 1
-
-        while left <= right:
-            mid = (left + right) // 2
-            cur_part = self.parts[mid]
-
-            if cur_part.start_time <= timestamp_ms <= cur_part.end_time:
-                return mid
-            elif timestamp_ms < cur_part.start_time:
-                right = mid - 1
-            else:
-                left = mid + 1
-
-        return None
-
     def __get_part_position_of_time_break__(self, time_break):
         part_index = self.__find_part__(time_break)
 
         # If the page_break_time > last fragment's time, then that page needs to capture the entire thing
         if time_break >= self.parts[-1].end_time:
-            return len(self.parts) - 1, len(self.parts[-1].text) - 1
+            return len(self.parts) - 1, len(self.parts[-1].text) - 1            
 
         part = self.parts[part_index]
 
@@ -184,6 +182,23 @@ class SubtitleSegmentFinder:
 
         else:
             raise Exception("Cannot find '.' in fragment index {}".format(part_index))
+
+    def __find_part__(self, timestamp_ms):
+        left = 0
+        right = len(self.parts) - 1
+
+        while left <= right:
+            mid = (left + right) // 2
+            cur_part = self.parts[mid]
+
+            if cur_part.start_time <= timestamp_ms < cur_part.end_time:
+                return mid
+            elif timestamp_ms < cur_part.start_time:
+                right = mid - 1
+            else:
+                left = mid + 1
+
+        return None
 
 
 if __name__ == "__main__":

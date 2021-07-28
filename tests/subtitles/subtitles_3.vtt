@@ -1,0 +1,511 @@
+WEBVTT
+
+1
+00:00:01.000 --> 00:00:03.901
+The second electronic component
+I want to introduce
+
+2
+00:00:03.901 --> 00:00:06.989
+you to is called the capacitor.
+We're actually
+
+3
+00:00:06.989 --> 00:00:10.538
+going to make one which we will
+use in a circuit.
+
+4
+00:00:10.538 --> 00:00:14.417
+For this you'll need two pieces
+of aluminum foil,
+
+5
+00:00:14.417 --> 00:00:19.837
+about 50 centimeters or 20
+inches long. You'll
+
+6
+00:00:19.837 --> 00:00:24.554
+need pieces of wax paper or
+parchment paper, a
+
+7
+00:00:24.554 --> 00:00:32.554
+couple of wires and some tape.
+
+8
+00:00:32.554 --> 00:00:36.364
+The paper needs to be both wider
+and longer than
+
+9
+00:00:36.364 --> 00:00:39.794
+the aluminum foil. So cut the
+paper longer, and
+
+10
+00:00:39.794 --> 00:00:43.772
+then you'll most likely need to
+shave just a
+
+11
+00:00:43.772 --> 00:00:50.125
+centimeter or so off the
+aluminum sheets.
+
+12
+00:01:23.670 --> 00:01:30.706
+Hook a wire up to each piece of
+tinfoil. You can
+
+13
+00:01:30.706 --> 00:01:34.626
+tape it in place if that helps.
+
+14
+00:02:41.276 --> 00:02:44.884
+Now you want to layer them with
+paper on the
+
+15
+00:02:44.884 --> 00:02:54.434
+bottom, then alternate between
+the aluminum foil
+
+16
+00:02:54.434 --> 00:03:10.327
+and the paper so you get them in
+a stack.
+
+17
+00:03:10.327 --> 00:03:14.237
+Now roll them up as tight as you
+can - you can use
+
+18
+00:03:14.237 --> 00:03:17.246
+a straw in the middle if you
+want and you think
+
+19
+00:03:17.246 --> 00:03:21.334
+that helps. Be very careful not
+to let the metal
+
+20
+00:03:21.334 --> 00:03:38.959
+sheets touch anywhere.
+
+21
+00:03:38.959 --> 00:03:42.529
+Use a piece of tape to hold
+
+22
+00:03:42.529 --> 00:03:56.969
+it all together, with the wires
+sticking out
+
+23
+00:03:56.969 --> 00:04:09.124
+the one end.
+
+24
+00:04:09.124 --> 00:04:12.014
+So you have two sheets of metal,
+really really
+
+25
+00:04:12.014 --> 00:04:16.310
+close to each other, but
+separated by an insulator.
+
+26
+00:04:16.310 --> 00:04:20.789
+congratulations, you just made a
+capacitor.
+
+27
+00:04:20.789 --> 00:04:25.325
+You're probably wondering "Dude
+- what on earth?
+
+28
+00:04:25.325 --> 00:04:28.116
+Why did you have me make this
+completely useless
+
+29
+00:04:28.116 --> 00:04:30.482
+piece of scrap materials?"
+
+30
+00:04:30.482 --> 00:04:35.290
+Here's how they work. If we hook
+that capacitor up
+
+31
+00:04:35.290 --> 00:04:39.334
+to a battery,
+
+32
+00:04:48.959 --> 00:05:01.638
+Here's our two plates, insulated apart from each other.
+
+33
+00:05:01.638 --> 00:05:08.000
+electrons will rush out of the
+negative post of the
+
+34
+00:05:08.000 --> 00:05:12.917
+battery and pour onto the
+aluminum foil. The
+
+35
+00:05:12.917 --> 00:05:18.141
+electrons can't get to the other
+side because of
+
+36
+00:05:18.141 --> 00:05:24.741
+the wax paper. However,
+electrons repel each other.
+
+37
+00:05:24.741 --> 00:05:29.314
+They repel like charges. So, all
+of these electrons
+
+38
+00:05:29.314 --> 00:05:32.434
+pouring onto the aluminum foil
+are really close to
+
+39
+00:05:32.434 --> 00:05:35.601
+the other piece of aluminum
+foil, so the electrons
+
+40
+00:05:35.601 --> 00:05:43.331
+are repelled off of that
+aluminum - they are also
+
+41
+00:05:43.331 --> 00:05:51.000
+sucked into the positive pole on
+the battery.
+
+42
+00:05:51.000 --> 00:05:57.816
+So you wind up with a whole pile of electron holes.
+
+43
+00:05:57.816 --> 00:06:03.785
+So, if you were to graph the
+current flow, it would
+
+44
+00:06:03.785 --> 00:06:10.681
+look something like this: there
+would be a spike of
+
+45
+00:06:10.681 --> 00:06:16.065
+current, which quickly drops to
+zero as the foil
+
+46
+00:06:16.065 --> 00:06:20.201
+fills up and the electrons can't
+get across. The
+
+47
+00:06:20.201 --> 00:06:23.769
+bigger the surface area, the
+larger and longer the
+
+48
+00:06:23.769 --> 00:06:26.673
+current spike will be because
+you can fit more
+
+49
+00:06:26.673 --> 00:06:30.793
+electrons onto the plate - the
+aluminum foil. Once
+
+50
+00:06:30.793 --> 00:06:33.673
+the current has stopped and
+we've stuffed as many
+
+51
+00:06:33.673 --> 00:06:37.633
+electrons on there as we can, if
+we were to measure
+
+52
+00:06:37.633 --> 00:06:40.067
+the voltage across the
+capacitor, it would be the
+
+53
+00:06:40.067 --> 00:06:43.801
+same voltage as the battery that
+charged it.
+
+54
+00:06:43.801 --> 00:06:46.857
+Now, let's reverse the battery
+and hook it
+
+55
+00:06:46.857 --> 00:06:51.534
+up again.
+
+56
+00:06:51.534 --> 00:06:54.912
+Because you already charged the
+capacitor, the
+
+57
+00:06:54.912 --> 00:07:00.372
+electrons will rush onto what
+WAS the positive
+
+58
+00:07:00.372 --> 00:07:05.131
+plate in the capacitor, and
+repel the electrons on
+
+59
+00:07:05.131 --> 00:07:08.500
+the other plate, which also get
+sucked into the
+
+60
+00:07:08.500 --> 00:07:16.167
+positive pole on the battery.{R15In00Wh]
+
+61
+00:07:29.167 --> 00:07:30.943
+So again, if we were
+
+62
+00:07:30.943 --> 00:07:36.151
+to map it, we would get a spike
+of current which
+
+63
+00:07:36.151 --> 00:07:43.781
+quickly dropped to zero. In this
+case, just because
+
+64
+00:07:43.781 --> 00:07:46.759
+we had already charged the
+plates, we'd probably
+
+65
+00:07:46.759 --> 00:07:49.800
+get a spike of current about
+double the first time
+
+66
+00:07:49.800 --> 00:07:54.703
+we ran it. But, if we reverse
+the battery again, we
+
+67
+00:07:54.703 --> 00:07:57.194
+wouldn't get a higher current
+spike than
+
+68
+00:07:57.194 --> 00:08:00.167
+the second run.
+
+69
+00:08:00.167 --> 00:08:04.689
+So, from this we can see that DC
+- Direct Current -cannot pass
+
+70
+00:08:04.689 --> 00:08:11.058
+through the capacitor - it gets
+blocked.
+
+71
+00:08:11.058 --> 00:08:14.283
+However, let's hook electricity
+up to this
+
+72
+00:08:14.283 --> 00:08:19.542
+capacitor, and while the
+electrons are rushing onto
+
+73
+00:08:19.542 --> 00:08:25.873
+that plate,
+In that
+
+74
+00:08:25.873 --> 00:08:30.123
+that split second before the
+electron flow drops to
+
+75
+00:08:30.123 --> 00:08:33.081
+nothing, what happens if we
+suddenly reverse the
+
+76
+00:08:33.081 --> 00:08:36.545
+polarity of the electricity?
+
+77
+00:08:36.545 --> 00:08:41.417
+For that matter, let's hook up
+AC to it. The
+
+78
+00:08:41.417 --> 00:08:45.375
+electrons would rush onto the
+plate, before the electrons
+
+79
+00:08:45.375 --> 00:08:48.903
+have a chance to fill up the
+plate and stop pouring onto
+
+80
+00:08:48.903 --> 00:08:52.073
+it, we reverse the polarity of
+the electricity,
+
+81
+00:08:52.073 --> 00:08:55.444
+which pours electrons back onto
+the second plate
+
+82
+00:08:55.444 --> 00:08:58.339
+and sucks them off the first, at
+which point we
+
+83
+00:08:58.339 --> 00:09:00.658
+reverse it again.
+
+84
+00:09:00.658 --> 00:09:02.907
+If we were to graph it, the
+current would look
+
+85
+00:09:02.907 --> 00:09:10.167
+something like this:
+
+86
+00:09:10.167 --> 00:09:17.242
+So this is the key: Capacitors
+block DC but allow
+
+87
+00:09:17.242 --> 00:09:21.925
+AC to pass through them. That is
+what a capacitor
+
+88
+00:09:21.925 --> 00:09:26.876
+does. The faster the alternating
+current, the
+
+89
+00:09:26.876 --> 00:09:32.792
+easier it passes through the
+capacitor. Basically,
+
+90
+00:09:32.792 --> 00:09:38.042
+the faster the AC, the sooner it reverses polarity,
+
+91
+00:09:38.042 --> 00:09:45.167
+before the electron flow starts to slow down.
+
+92
+00:09:45.167 --> 00:09:49.000
+So the larger the plates, the
+easier it is
+
+93
+00:09:49.000 --> 00:09:53.167
+the easier it is for
+AC to pass through
+
+94
+00:09:53.167 --> 00:09:57.632
+and also the
+capacitance is bigger. It's
+
+95
+00:09:57.632 --> 00:10:01.375
+capacity is bigger.
+
+96
+00:10:01.375 --> 00:10:06.398
+Now if we hook up the capacitor
+to DC, let it
+
+97
+00:10:06.398 --> 00:10:11.110
+charge up the plates and then
+remove the battery,
+
+98
+00:10:11.110 --> 00:10:15.326
+the capacitor does store that
+charge. There's an
+
+99
+00:10:15.326 --> 00:10:18.491
+excess of electrons on one plate
+while the other
+
+100
+00:10:18.491 --> 00:10:23.427
+plate has been sucked dry of
+electrons. The air and
+
+101
+00:10:23.427 --> 00:10:31.036
+the wax paper both have really
+high resistance, but
+
+102
+00:10:31.036 --> 00:10:36.777
+it's not infinite. So over time
+the electrons will
+
+103
+00:10:36.777 --> 00:10:40.804
+manage to leak over to the other
+side and balance
+
+104
+00:10:40.804 --> 00:10:46.557
+it out, losing its stored
+charge. But capacitors
+
+105
+00:10:46.557 --> 00:10:49.700
+can be used to store a charge -
+though usually that
+
+106
+00:10:49.700 --> 00:10:52.355
+is not what they are used for.
