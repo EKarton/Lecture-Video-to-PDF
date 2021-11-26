@@ -1,3 +1,6 @@
+from subtitle_srt_parser import SubtitleSRTParser
+
+
 class SubtitlePart:
     """A class that represents a part of the entire video's subtitle
 
@@ -154,7 +157,7 @@ class SubtitleSegmentFinder:
 
 
 if __name__ == "__main__":
-    parser = SubtitleWebVTTParser("../tests/subtitles/subtitles_1.vtt")
+    parser = SubtitleSRTParser("../tests/subtitles/subtitles_2.vtt")
     parts = parser.get_subtitle_parts()
     segment_finder = SubtitleSegmentFinder(parts)
 
