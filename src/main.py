@@ -1,10 +1,11 @@
 import sys
 import argparse
 from subtitle_segment_finder import (
-    SubtitleWebVTTParser,
     SubtitleGenerator,
     SubtitleSegmentFinder,
 )
+from subtitle_webvtt_parser import SubtitleWebVTTParser
+from subtitle_srt_parser import SubtitleSRTParser
 from video_segment_finder import VideoSegmentFinder
 from content_segment_exporter import ContentSegment, ContentSegmentPdfBuilder
 
@@ -37,7 +38,11 @@ class CommandLineArgRunner:
         subtitle_filepath = opts.subtitle
         output_filepath = opts.output
 
-        subtitle_parser = SubtitleWebVTTParser(subtitle_filepath)
+        if subtitle_filepath.endswith('.srt'):
+            subtitle_parser = SubtitleSRTParser(subtitle_filepath)
+        else:
+            subtitle_parser = SubtitleWebVTTParser(subtitle_filepath)
+        
         if subtitle_filepath == None:
             subtitle_parser = SubtitleGenerator(video_filepath)
 
