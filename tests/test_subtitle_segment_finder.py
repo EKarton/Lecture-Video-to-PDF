@@ -2,12 +2,10 @@ import sys
 
 sys.path.append("../src")
 
-import tempfile
 import unittest
-import webvtt
-from time_utils import convert_timestamp_ms_to_clock_time as get_clock_time
 from time_utils import convert_clock_time_to_timestamp_ms as get_timestamp
-from subtitle_segment_finder import SubtitleSegmentFinder, SubtitlePart
+from subtitle_segment_finder import SubtitleSegmentFinder
+from subtitle_part import SubtitlePart
 from subtitle_webvtt_parser import SubtitleWebVTTParser
 
 

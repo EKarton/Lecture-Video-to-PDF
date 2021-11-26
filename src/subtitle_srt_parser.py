@@ -1,6 +1,5 @@
-import webvtt
 import srt
-from subtitle_segment_finder import SubtitlePart
+from subtitle_part import SubtitlePart
 
 class SubtitleSRTParser:
     """Parses the subtitles and its parts from a .srt file
@@ -26,7 +25,6 @@ class SubtitleSRTParser:
         parts = []
         with open(self.input_file, mode='r') as f:
             for sub in srt.parse(f):
-                print(sub)
                 start_time = self.__convert_timedelta_to_ms__(sub.start)
                 end_time = self.__convert_timedelta_to_ms__(sub.end)
                 clean_text = self.__filter_text__(sub.content)

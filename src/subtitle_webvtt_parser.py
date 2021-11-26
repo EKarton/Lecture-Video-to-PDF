@@ -1,5 +1,5 @@
 import webvtt
-from subtitle_segment_finder import SubtitlePart
+from subtitle_part import SubtitlePart
 from time_utils import convert_clock_time_to_timestamp_ms, convert_timestamp_ms_to_clock_time
 
 class SubtitleWebVTTParser:
