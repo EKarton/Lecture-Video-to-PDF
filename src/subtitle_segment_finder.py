@@ -1,74 +1,4 @@
-import webvtt
-from time_utils import convert_clock_time_to_timestamp_ms, convert_timestamp_ms_to_clock_time
-
-
-class SubtitlePart:
-    """A class that represents a part of the entire video's subtitle
-
-    Attributes
-    ----------
-    start_time : int
-        The starting time of this subtitle's part in milliseconds
-    end_time : int
-        The end time of this subtitle's part in milliseconds
-    text : str
-        The text corresponding to the subtitle's part
-    """
-
-    def __init__(self, start_time, end_time, text):
-        self.start_time = start_time
-        self.end_time = end_time
-        self.text = text
-
-    def __str__(self):
-        return "{}-{}".format(self.start_time, self.end_time)
-
-    def __repr__(self):
-        return self.__str__()
-
-
-class SubtitleWebVTTParser:
-    """Parses the subtitles and its parts from a .vtt file
-
-    Attributes
-    ----------
-    input_file : str
-        The file path to the subtitles
-    """
-
-    def __init__(self, input_file):
-        self.input_file = input_file
-
-    def get_subtitle_parts(self):
-        """Parses and gets the subtitle parts from the subtitle's file
-           It also expands the subtitles in cases where there are gaps between subtitles
-
-        Returns
-        -------
-        parts : SubtitlePart[]
-            An ordered list of subtitle parts
-        """
-        parts = []
-        for caption in webvtt.read(self.input_file):
-            start_time = convert_clock_time_to_timestamp_ms(caption.start)
-            end_time = convert_clock_time_to_timestamp_ms(caption.end)
-            clean_text = self.__filter_text__(caption.text)
-
-            parts.append(SubtitlePart(start_time, end_time, clean_text))
-
-        # Extend certain subtitle times to fill in gaps
-        for i in range(len(parts) - 1):
-            cur = parts[i]
-            next = parts[i + 1]
-
-            if cur.end_time != next.start_time:
-                cur.end_time = next.start_time
-
-        return parts
-
-    def __filter_text__(self, segment_text):
-        """Takes in the text of a subtitle segment and cleans it"""
-        return segment_text.replace("\n", " ").strip()
+from subtitle_webvtt_parser import SubtitleWebVTTParser
 
 
 class SubtitleGenerator:
@@ -202,7 +132,7 @@ class SubtitleSegmentFinder:
 
 
 if __name__ == "__main__":
-    parser = SubtitleWebVTTParser("../tests/subtitles/subtitles_1.vtt")
+    parser = SubtitleWebVTTParser("../tests/subtitles/subtitles_2.vtt")
     parts = parser.get_subtitle_parts()
     segment_finder = SubtitleSegmentFinder(parts)
 

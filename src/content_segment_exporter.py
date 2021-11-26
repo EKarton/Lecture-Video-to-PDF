@@ -4,7 +4,8 @@ import shutil
 import cv2
 from fpdf import FPDF
 
-from subtitle_segment_finder import SubtitleSegmentFinder, SubtitleWebVTTParser
+from subtitle_webvtt_parser import SubtitleWebVTTParser
+from subtitle_segment_finder import SubtitleSegmentFinder
 from video_segment_finder import VideoSegmentFinder
 
 
