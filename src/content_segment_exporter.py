@@ -2,7 +2,6 @@ import os
 import shutil
 
 import cv2
-import imutils
 from fpdf import FPDF
 
 from subtitle_webvtt_parser import SubtitleWebVTTParser
