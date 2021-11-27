@@ -40,7 +40,7 @@ class ContentSegmentPdfBuilder:
             The filepath for the output pdf
         """
         self.__prepare_tmp_folder__()
-        pdf = FPDF(format="letter")
+        pdf = FPDF()
 
         for i in range(0, len(pages)):
             # Temporarily save the frames
@@ -49,8 +49,7 @@ class ContentSegmentPdfBuilder:
             pdf.add_page()
 
             # Add the image
-            pdf.set_xy(6.0, 6.0)
-            pdf.image("./tmp/{}_frame.jpeg".format(i))
+            pdf.image("./tmp/{}_frame.jpeg".format(i), w=195)
 
             # Add the captions
             pdf.set_font("Arial", "", 12)
