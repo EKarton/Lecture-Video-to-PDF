@@ -123,6 +123,26 @@ class SubtitleSplitterTests(unittest.TestCase):
         )
         self.assertEqual(transcript_pages[6], "")
 
+    def test_get_pages_given_subtitles_with_no_dots_should_return_correct_pages(self):
+        segments = [
+            SubtitlePart(
+                get_timestamp("00:00:00"),
+                get_timestamp("00:00:10"),
+                "Hi my name is Bob",
+            ),
+            SubtitlePart(
+                get_timestamp("00:00:10"),
+                get_timestamp("00:00:20"),
+                "and his name is Alice Today, we are",
+            )
+        ]
+        pager = SubtitleSegmentFinder(segments)
+        time_breaks = [ get_timestamp('00:00:08'), get_timestamp("00:00:20") ]
+        transcript_pages = pager.get_subtitle_segments(time_breaks)
+        
+        self.assertEqual(len(transcript_pages), 2)
+        self.assertEqual(transcript_pages[0], 'Hi my name is')
+        self.assertEqual(transcript_pages[1], 'Bob and his name is Alice Today, we are')
 
 if __name__ == "__main__":
     unittest.main()

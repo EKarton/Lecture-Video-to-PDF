@@ -61,6 +61,8 @@ class CommandLineArgRunner:
         frame_nums = sorted(selected_frames_data.keys())
         selected_frames = [selected_frames_data[i]["frame"] for i in frame_nums]
 
+        print('Number of frames:', len(selected_frames))
+
         # Get the subtitles for each frame
         print('Getting subtitles for each frame')
         segment_finder = SubtitleSegmentFinder(subtitle_parser.get_subtitle_parts())
