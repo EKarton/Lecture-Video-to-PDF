@@ -41,6 +41,7 @@ class ContentSegmentPdfBuilder:
         """
         self.__prepare_tmp_folder__()
         pdf = FPDF()
+        pdf.add_font('DejaVu', '', 'fonts/DejaVuSansCondensed.ttf', uni=True)
 
         for i in range(0, len(pages)):
             # Temporarily save the frames
@@ -52,7 +53,7 @@ class ContentSegmentPdfBuilder:
             pdf.image("./tmp/{}_frame.jpeg".format(i), w=195)
 
             # Add the captions
-            pdf.set_font("Arial", "", 12)
+            pdf.set_font("DejaVu", "", 12)
             pdf.multi_cell(0, 10, pages[i].text)
 
         pdf.output(output_filepath, "F")
