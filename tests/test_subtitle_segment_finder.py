@@ -10,7 +10,7 @@ from subtitle_webvtt_parser import SubtitleWebVTTParser
 
 
 class SubtitleSplitterTests(unittest.TestCase):
-    def test_get_pages_given_subtitle_without_periods_should_return_correct_pages(self):
+    def test_get_pages_given_subtitle_without_periods_and_future_timestamp_should_return_correct_pages(self):
         segments = [
             SubtitlePart(
                 get_timestamp("00:00:00"),
@@ -23,6 +23,34 @@ class SubtitleSplitterTests(unittest.TestCase):
         transcript_pages = pager.get_subtitle_segments(time_breaks)
 
         self.assertEqual(transcript_pages[0], 'hi there my name is Bob')
+
+    def test_get_pages_given_subtitle_without_periods_and_middle_timestamp_should_return_correct_pages(self):
+        segments = [
+            SubtitlePart(
+                get_timestamp("00:00:00"),
+                get_timestamp("00:00:10"),
+                "hi there my name is Bob",
+            )
+        ]
+        pager = SubtitleSegmentFinder(segments)
+        time_breaks = [ get_timestamp('00:00:05') ]
+        transcript_pages = pager.get_subtitle_segments(time_breaks)
+
+        self.assertEqual(transcript_pages[0], 'hi there my')
+
+    def test_get_pages_given_subtitle_without_periods_and_past_timestamp_should_return_correct_pages(self):
+        segments = [
+            SubtitlePart(
+                get_timestamp("00:00:10"),
+                get_timestamp("00:00:20"),
+                "hi there my name is Bob",
+            )
+        ]
+        pager = SubtitleSegmentFinder(segments)
+        time_breaks = [ get_timestamp('00:00:05') ]
+        transcript_pages = pager.get_subtitle_segments(time_breaks)
+
+        self.assertEqual(transcript_pages[0], '')
 
     def test_get_pages_given_subtitle_with_period_should_return_correct_pages(self):
         segments = [

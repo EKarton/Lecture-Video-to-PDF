@@ -78,6 +78,9 @@ class SubtitleSegmentFinder:
         if time_break >= self.parts[-1].end_time:
             return len(self.parts) - 1, len(self.parts[-1].text) - 1
 
+        if part_index is None:
+            return 0, -1
+
         part = self.parts[part_index]
 
         # Get the char index in the fragment equal to the time_break
