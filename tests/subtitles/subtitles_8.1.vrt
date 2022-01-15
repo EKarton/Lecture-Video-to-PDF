@@ -1,0 +1,1675 @@
+WEBVTT
+Kind: captions
+Language: en
+
+00:00:01.520 --> 00:00:24.470 align:start position:0%
+ 
+[Music]
+
+00:00:24.470 --> 00:00:24.480 align:start position:0%
+ 
+ 
+
+00:00:24.480 --> 00:00:25.109 align:start position:0%
+ 
+well
+
+00:00:25.109 --> 00:00:25.119 align:start position:0%
+well
+ 
+
+00:00:25.119 --> 00:00:28.470 align:start position:0%
+well
+i<00:00:25.279><c> welcome</c><00:00:25.599><c> you</c><00:00:25.840><c> all</c><00:00:26.320><c> to</c><00:00:26.480><c> the</c><00:00:26.880><c> lecture</c><00:00:27.279><c> four</c><00:00:27.599><c> of</c>
+
+00:00:28.470 --> 00:00:28.480 align:start position:0%
+i welcome you all to the lecture four of
+ 
+
+00:00:28.480 --> 00:00:33.430 align:start position:0%
+i welcome you all to the lecture four of
+week<00:00:28.840><c> five</c>
+
+00:00:33.430 --> 00:00:33.440 align:start position:0%
+ 
+ 
+
+00:00:33.440 --> 00:00:35.430 align:start position:0%
+ 
+in<00:00:33.600><c> this</c><00:00:33.760><c> week</c><00:00:34.079><c> we</c><00:00:34.239><c> will</c><00:00:34.399><c> be</c><00:00:34.559><c> studying</c><00:00:35.120><c> the</c>
+
+00:00:35.430 --> 00:00:35.440 align:start position:0%
+in this week we will be studying the
+ 
+
+00:00:35.440 --> 00:00:37.030 align:start position:0%
+in this week we will be studying the
+important<00:00:35.920><c> building</c><00:00:36.320><c> block</c>
+
+00:00:37.030 --> 00:00:37.040 align:start position:0%
+important building block
+ 
+
+00:00:37.040 --> 00:00:39.510 align:start position:0%
+important building block
+of<00:00:37.440><c> an</c><00:00:37.680><c> automated</c><00:00:38.239><c> system</c><00:00:39.120><c> that</c><00:00:39.360><c> is</c>
+
+00:00:39.510 --> 00:00:39.520 align:start position:0%
+of an automated system that is
+ 
+
+00:00:39.520 --> 00:00:42.310 align:start position:0%
+of an automated system that is
+microprocessor<00:00:40.399><c> technology</c>
+
+00:00:42.310 --> 00:00:42.320 align:start position:0%
+microprocessor technology
+ 
+
+00:00:42.320 --> 00:00:44.630 align:start position:0%
+microprocessor technology
+let<00:00:42.480><c> us</c><00:00:42.640><c> look</c><00:00:42.879><c> at</c><00:00:42.960><c> the</c><00:00:43.360><c> outline</c><00:00:43.920><c> of</c><00:00:44.320><c> this</c>
+
+00:00:44.630 --> 00:00:44.640 align:start position:0%
+let us look at the outline of this
+ 
+
+00:00:44.640 --> 00:00:45.750 align:start position:0%
+let us look at the outline of this
+lecture
+
+00:00:45.750 --> 00:00:45.760 align:start position:0%
+lecture
+ 
+
+00:00:45.760 --> 00:00:48.549 align:start position:0%
+lecture
+at<00:00:46.000><c> start</c><00:00:46.320><c> of</c><00:00:46.480><c> the</c><00:00:46.559><c> lecture</c><00:00:47.440><c> we</c><00:00:47.600><c> will</c><00:00:47.840><c> see</c><00:00:48.399><c> the</c>
+
+00:00:48.549 --> 00:00:48.559 align:start position:0%
+at start of the lecture we will see the
+ 
+
+00:00:48.559 --> 00:00:49.750 align:start position:0%
+at start of the lecture we will see the
+definition<00:00:49.200><c> of</c>
+
+00:00:49.750 --> 00:00:49.760 align:start position:0%
+definition of
+ 
+
+00:00:49.760 --> 00:00:55.110 align:start position:0%
+definition of
+a<00:00:49.960><c> microprocessor</c>
+
+00:00:55.110 --> 00:00:55.120 align:start position:0%
+ 
+ 
+
+00:00:55.120 --> 00:00:58.310 align:start position:0%
+ 
+then<00:00:55.520><c> we</c><00:00:55.680><c> will</c><00:00:55.920><c> see</c><00:00:56.559><c> its</c><00:00:56.879><c> architecture</c>
+
+00:00:58.310 --> 00:00:58.320 align:start position:0%
+then we will see its architecture
+ 
+
+00:00:58.320 --> 00:01:01.590 align:start position:0%
+then we will see its architecture
+it<00:00:58.480><c> has</c><00:00:59.600><c> various</c><00:01:00.160><c> elements</c>
+
+00:01:01.590 --> 00:01:01.600 align:start position:0%
+it has various elements
+ 
+
+00:01:01.600 --> 00:01:04.630 align:start position:0%
+it has various elements
+how<00:01:01.840><c> these</c><00:01:02.160><c> elements</c><00:01:02.719><c> operate</c>
+
+00:01:04.630 --> 00:01:04.640 align:start position:0%
+how these elements operate
+ 
+
+00:01:04.640 --> 00:01:07.270 align:start position:0%
+how these elements operate
+then<00:01:05.040><c> we</c><00:01:05.280><c> will</c><00:01:05.680><c> learn</c><00:01:06.560><c> what</c><00:01:06.799><c> is</c><00:01:07.119><c> the</c>
+
+00:01:07.270 --> 00:01:07.280 align:start position:0%
+then we will learn what is the
+ 
+
+00:01:07.280 --> 00:01:08.550 align:start position:0%
+then we will learn what is the
+difference<00:01:07.760><c> between</c>
+
+00:01:08.550 --> 00:01:08.560 align:start position:0%
+difference between
+ 
+
+00:01:08.560 --> 00:01:12.310 align:start position:0%
+difference between
+a<00:01:08.760><c> microcontroller</c><00:01:10.159><c> and</c><00:01:10.560><c> a</c><00:01:10.840><c> microprocessor</c>
+
+00:01:12.310 --> 00:01:12.320 align:start position:0%
+a microcontroller and a microprocessor
+ 
+
+00:01:12.320 --> 00:01:14.789 align:start position:0%
+a microcontroller and a microprocessor
+the<00:01:12.479><c> definition</c><00:01:13.040><c> of</c><00:01:13.200><c> microcontroller</c><00:01:14.640><c> will</c>
+
+00:01:14.789 --> 00:01:14.799 align:start position:0%
+the definition of microcontroller will
+ 
+
+00:01:14.799 --> 00:01:15.990 align:start position:0%
+the definition of microcontroller will
+be<00:01:14.960><c> studied</c>
+
+00:01:15.990 --> 00:01:16.000 align:start position:0%
+be studied
+ 
+
+00:01:16.000 --> 00:01:19.190 align:start position:0%
+be studied
+after<00:01:16.320><c> that</c><00:01:16.479><c> we</c><00:01:16.640><c> will</c><00:01:16.880><c> study</c>
+
+00:01:19.190 --> 00:01:19.200 align:start position:0%
+after that we will study
+ 
+
+00:01:19.200 --> 00:01:23.270 align:start position:0%
+after that we will study
+the<00:01:19.479><c> microcomputers</c><00:01:22.159><c> which</c><00:01:22.400><c> we</c><00:01:22.560><c> are</c><00:01:22.720><c> using</c>
+
+00:01:23.270 --> 00:01:23.280 align:start position:0%
+the microcomputers which we are using
+ 
+
+00:01:23.280 --> 00:01:28.950 align:start position:0%
+the microcomputers which we are using
+for<00:01:23.520><c> our</c><00:01:23.759><c> regular</c><00:01:24.400><c> day-to-day</c><00:01:25.280><c> activities</c>
+
+00:01:28.950 --> 00:01:28.960 align:start position:0%
+ 
+ 
+
+00:01:28.960 --> 00:01:31.109 align:start position:0%
+ 
+at<00:01:29.119><c> the</c><00:01:29.280><c> end</c><00:01:29.439><c> of</c><00:01:29.600><c> the</c><00:01:29.680><c> lecture</c><00:01:30.320><c> we</c><00:01:30.560><c> will</c><00:01:30.799><c> study</c>
+
+00:01:31.109 --> 00:01:31.119 align:start position:0%
+at the end of the lecture we will study
+ 
+
+00:01:31.119 --> 00:01:31.990 align:start position:0%
+at the end of the lecture we will study
+about
+
+00:01:31.990 --> 00:01:32.000 align:start position:0%
+about
+ 
+
+00:01:32.000 --> 00:01:34.710 align:start position:0%
+about
+the<00:01:32.240><c> plcs</c><00:01:33.360><c> the</c><00:01:33.520><c> programmable</c><00:01:34.159><c> logic</c>
+
+00:01:34.710 --> 00:01:34.720 align:start position:0%
+the plcs the programmable logic
+ 
+
+00:01:34.720 --> 00:01:35.670 align:start position:0%
+the plcs the programmable logic
+controllers
+
+00:01:35.670 --> 00:01:35.680 align:start position:0%
+controllers
+ 
+
+00:01:35.680 --> 00:01:38.830 align:start position:0%
+controllers
+which<00:01:36.000><c> are</c><00:01:36.400><c> used</c><00:01:36.880><c> in</c><00:01:37.759><c> the</c><00:01:38.000><c> automation</c>
+
+00:01:38.830 --> 00:01:38.840 align:start position:0%
+which are used in the automation
+ 
+
+00:01:38.840 --> 00:01:41.990 align:start position:0%
+which are used in the automation
+industry.
+
+00:01:41.990 --> 00:01:42.000 align:start position:0%
+ 
+ 
+
+00:01:42.000 --> 00:01:44.630 align:start position:0%
+ 
+its<00:01:42.320><c> elements</c><00:01:43.119><c> configuration</c><00:01:43.840><c> and</c><00:01:44.000><c> operation</c>
+
+00:01:44.630 --> 00:01:44.640 align:start position:0%
+its elements configuration and operation
+ 
+
+00:01:44.640 --> 00:01:46.469 align:start position:0%
+its elements configuration and operation
+will<00:01:44.799><c> be</c><00:01:44.960><c> studied</c><00:01:45.360><c> in</c><00:01:45.520><c> detail</c>
+
+00:01:46.469 --> 00:01:46.479 align:start position:0%
+will be studied in detail
+ 
+
+00:01:46.479 --> 00:01:51.030 align:start position:0%
+will be studied in detail
+fine<00:01:46.799><c> let</c><00:01:46.960><c> us</c><00:01:47.040><c> begin</c><00:01:49.200><c> in</c><00:01:49.360><c> this</c><00:01:49.600><c> lecture</c>
+
+00:01:51.030 --> 00:01:51.040 align:start position:0%
+fine let us begin in this lecture
+ 
+
+00:01:51.040 --> 00:01:54.230 align:start position:0%
+fine let us begin in this lecture
+we<00:01:51.200><c> will</c><00:01:51.360><c> be</c><00:01:51.520><c> studying</c><00:01:52.320><c> various</c><00:01:53.439><c> programmable</c>
+
+00:01:54.230 --> 00:01:54.240 align:start position:0%
+we will be studying various programmable
+ 
+
+00:01:54.240 --> 00:01:57.190 align:start position:0%
+we will be studying various programmable
+logic<00:01:54.640><c> devices</c>
+
+00:01:57.190 --> 00:01:57.200 align:start position:0%
+logic devices
+ 
+
+00:01:57.200 --> 00:01:59.830 align:start position:0%
+logic devices
+in<00:01:57.360><c> a</c><00:01:57.680><c> in</c><00:01:57.840><c> our</c><00:01:58.079><c> previous</c><00:01:58.479><c> lectures</c><00:01:59.439><c> we</c><00:01:59.600><c> have</c>
+
+00:01:59.830 --> 00:01:59.840 align:start position:0%
+in a in our previous lectures we have
+ 
+
+00:01:59.840 --> 00:02:02.789 align:start position:0%
+in a in our previous lectures we have
+seen
+
+00:02:02.789 --> 00:02:02.799 align:start position:0%
+ 
+ 
+
+00:02:02.799 --> 00:02:06.469 align:start position:0%
+ 
+the<00:02:02.960><c> elements</c><00:02:03.439><c> of</c><00:02:03.600><c> measurement</c><00:02:04.240><c> system</c>
+
+00:02:06.469 --> 00:02:06.479 align:start position:0%
+the elements of measurement system
+ 
+
+00:02:06.479 --> 00:02:09.510 align:start position:0%
+the elements of measurement system
+such<00:02:06.719><c> as</c><00:02:07.280><c> the</c><00:02:07.520><c> sensors</c><00:02:08.239><c> and</c>
+
+00:02:09.510 --> 00:02:09.520 align:start position:0%
+such as the sensors and
+ 
+
+00:02:09.520 --> 00:02:12.869 align:start position:0%
+such as the sensors and
+the<00:02:09.679><c> signal</c><00:02:10.080><c> conditioning</c><00:02:10.640><c> devices</c>
+
+00:02:12.869 --> 00:02:12.879 align:start position:0%
+the signal conditioning devices
+ 
+
+00:02:12.879 --> 00:02:17.910 align:start position:0%
+the signal conditioning devices
+after<00:02:13.280><c> that</c><00:02:13.440><c> we</c><00:02:13.599><c> have</c><00:02:13.760><c> also</c><00:02:14.080><c> seen</c><00:02:14.720><c> how</c><00:02:14.959><c> we</c><00:02:15.200><c> can</c>
+
+00:02:17.910 --> 00:02:17.920 align:start position:0%
+ 
+ 
+
+00:02:17.920 --> 00:02:21.510 align:start position:0%
+ 
+convert<00:02:18.959><c> the</c><00:02:19.120><c> signals</c><00:02:19.920><c> from</c><00:02:20.239><c> one</c><00:02:20.560><c> form</c><00:02:20.879><c> to</c><00:02:21.040><c> the</c>
+
+00:02:21.510 --> 00:02:21.520 align:start position:0%
+convert the signals from one form to the
+ 
+
+00:02:21.520 --> 00:02:26.309 align:start position:0%
+convert the signals from one form to the
+another<00:02:22.000><c> form</c><00:02:23.760><c> now</c><00:02:24.000><c> let</c><00:02:24.160><c> us</c><00:02:24.319><c> look</c><00:02:24.560><c> at</c>
+
+00:02:26.309 --> 00:02:26.319 align:start position:0%
+another form now let us look at
+ 
+
+00:02:26.319 --> 00:02:28.790 align:start position:0%
+another form now let us look at
+the<00:02:26.480><c> fundamentals</c><00:02:27.280><c> of</c><00:02:27.760><c> programmable</c><00:02:28.400><c> logic</c>
+
+00:02:28.790 --> 00:02:28.800 align:start position:0%
+the fundamentals of programmable logic
+ 
+
+00:02:28.800 --> 00:02:31.589 align:start position:0%
+the fundamentals of programmable logic
+devices
+
+00:02:31.589 --> 00:02:31.599 align:start position:0%
+ 
+ 
+
+00:02:31.599 --> 00:02:35.110 align:start position:0%
+ 
+as<00:02:31.760><c> the</c><00:02:31.920><c> name</c><00:02:32.480><c> suggests</c><00:02:34.239><c> the</c><00:02:34.400><c> programmable</c>
+
+00:02:35.110 --> 00:02:35.120 align:start position:0%
+as the name suggests the programmable
+ 
+
+00:02:35.120 --> 00:02:36.309 align:start position:0%
+as the name suggests the programmable
+logic<00:02:35.440><c> devices</c>
+
+00:02:36.309 --> 00:02:36.319 align:start position:0%
+logic devices
+ 
+
+00:02:36.319 --> 00:02:39.670 align:start position:0%
+logic devices
+has<00:02:36.879><c> two</c><00:02:37.120><c> words</c>
+
+00:02:39.670 --> 00:02:39.680 align:start position:0%
+ 
+ 
+
+00:02:39.680 --> 00:02:44.550 align:start position:0%
+ 
+these<00:02:40.000><c> are</c><00:02:40.640><c> programmable</c><00:02:42.080><c> and</c><00:02:42.319><c> logic</c>
+
+00:02:44.550 --> 00:02:44.560 align:start position:0%
+these are programmable and logic
+ 
+
+00:02:44.560 --> 00:02:48.070 align:start position:0%
+these are programmable and logic
+the<00:02:44.720><c> devices</c><00:02:45.920><c> which</c><00:02:46.160><c> are</c><00:02:46.400><c> carrying</c><00:02:46.800><c> out</c>
+
+00:02:48.070 --> 00:02:48.080 align:start position:0%
+the devices which are carrying out
+ 
+
+00:02:48.080 --> 00:02:51.830 align:start position:0%
+the devices which are carrying out
+logical<00:02:48.879><c> operations</c><00:02:49.760><c> on</c><00:02:50.000><c> the</c><00:02:50.239><c> data</c>
+
+00:02:51.830 --> 00:02:51.840 align:start position:0%
+logical operations on the data
+ 
+
+00:02:51.840 --> 00:02:56.309 align:start position:0%
+logical operations on the data
+are<00:02:52.080><c> called</c><00:02:52.400><c> as</c><00:02:53.360><c> the</c><00:02:53.599><c> logic</c><00:02:54.319><c> devices</c>
+
+00:02:56.309 --> 00:02:56.319 align:start position:0%
+are called as the logic devices
+ 
+
+00:02:56.319 --> 00:03:00.550 align:start position:0%
+are called as the logic devices
+but<00:02:56.720><c> when</c><00:02:57.519><c> we</c><00:02:57.760><c> are</c><00:02:58.000><c> able</c><00:02:58.400><c> to</c><00:02:58.720><c> program</c><00:02:59.360><c> them</c>
+
+00:03:00.550 --> 00:03:00.560 align:start position:0%
+but when we are able to program them
+ 
+
+00:03:00.560 --> 00:03:04.869 align:start position:0%
+but when we are able to program them
+when<00:03:01.120><c> the</c><00:03:01.360><c> users</c><00:03:02.640><c> are</c><00:03:02.959><c> able</c><00:03:03.280><c> to</c><00:03:03.599><c> program</c>
+
+00:03:04.869 --> 00:03:04.879 align:start position:0%
+when the users are able to program
+ 
+
+00:03:04.879 --> 00:03:07.750 align:start position:0%
+when the users are able to program
+these<00:03:05.280><c> logic</c><00:03:05.760><c> devices</c><00:03:06.640><c> then</c><00:03:06.879><c> we</c><00:03:07.040><c> are</c><00:03:07.519><c> call</c>
+
+00:03:07.750 --> 00:03:07.760 align:start position:0%
+these logic devices then we are call
+ 
+
+00:03:07.760 --> 00:03:08.869 align:start position:0%
+these logic devices then we are call
+them<00:03:08.000><c> as</c>
+
+00:03:08.869 --> 00:03:08.879 align:start position:0%
+them as
+ 
+
+00:03:08.879 --> 00:03:11.350 align:start position:0%
+them as
+the<00:03:09.040><c> programmable</c><00:03:09.760><c> logic</c><00:03:10.080><c> devices</c>
+
+00:03:11.350 --> 00:03:11.360 align:start position:0%
+the programmable logic devices
+ 
+
+00:03:11.360 --> 00:03:12.710 align:start position:0%
+the programmable logic devices
+programmable<00:03:12.000><c> means</c>
+
+00:03:12.710 --> 00:03:12.720 align:start position:0%
+programmable means
+ 
+
+00:03:12.720 --> 00:03:16.550 align:start position:0%
+programmable means
+we<00:03:12.959><c> can</c><00:03:13.920><c> teach</c><00:03:14.560><c> we</c><00:03:14.800><c> can</c><00:03:15.200><c> instruct</c>
+
+00:03:16.550 --> 00:03:16.560 align:start position:0%
+we can teach we can instruct
+ 
+
+00:03:16.560 --> 00:03:20.630 align:start position:0%
+we can teach we can instruct
+we<00:03:16.840><c> can</c><00:03:18.400><c> train</c><00:03:19.040><c> these</c><00:03:19.280><c> logic</c><00:03:19.680><c> devices</c><00:03:20.400><c> to</c>
+
+00:03:20.630 --> 00:03:20.640 align:start position:0%
+we can train these logic devices to
+ 
+
+00:03:20.640 --> 00:03:22.390 align:start position:0%
+we can train these logic devices to
+carry<00:03:20.959><c> out</c>
+
+00:03:22.390 --> 00:03:22.400 align:start position:0%
+carry out
+ 
+
+00:03:22.400 --> 00:03:25.830 align:start position:0%
+carry out
+a<00:03:22.560><c> certain</c><00:03:22.959><c> set</c><00:03:23.200><c> of</c><00:03:23.440><c> instructions</c><00:03:24.959><c> in</c>
+
+00:03:25.830 --> 00:03:25.840 align:start position:0%
+a certain set of instructions in
+ 
+
+00:03:25.840 --> 00:03:29.110 align:start position:0%
+a certain set of instructions in
+the<00:03:26.000><c> given</c><00:03:26.400><c> sequence</c>
+
+00:03:29.110 --> 00:03:29.120 align:start position:0%
+ 
+ 
+
+00:03:29.120 --> 00:03:31.990 align:start position:0%
+ 
+so<00:03:29.280><c> what</c><00:03:29.519><c> kind</c><00:03:29.760><c> of</c><00:03:30.400><c> operations</c><00:03:31.040><c> these</c>
+
+00:03:31.990 --> 00:03:32.000 align:start position:0%
+so what kind of operations these
+ 
+
+00:03:32.000 --> 00:03:33.750 align:start position:0%
+so what kind of operations these
+programmable<00:03:32.640><c> logical</c>
+
+00:03:33.750 --> 00:03:33.760 align:start position:0%
+programmable logical
+ 
+
+00:03:33.760 --> 00:03:36.789 align:start position:0%
+programmable logical
+logic<00:03:34.080><c> devices</c><00:03:34.720><c> are</c><00:03:34.879><c> carrying</c><00:03:35.280><c> out</c><00:03:36.480><c> they</c><00:03:36.720><c> are</c>
+
+00:03:36.789 --> 00:03:36.799 align:start position:0%
+logic devices are carrying out they are
+ 
+
+00:03:36.799 --> 00:03:37.990 align:start position:0%
+logic devices are carrying out they are
+carrying<00:03:37.200><c> out</c><00:03:37.360><c> various</c>
+
+00:03:37.990 --> 00:03:38.000 align:start position:0%
+carrying out various
+ 
+
+00:03:38.000 --> 00:03:41.110 align:start position:0%
+carrying out various
+control<00:03:38.560><c> functions</c><00:03:40.000><c> according</c><00:03:40.560><c> to</c>
+
+00:03:41.110 --> 00:03:41.120 align:start position:0%
+control functions according to
+ 
+
+00:03:41.120 --> 00:03:46.710 align:start position:0%
+control functions according to
+the<00:03:41.360><c> instructions</c><00:03:42.239><c> written</c><00:03:42.640><c> in</c><00:03:42.799><c> its</c><00:03:44.840><c> memory</c>
+
+00:03:46.710 --> 00:03:46.720 align:start position:0%
+the instructions written in its memory
+ 
+
+00:03:46.720 --> 00:03:48.309 align:start position:0%
+the instructions written in its memory
+so<00:03:46.879><c> whatever</c><00:03:47.280><c> the</c><00:03:47.440><c> commands</c><00:03:47.840><c> that</c><00:03:48.000><c> we</c><00:03:48.159><c> are</c>
+
+00:03:48.309 --> 00:03:48.319 align:start position:0%
+so whatever the commands that we are
+ 
+
+00:03:48.319 --> 00:03:49.990 align:start position:0%
+so whatever the commands that we are
+giving<00:03:49.360><c> they</c><00:03:49.519><c> are</c>
+
+00:03:49.990 --> 00:03:50.000 align:start position:0%
+giving they are
+ 
+
+00:03:50.000 --> 00:03:53.750 align:start position:0%
+giving they are
+the<00:03:50.159><c> low</c><00:03:50.400><c> level</c><00:03:51.519><c> language</c><00:03:52.000><c> commands</c>
+
+00:03:53.750 --> 00:03:53.760 align:start position:0%
+the low level language commands
+ 
+
+00:03:53.760 --> 00:03:55.190 align:start position:0%
+the low level language commands
+we<00:03:53.920><c> will</c><00:03:54.080><c> see</c><00:03:54.239><c> what</c><00:03:54.400><c> is</c><00:03:54.480><c> the</c><00:03:54.560><c> meaning</c><00:03:54.879><c> of</c><00:03:55.040><c> the</c>
+
+00:03:55.190 --> 00:03:55.200 align:start position:0%
+we will see what is the meaning of the
+ 
+
+00:03:55.200 --> 00:03:57.589 align:start position:0%
+we will see what is the meaning of the
+low<00:03:55.439><c> level</c><00:03:55.920><c> and</c><00:03:56.000><c> the</c><00:03:56.159><c> high</c><00:03:56.400><c> level</c><00:03:56.720><c> language</c>
+
+00:03:57.589 --> 00:03:57.599 align:start position:0%
+low level and the high level language
+ 
+
+00:03:57.599 --> 00:04:01.110 align:start position:0%
+low level and the high level language
+in<00:03:58.239><c> the</c><00:03:58.480><c> next</c><00:03:58.879><c> few</c><00:03:59.120><c> slides</c>
+
+00:04:01.110 --> 00:04:01.120 align:start position:0%
+in the next few slides
+ 
+
+00:04:01.120 --> 00:04:06.470 align:start position:0%
+in the next few slides
+the<00:04:01.360><c> first</c><00:04:02.480><c> pld</c><00:04:03.280><c> is</c><00:04:04.000><c> the</c><00:04:04.159><c> microprocessor</c>
+
+00:04:06.470 --> 00:04:06.480 align:start position:0%
+the first pld is the microprocessor
+ 
+
+00:04:06.480 --> 00:04:09.589 align:start position:0%
+the first pld is the microprocessor
+microprocessor<00:04:07.840><c> is</c><00:04:08.720><c> a</c><00:04:08.879><c> digital</c>
+
+00:04:09.589 --> 00:04:09.599 align:start position:0%
+microprocessor is a digital
+ 
+
+00:04:09.599 --> 00:04:12.710 align:start position:0%
+microprocessor is a digital
+integrated<00:04:10.239><c> circuit</c><00:04:11.840><c> it</c><00:04:12.080><c> is</c>
+
+00:04:12.710 --> 00:04:12.720 align:start position:0%
+integrated circuit it is
+ 
+
+00:04:12.720 --> 00:04:17.749 align:start position:0%
+integrated circuit it is
+an<00:04:13.040><c> electronic</c><00:04:13.680><c> circuit</c><00:04:15.200><c> and</c><00:04:15.439><c> it</c><00:04:15.760><c> carries</c><00:04:16.160><c> out</c>
+
+00:04:17.749 --> 00:04:17.759 align:start position:0%
+an electronic circuit and it carries out
+ 
+
+00:04:17.759 --> 00:04:20.629 align:start position:0%
+an electronic circuit and it carries out
+various<00:04:18.400><c> digital</c><00:04:18.959><c> functions</c><00:04:20.079><c> which</c><00:04:20.400><c> are</c>
+
+00:04:20.629 --> 00:04:20.639 align:start position:0%
+various digital functions which are
+ 
+
+00:04:20.639 --> 00:04:21.590 align:start position:0%
+various digital functions which are
+necessary
+
+00:04:21.590 --> 00:04:21.600 align:start position:0%
+necessary
+ 
+
+00:04:21.600 --> 00:04:24.469 align:start position:0%
+necessary
+to<00:04:21.759><c> process</c><00:04:22.160><c> the</c><00:04:22.320><c> information</c><00:04:24.000><c> which</c><00:04:24.240><c> are</c>
+
+00:04:24.469 --> 00:04:24.479 align:start position:0%
+to process the information which are
+ 
+
+00:04:24.479 --> 00:04:26.150 align:start position:0%
+to process the information which are
+necessary
+
+00:04:26.150 --> 00:04:26.160 align:start position:0%
+necessary
+ 
+
+00:04:26.160 --> 00:04:28.950 align:start position:0%
+necessary
+to<00:04:26.320><c> process</c><00:04:27.040><c> the</c><00:04:27.199><c> data</c><00:04:27.680><c> given</c><00:04:28.080><c> to</c><00:04:28.800><c> the</c>
+
+00:04:28.950 --> 00:04:28.960 align:start position:0%
+to process the data given to the
+ 
+
+00:04:28.960 --> 00:04:31.189 align:start position:0%
+to process the data given to the
+microprocessor
+
+00:04:31.189 --> 00:04:31.199 align:start position:0%
+microprocessor
+ 
+
+00:04:31.199 --> 00:04:34.710 align:start position:0%
+microprocessor
+the<00:04:31.360><c> microcomputer</c><00:04:33.840><c> is</c>
+
+00:04:34.710 --> 00:04:34.720 align:start position:0%
+the microcomputer is
+ 
+
+00:04:34.720 --> 00:04:38.550 align:start position:0%
+the microcomputer is
+utilizing<00:04:36.000><c> the</c><00:04:36.160><c> microprocessor</c>
+
+00:04:38.550 --> 00:04:38.560 align:start position:0%
+utilizing the microprocessor
+ 
+
+00:04:38.560 --> 00:04:41.590 align:start position:0%
+utilizing the microprocessor
+as<00:04:38.720><c> its</c><00:04:39.360><c> cpu</c><00:04:40.000><c> that</c><00:04:40.240><c> is</c><00:04:40.400><c> a</c><00:04:40.479><c> central</c><00:04:41.040><c> processing</c>
+
+00:04:41.590 --> 00:04:41.600 align:start position:0%
+as its cpu that is a central processing
+ 
+
+00:04:41.600 --> 00:04:43.510 align:start position:0%
+as its cpu that is a central processing
+unit
+
+00:04:43.510 --> 00:04:43.520 align:start position:0%
+unit
+ 
+
+00:04:43.520 --> 00:04:46.390 align:start position:0%
+unit
+and<00:04:43.759><c> it</c><00:04:44.000><c> contains</c><00:04:44.960><c> all</c><00:04:45.520><c> functions</c><00:04:46.160><c> of</c><00:04:46.320><c> a</c>
+
+00:04:46.390 --> 00:04:46.400 align:start position:0%
+and it contains all functions of a
+ 
+
+00:04:46.400 --> 00:04:47.830 align:start position:0%
+and it contains all functions of a
+computer
+
+00:04:47.830 --> 00:04:47.840 align:start position:0%
+computer
+ 
+
+00:04:47.840 --> 00:04:51.110 align:start position:0%
+computer
+so<00:04:48.080><c> micro</c><00:04:48.560><c> computer</c><00:04:49.040><c> may</c><00:04:49.280><c> have</c><00:04:49.759><c> memory</c>
+
+00:04:51.110 --> 00:04:51.120 align:start position:0%
+so micro computer may have memory
+ 
+
+00:04:51.120 --> 00:04:53.990 align:start position:0%
+so micro computer may have memory
+it<00:04:51.360><c> can</c><00:04:52.000><c> communicate</c><00:04:52.639><c> with</c><00:04:53.120><c> the</c><00:04:53.280><c> outside</c>
+
+00:04:53.990 --> 00:04:54.000 align:start position:0%
+it can communicate with the outside
+ 
+
+00:04:54.000 --> 00:04:54.870 align:start position:0%
+it can communicate with the outside
+world
+
+00:04:54.870 --> 00:04:54.880 align:start position:0%
+world
+ 
+
+00:04:54.880 --> 00:04:58.469 align:start position:0%
+world
+with<00:04:55.199><c> input</c><00:04:55.600><c> output</c><00:04:56.080><c> devices</c>
+
+00:04:58.469 --> 00:04:58.479 align:start position:0%
+with input output devices
+ 
+
+00:04:58.479 --> 00:05:01.110 align:start position:0%
+with input output devices
+so<00:04:58.720><c> here</c><00:04:59.919><c> you</c><00:05:00.080><c> must</c><00:05:00.400><c> know</c><00:05:00.639><c> the</c><00:05:00.720><c> difference</c>
+
+00:05:01.110 --> 00:05:01.120 align:start position:0%
+so here you must know the difference
+ 
+
+00:05:01.120 --> 00:05:01.830 align:start position:0%
+so here you must know the difference
+between
+
+00:05:01.830 --> 00:05:01.840 align:start position:0%
+between
+ 
+
+00:05:01.840 --> 00:05:05.430 align:start position:0%
+between
+the<00:05:02.000><c> processor</c><00:05:02.720><c> and</c><00:05:02.800><c> a</c><00:05:02.880><c> computer</c><00:05:04.720><c> processor</c>
+
+00:05:05.430 --> 00:05:05.440 align:start position:0%
+the processor and a computer processor
+ 
+
+00:05:05.440 --> 00:05:06.629 align:start position:0%
+the processor and a computer processor
+is<00:05:05.680><c> a</c><00:05:05.759><c> simple</c>
+
+00:05:06.629 --> 00:05:06.639 align:start position:0%
+is a simple
+ 
+
+00:05:06.639 --> 00:05:11.350 align:start position:0%
+is a simple
+circuit<00:05:07.840><c> while</c><00:05:08.080><c> computer</c><00:05:08.960><c> is</c><00:05:09.440><c> a</c><00:05:09.600><c> system</c>
+
+00:05:11.350 --> 00:05:11.360 align:start position:0%
+circuit while computer is a system
+ 
+
+00:05:11.360 --> 00:05:14.310 align:start position:0%
+circuit while computer is a system
+it<00:05:11.600><c> has</c><00:05:12.000><c> processor</c><00:05:12.639><c> as</c><00:05:13.120><c> the</c><00:05:13.280><c> cpu</c><00:05:13.919><c> central</c>
+
+00:05:14.310 --> 00:05:14.320 align:start position:0%
+it has processor as the cpu central
+ 
+
+00:05:14.320 --> 00:05:17.430 align:start position:0%
+it has processor as the cpu central
+processing<00:05:14.800><c> unit</c>
+
+00:05:17.430 --> 00:05:17.440 align:start position:0%
+ 
+ 
+
+00:05:17.440 --> 00:05:21.110 align:start position:0%
+ 
+third<00:05:17.840><c> pld</c><00:05:18.400><c> which</c><00:05:18.639><c> is</c><00:05:19.759><c> very</c>
+
+00:05:21.110 --> 00:05:21.120 align:start position:0%
+third pld which is very
+ 
+
+00:05:21.120 --> 00:05:23.510 align:start position:0%
+third pld which is very
+widely<00:05:21.600><c> used</c><00:05:21.919><c> which</c><00:05:22.160><c> is</c><00:05:22.320><c> very</c><00:05:22.639><c> important</c><00:05:23.280><c> as</c>
+
+00:05:23.510 --> 00:05:23.520 align:start position:0%
+widely used which is very important as
+ 
+
+00:05:23.520 --> 00:05:24.150 align:start position:0%
+widely used which is very important as
+far<00:05:23.680><c> as</c>
+
+00:05:24.150 --> 00:05:24.160 align:start position:0%
+far as
+ 
+
+00:05:24.160 --> 00:05:27.350 align:start position:0%
+far as
+the<00:05:24.320><c> automated</c><00:05:24.880><c> system</c><00:05:25.280><c> is</c><00:05:25.440><c> concerned</c><00:05:26.479><c> is</c>
+
+00:05:27.350 --> 00:05:27.360 align:start position:0%
+the automated system is concerned is
+ 
+
+00:05:27.360 --> 00:05:29.670 align:start position:0%
+the automated system is concerned is
+plc<00:05:28.080><c> that</c><00:05:28.320><c> is</c><00:05:28.639><c> programmable</c><00:05:29.280><c> logic</c>
+
+00:05:29.670 --> 00:05:29.680 align:start position:0%
+plc that is programmable logic
+ 
+
+00:05:29.680 --> 00:05:32.870 align:start position:0%
+plc that is programmable logic
+controller
+
+00:05:32.870 --> 00:05:32.880 align:start position:0%
+ 
+ 
+
+00:05:32.880 --> 00:05:35.350 align:start position:0%
+ 
+programmable<00:05:33.440><c> logic</c><00:05:33.840><c> controller</c><00:05:34.960><c> also</c>
+
+00:05:35.350 --> 00:05:35.360 align:start position:0%
+programmable logic controller also
+ 
+
+00:05:35.360 --> 00:05:37.189 align:start position:0%
+programmable logic controller also
+incorporates
+
+00:05:37.189 --> 00:05:37.199 align:start position:0%
+incorporates
+ 
+
+00:05:37.199 --> 00:05:40.710 align:start position:0%
+incorporates
+the<00:05:37.360><c> microprocessor</c><00:05:38.400><c> as</c>
+
+00:05:40.710 --> 00:05:40.720 align:start position:0%
+ 
+ 
+
+00:05:40.720 --> 00:05:43.430 align:start position:0%
+ 
+the<00:05:40.960><c> central</c><00:05:41.280><c> processing</c><00:05:41.840><c> unit</c><00:05:42.880><c> and</c><00:05:43.199><c> it</c>
+
+00:05:43.430 --> 00:05:43.440 align:start position:0%
+the central processing unit and it
+ 
+
+00:05:43.440 --> 00:05:45.270 align:start position:0%
+the central processing unit and it
+controls<00:05:44.000><c> the</c><00:05:44.320><c> operations</c>
+
+00:05:45.270 --> 00:05:45.280 align:start position:0%
+controls the operations
+ 
+
+00:05:45.280 --> 00:05:48.310 align:start position:0%
+controls the operations
+of<00:05:45.720><c> electromechanical</c><00:05:46.720><c> devices</c>
+
+00:05:48.310 --> 00:05:48.320 align:start position:0%
+of electromechanical devices
+ 
+
+00:05:48.320 --> 00:05:51.909 align:start position:0%
+of electromechanical devices
+but<00:05:48.639><c> plc</c><00:05:50.160><c> is</c><00:05:50.479><c> working</c><00:05:50.960><c> in</c><00:05:51.120><c> very</c><00:05:51.440><c> harsh</c>
+
+00:05:51.909 --> 00:05:51.919 align:start position:0%
+but plc is working in very harsh
+ 
+
+00:05:51.919 --> 00:05:52.629 align:start position:0%
+but plc is working in very harsh
+condition
+
+00:05:52.629 --> 00:05:52.639 align:start position:0%
+condition
+ 
+
+00:05:52.639 --> 00:05:55.430 align:start position:0%
+condition
+so<00:05:52.800><c> the</c><00:05:52.960><c> construction</c><00:05:54.240><c> of</c><00:05:54.400><c> the</c><00:05:54.560><c> plc</c><00:05:55.120><c> must</c><00:05:55.280><c> be</c>
+
+00:05:55.430 --> 00:05:55.440 align:start position:0%
+so the construction of the plc must be
+ 
+
+00:05:55.440 --> 00:05:56.390 align:start position:0%
+so the construction of the plc must be
+very<00:05:55.759><c> rugged</c>
+
+00:05:56.390 --> 00:05:56.400 align:start position:0%
+very rugged
+ 
+
+00:05:56.400 --> 00:05:59.510 align:start position:0%
+very rugged
+very<00:05:56.720><c> robust</c>
+
+00:05:59.510 --> 00:05:59.520 align:start position:0%
+ 
+ 
+
+00:05:59.520 --> 00:06:02.070 align:start position:0%
+ 
+the<00:05:59.680><c> general</c><00:06:00.199><c> microprocessors</c><00:06:01.600><c> which</c><00:06:01.919><c> are</c>
+
+00:06:02.070 --> 00:06:02.080 align:start position:0%
+the general microprocessors which are
+ 
+
+00:06:02.080 --> 00:06:02.710 align:start position:0%
+the general microprocessors which are
+used<00:06:02.479><c> in</c>
+
+00:06:02.710 --> 00:06:02.720 align:start position:0%
+used in
+ 
+
+00:06:02.720 --> 00:06:06.150 align:start position:0%
+used in
+automation<00:06:03.360><c> industry</c><00:06:04.880><c> are</c><00:06:05.360><c> the</c><00:06:05.600><c> embedded</c>
+
+00:06:06.150 --> 00:06:06.160 align:start position:0%
+automation industry are the embedded
+ 
+
+00:06:06.160 --> 00:06:09.590 align:start position:0%
+automation industry are the embedded
+microprocessor
+
+00:06:09.590 --> 00:06:09.600 align:start position:0%
+ 
+ 
+
+00:06:09.600 --> 00:06:11.510 align:start position:0%
+ 
+some<00:06:09.840><c> of</c><00:06:09.919><c> the</c><00:06:10.080><c> features</c><00:06:10.560><c> of</c><00:06:10.720><c> this</c>
+
+00:06:11.510 --> 00:06:11.520 align:start position:0%
+some of the features of this
+ 
+
+00:06:11.520 --> 00:06:13.990 align:start position:0%
+some of the features of this
+microprocessor
+
+00:06:13.990 --> 00:06:14.000 align:start position:0%
+microprocessor
+ 
+
+00:06:14.000 --> 00:06:17.270 align:start position:0%
+microprocessor
+are<00:06:15.759><c> first</c>
+
+00:06:17.270 --> 00:06:17.280 align:start position:0%
+are first
+ 
+
+00:06:17.280 --> 00:06:20.309 align:start position:0%
+are first
+these<00:06:17.520><c> kind</c><00:06:17.759><c> of</c><00:06:18.080><c> microprocessors</c><00:06:19.280><c> are</c>
+
+00:06:20.309 --> 00:06:20.319 align:start position:0%
+these kind of microprocessors are
+ 
+
+00:06:20.319 --> 00:06:24.390 align:start position:0%
+these kind of microprocessors are
+dedicated<00:06:20.960><c> to</c><00:06:22.240><c> a</c><00:06:22.400><c> specific</c><00:06:23.039><c> function</c>
+
+00:06:24.390 --> 00:06:24.400 align:start position:0%
+dedicated to a specific function
+ 
+
+00:06:24.400 --> 00:06:27.029 align:start position:0%
+dedicated to a specific function
+control<00:06:24.960><c> of</c><00:06:25.199><c> a</c><00:06:25.280><c> specific</c><00:06:25.759><c> function</c><00:06:26.800><c> for</c>
+
+00:06:27.029 --> 00:06:27.039 align:start position:0%
+control of a specific function for
+ 
+
+00:06:27.039 --> 00:06:29.029 align:start position:0%
+control of a specific function for
+example
+
+00:06:29.029 --> 00:06:29.039 align:start position:0%
+example
+ 
+
+00:06:29.039 --> 00:06:32.830 align:start position:0%
+example
+we<00:06:29.199><c> want</c><00:06:29.440><c> to</c><00:06:29.600><c> have</c><00:06:31.039><c> an</c><00:06:31.360><c> automatic</c><00:06:31.919><c> control</c>
+
+00:06:32.830 --> 00:06:32.840 align:start position:0%
+we want to have an automatic control
+ 
+
+00:06:32.840 --> 00:06:34.230 align:start position:0%
+we want to have an automatic control
+system
+
+00:06:34.230 --> 00:06:34.240 align:start position:0%
+system
+ 
+
+00:06:34.240 --> 00:06:37.430 align:start position:0%
+system
+to<00:06:34.400><c> control</c><00:06:35.199><c> the</c><00:06:35.360><c> temperature</c><00:06:36.240><c> of</c><00:06:37.199><c> an</c>
+
+00:06:37.430 --> 00:06:37.440 align:start position:0%
+to control the temperature of an
+ 
+
+00:06:37.440 --> 00:06:39.110 align:start position:0%
+to control the temperature of an
+electric<00:06:38.000><c> furnace</c>
+
+00:06:39.110 --> 00:06:39.120 align:start position:0%
+electric furnace
+ 
+
+00:06:39.120 --> 00:06:42.309 align:start position:0%
+electric furnace
+here<00:06:40.000><c> the</c><00:06:40.160><c> function</c><00:06:40.960><c> is</c><00:06:41.440><c> to</c><00:06:41.680><c> control</c><00:06:42.160><c> the</c>
+
+00:06:42.309 --> 00:06:42.319 align:start position:0%
+here the function is to control the
+ 
+
+00:06:42.319 --> 00:06:43.430 align:start position:0%
+here the function is to control the
+temperature<00:06:43.039><c> of</c>
+
+00:06:43.430 --> 00:06:43.440 align:start position:0%
+temperature of
+ 
+
+00:06:43.440 --> 00:06:46.790 align:start position:0%
+temperature of
+the<00:06:43.600><c> furnace</c><00:06:44.800><c> if</c><00:06:45.039><c> the</c><00:06:45.440><c> temperature</c>
+
+00:06:46.790 --> 00:06:46.800 align:start position:0%
+the furnace if the temperature
+ 
+
+00:06:46.800 --> 00:06:49.589 align:start position:0%
+the furnace if the temperature
+if<00:06:46.960><c> the</c><00:06:47.199><c> inside</c><00:06:47.600><c> temperature</c><00:06:48.080><c> of</c><00:06:48.160><c> the</c><00:06:48.400><c> furnace</c>
+
+00:06:49.589 --> 00:06:49.599 align:start position:0%
+if the inside temperature of the furnace
+ 
+
+00:06:49.599 --> 00:06:52.550 align:start position:0%
+if the inside temperature of the furnace
+is<00:06:49.919><c> above</c><00:06:50.240><c> the</c><00:06:50.479><c> set</c><00:06:50.720><c> value</c>
+
+00:06:52.550 --> 00:06:52.560 align:start position:0%
+is above the set value
+ 
+
+00:06:52.560 --> 00:06:55.589 align:start position:0%
+is above the set value
+the<00:06:53.199><c> microprocessor</c><00:06:54.080><c> should</c><00:06:54.800><c> cut</c><00:06:55.120><c> off</c>
+
+00:06:55.589 --> 00:06:55.599 align:start position:0%
+the microprocessor should cut off
+ 
+
+00:06:55.599 --> 00:06:58.309 align:start position:0%
+the microprocessor should cut off
+the<00:06:55.840><c> supply</c><00:06:56.240><c> of</c><00:06:56.479><c> electricity</c><00:06:57.840><c> to</c><00:06:58.000><c> that</c>
+
+00:06:58.309 --> 00:06:58.319 align:start position:0%
+the supply of electricity to that
+ 
+
+00:06:58.319 --> 00:07:00.550 align:start position:0%
+the supply of electricity to that
+electric<00:06:58.800><c> furnace</c>
+
+00:07:00.550 --> 00:07:00.560 align:start position:0%
+electric furnace
+ 
+
+00:07:00.560 --> 00:07:03.990 align:start position:0%
+electric furnace
+so<00:07:00.800><c> a</c><00:07:01.199><c> simple</c><00:07:01.919><c> electronic</c><00:07:02.560><c> circuitry</c>
+
+00:07:03.990 --> 00:07:04.000 align:start position:0%
+so a simple electronic circuitry
+ 
+
+00:07:04.000 --> 00:07:06.629 align:start position:0%
+so a simple electronic circuitry
+which<00:07:04.240><c> is</c><00:07:04.639><c> embedded</c><00:07:05.680><c> inside</c><00:07:06.000><c> the</c><00:07:06.160><c> electric</c>
+
+00:07:06.629 --> 00:07:06.639 align:start position:0%
+which is embedded inside the electric
+ 
+
+00:07:06.639 --> 00:07:07.589 align:start position:0%
+which is embedded inside the electric
+furnace
+
+00:07:07.589 --> 00:07:07.599 align:start position:0%
+furnace
+ 
+
+00:07:07.599 --> 00:07:09.189 align:start position:0%
+furnace
+is<00:07:07.759><c> nothing</c><00:07:08.080><c> but</c><00:07:08.560><c> the</c><00:07:08.800><c> embedded</c>
+
+00:07:09.189 --> 00:07:09.199 align:start position:0%
+is nothing but the embedded
+ 
+
+00:07:09.199 --> 00:07:11.350 align:start position:0%
+is nothing but the embedded
+microprocessor
+
+00:07:11.350 --> 00:07:11.360 align:start position:0%
+microprocessor
+ 
+
+00:07:11.360 --> 00:07:14.830 align:start position:0%
+microprocessor
+so<00:07:11.520><c> it</c><00:07:11.680><c> is</c><00:07:11.759><c> dedicated</c><00:07:12.319><c> to</c><00:07:12.560><c> carry</c><00:07:12.880><c> out</c><00:07:13.360><c> specific</c>
+
+00:07:14.830 --> 00:07:14.840 align:start position:0%
+so it is dedicated to carry out specific
+ 
+
+00:07:14.840 --> 00:07:16.150 align:start position:0%
+so it is dedicated to carry out specific
+functions
+
+00:07:16.150 --> 00:07:16.160 align:start position:0%
+functions
+ 
+
+00:07:16.160 --> 00:07:17.990 align:start position:0%
+functions
+second<00:07:16.560><c> feature</c><00:07:17.120><c> of</c><00:07:17.440><c> the</c><00:07:17.599><c> embedded</c>
+
+00:07:17.990 --> 00:07:18.000 align:start position:0%
+second feature of the embedded
+ 
+
+00:07:18.000 --> 00:07:20.230 align:start position:0%
+second feature of the embedded
+microprocessor<00:07:18.960><c> is</c>
+
+00:07:20.230 --> 00:07:20.240 align:start position:0%
+microprocessor is
+ 
+
+00:07:20.240 --> 00:07:23.510 align:start position:0%
+microprocessor is
+they<00:07:20.560><c> are</c><00:07:21.039><c> self</c><00:07:21.440><c> starting</c>
+
+00:07:23.510 --> 00:07:23.520 align:start position:0%
+they are self starting
+ 
+
+00:07:23.520 --> 00:07:25.749 align:start position:0%
+they are self starting
+so<00:07:23.680><c> the</c><00:07:23.840><c> processors</c><00:07:24.639><c> are</c><00:07:24.800><c> starting</c><00:07:25.280><c> on</c><00:07:25.440><c> their</c>
+
+00:07:25.749 --> 00:07:25.759 align:start position:0%
+so the processors are starting on their
+ 
+
+00:07:25.759 --> 00:07:27.350 align:start position:0%
+so the processors are starting on their
+own
+
+00:07:27.350 --> 00:07:27.360 align:start position:0%
+own
+ 
+
+00:07:27.360 --> 00:07:30.629 align:start position:0%
+own
+as<00:07:27.599><c> we</c><00:07:28.560><c> switch</c><00:07:28.880><c> on</c><00:07:29.039><c> the</c><00:07:29.199><c> system</c><00:07:30.000><c> the</c><00:07:30.160><c> processor</c>
+
+00:07:30.629 --> 00:07:30.639 align:start position:0%
+as we switch on the system the processor
+ 
+
+00:07:30.639 --> 00:07:31.749 align:start position:0%
+as we switch on the system the processor
+will<00:07:30.960><c> start</c>
+
+00:07:31.749 --> 00:07:31.759 align:start position:0%
+will start
+ 
+
+00:07:31.759 --> 00:07:35.830 align:start position:0%
+will start
+on<00:07:32.000><c> its</c><00:07:32.319><c> own</c>
+
+00:07:35.830 --> 00:07:35.840 align:start position:0%
+ 
+ 
+
+00:07:35.840 --> 00:07:39.589 align:start position:0%
+ 
+why<00:07:36.080><c> we</c><00:07:36.240><c> are</c><00:07:38.240><c> incorporating</c>
+
+00:07:39.589 --> 00:07:39.599 align:start position:0%
+why we are incorporating
+ 
+
+00:07:39.599 --> 00:07:42.390 align:start position:0%
+why we are incorporating
+the<00:07:40.080><c> microprocessor</c><00:07:41.039><c> is</c><00:07:41.280><c> in</c><00:07:41.520><c> automation</c><00:07:42.240><c> as</c>
+
+00:07:42.390 --> 00:07:42.400 align:start position:0%
+the microprocessor is in automation as
+ 
+
+00:07:42.400 --> 00:07:43.270 align:start position:0%
+the microprocessor is in automation as
+we<00:07:42.560><c> have</c><00:07:42.720><c> seen</c>
+
+00:07:43.270 --> 00:07:43.280 align:start position:0%
+we have seen
+ 
+
+00:07:43.280 --> 00:07:45.990 align:start position:0%
+we have seen
+the<00:07:43.440><c> definition</c><00:07:44.000><c> of</c><00:07:44.160><c> automation</c><00:07:45.440><c> that</c><00:07:45.759><c> we</c>
+
+00:07:45.990 --> 00:07:46.000 align:start position:0%
+the definition of automation that we
+ 
+
+00:07:46.000 --> 00:07:46.869 align:start position:0%
+the definition of automation that we
+want<00:07:46.240><c> to</c>
+
+00:07:46.869 --> 00:07:46.879 align:start position:0%
+want to
+ 
+
+00:07:46.879 --> 00:07:50.790 align:start position:0%
+want to
+reduce<00:07:47.520><c> the</c><00:07:48.319><c> human</c><00:07:48.800><c> intervention</c><00:07:49.840><c> we</c><00:07:50.000><c> want</c><00:07:50.160><c> to</c>
+
+00:07:50.790 --> 00:07:50.800 align:start position:0%
+reduce the human intervention we want to
+ 
+
+00:07:50.800 --> 00:07:53.830 align:start position:0%
+reduce the human intervention we want to
+have<00:07:51.199><c> no</c><00:07:51.520><c> intervention</c>
+
+00:07:53.830 --> 00:07:53.840 align:start position:0%
+have no intervention
+ 
+
+00:07:53.840 --> 00:07:56.830 align:start position:0%
+have no intervention
+so<00:07:54.000><c> to</c><00:07:54.240><c> carry</c><00:07:54.560><c> out</c><00:07:54.800><c> the</c><00:07:55.039><c> operations</c><00:07:55.680><c> in</c><00:07:56.240><c> auto</c>
+
+00:07:56.830 --> 00:07:56.840 align:start position:0%
+so to carry out the operations in auto
+ 
+
+00:07:56.840 --> 00:07:58.230 align:start position:0%
+so to carry out the operations in auto
+mode
+
+00:07:58.230 --> 00:07:58.240 align:start position:0%
+mode
+ 
+
+00:07:58.240 --> 00:08:00.309 align:start position:0%
+mode
+we<00:07:58.400><c> are</c><00:07:58.479><c> taking</c><00:07:58.879><c> help</c><00:07:59.199><c> of</c><00:07:59.520><c> the</c><00:07:59.759><c> electronic</c>
+
+00:08:00.309 --> 00:08:00.319 align:start position:0%
+we are taking help of the electronic
+ 
+
+00:08:00.319 --> 00:08:02.150 align:start position:0%
+we are taking help of the electronic
+spec<00:08:00.639><c> circuitry</c>
+
+00:08:02.150 --> 00:08:02.160 align:start position:0%
+spec circuitry
+ 
+
+00:08:02.160 --> 00:08:07.029 align:start position:0%
+spec circuitry
+that<00:08:02.400><c> is</c><00:08:02.560><c> nothing</c><00:08:02.879><c> but</c><00:08:03.280><c> the</c><00:08:03.440><c> microprocessors</c>
+
+00:08:07.029 --> 00:08:07.039 align:start position:0%
+ 
+ 
+
+00:08:07.039 --> 00:08:11.350 align:start position:0%
+ 
+these<00:08:07.360><c> are</c><00:08:08.000><c> completely</c><00:08:08.639><c> self-contained</c>
+
+00:08:11.350 --> 00:08:11.360 align:start position:0%
+these are completely self-contained
+ 
+
+00:08:11.360 --> 00:08:14.070 align:start position:0%
+these are completely self-contained
+the<00:08:11.599><c> embedded</c><00:08:12.000><c> microprocessor</c><00:08:13.120><c> has</c><00:08:13.680><c> their</c>
+
+00:08:14.070 --> 00:08:14.080 align:start position:0%
+the embedded microprocessor has their
+ 
+
+00:08:14.080 --> 00:08:15.350 align:start position:0%
+the embedded microprocessor has their
+own<00:08:14.319><c> memory</c>
+
+00:08:15.350 --> 00:08:15.360 align:start position:0%
+own memory
+ 
+
+00:08:15.360 --> 00:08:18.309 align:start position:0%
+own memory
+has<00:08:16.000><c> may</c><00:08:16.160><c> have</c><00:08:16.400><c> their</c><00:08:16.800><c> own</c><00:08:17.360><c> battery</c><00:08:17.759><c> backup</c><00:08:18.160><c> as</c>
+
+00:08:18.309 --> 00:08:18.319 align:start position:0%
+has may have their own battery backup as
+ 
+
+00:08:18.319 --> 00:08:19.270 align:start position:0%
+has may have their own battery backup as
+well
+
+00:08:19.270 --> 00:08:19.280 align:start position:0%
+well
+ 
+
+00:08:19.280 --> 00:08:24.830 align:start position:0%
+well
+they<00:08:19.440><c> may</c><00:08:19.680><c> have</c><00:08:20.319><c> their</c><00:08:20.560><c> own</c><00:08:21.280><c> energy</c><00:08:22.240><c> source</c><00:08:22.639><c> as</c>
+
+00:08:24.830 --> 00:08:24.840 align:start position:0%
+ 
+ 
+
+00:08:24.840 --> 00:08:26.469 align:start position:0%
+ 
+well
+
+00:08:26.469 --> 00:08:26.479 align:start position:0%
+well
+ 
+
+00:08:26.479 --> 00:08:29.110 align:start position:0%
+well
+the<00:08:26.639><c> microprocessor</c><00:08:28.160><c> which</c><00:08:28.400><c> are</c><00:08:28.639><c> used</c><00:08:28.960><c> in</c>
+
+00:08:29.110 --> 00:08:29.120 align:start position:0%
+the microprocessor which are used in
+ 
+
+00:08:29.120 --> 00:08:30.070 align:start position:0%
+the microprocessor which are used in
+automation
+
+00:08:30.070 --> 00:08:30.080 align:start position:0%
+automation
+ 
+
+00:08:30.080 --> 00:08:32.790 align:start position:0%
+automation
+which<00:08:30.400><c> are</c><00:08:30.560><c> embedded</c><00:08:31.520><c> in</c><00:08:32.000><c> in</c><00:08:32.080><c> the</c><00:08:32.240><c> products</c><00:08:32.640><c> or</c>
+
+00:08:32.790 --> 00:08:32.800 align:start position:0%
+which are embedded in in the products or
+ 
+
+00:08:32.800 --> 00:08:34.070 align:start position:0%
+which are embedded in in the products or
+systems
+
+00:08:34.070 --> 00:08:34.080 align:start position:0%
+systems
+ 
+
+00:08:34.080 --> 00:08:39.029 align:start position:0%
+systems
+has<00:08:34.479><c> their</c><00:08:34.800><c> own</c><00:08:35.360><c> operating</c><00:08:35.919><c> system</c>
+
+00:08:39.029 --> 00:08:39.039 align:start position:0%
+ 
+ 
+
+00:08:39.039 --> 00:08:42.469 align:start position:0%
+ 
+so<00:08:39.200><c> we</c><00:08:39.360><c> can</c><00:08:39.599><c> say</c><00:08:40.640><c> an</c><00:08:40.880><c> embedded</c><00:08:41.360><c> microprocessor</c>
+
+00:08:42.469 --> 00:08:42.479 align:start position:0%
+so we can say an embedded microprocessor
+ 
+
+00:08:42.479 --> 00:08:45.910 align:start position:0%
+so we can say an embedded microprocessor
+will<00:08:42.800><c> be</c><00:08:43.039><c> dedicated</c><00:08:43.599><c> to</c><00:08:43.919><c> a</c><00:08:44.080><c> specific</c><00:08:44.640><c> function</c>
+
+00:08:45.910 --> 00:08:45.920 align:start position:0%
+will be dedicated to a specific function
+ 
+
+00:08:45.920 --> 00:08:49.670 align:start position:0%
+will be dedicated to a specific function
+it<00:08:46.080><c> is</c><00:08:46.240><c> self-starting</c><00:08:47.519><c> it</c><00:08:47.680><c> doesn't</c><00:08:48.480><c> require</c>
+
+00:08:49.670 --> 00:08:49.680 align:start position:0%
+it is self-starting it doesn't require
+ 
+
+00:08:49.680 --> 00:08:52.790 align:start position:0%
+it is self-starting it doesn't require
+any<00:08:50.160><c> human</c><00:08:50.480><c> intervention</c>
+
+00:08:52.790 --> 00:08:52.800 align:start position:0%
+any human intervention
+ 
+
+00:08:52.800 --> 00:08:55.590 align:start position:0%
+any human intervention
+these<00:08:53.040><c> are</c><00:08:53.279><c> completely</c><00:08:53.920><c> self-contained</c>
+
+00:08:55.590 --> 00:08:55.600 align:start position:0%
+these are completely self-contained
+ 
+
+00:08:55.600 --> 00:08:57.910 align:start position:0%
+these are completely self-contained
+everything<00:08:56.080><c> is</c><00:08:56.160><c> there</c><00:08:56.480><c> inside</c><00:08:56.800><c> the</c><00:08:56.959><c> system</c>
+
+00:08:57.910 --> 00:08:57.920 align:start position:0%
+everything is there inside the system
+ 
+
+00:08:57.920 --> 00:09:00.389 align:start position:0%
+everything is there inside the system
+and<00:08:58.080><c> they</c><00:08:58.240><c> do</c><00:08:58.480><c> have</c><00:08:58.800><c> their</c><00:08:59.120><c> own</c><00:08:59.920><c> operating</c>
+
+00:09:00.389 --> 00:09:00.399 align:start position:0%
+and they do have their own operating
+ 
+
+00:09:00.399 --> 00:09:03.190 align:start position:0%
+and they do have their own operating
+system
+
+00:09:03.190 --> 00:09:03.200 align:start position:0%
+ 
+ 
+
+00:09:03.200 --> 00:09:06.870 align:start position:0%
+ 
+the<00:09:03.360><c> microprocessor</c><00:09:06.000><c> a</c><00:09:06.080><c> multi-purpose</c>
+
+00:09:06.870 --> 00:09:06.880 align:start position:0%
+the microprocessor a multi-purpose
+ 
+
+00:09:06.880 --> 00:09:09.430 align:start position:0%
+the microprocessor a multi-purpose
+programmable<00:09:07.519><c> device</c>
+
+00:09:09.430 --> 00:09:09.440 align:start position:0%
+programmable device
+ 
+
+00:09:09.440 --> 00:09:13.110 align:start position:0%
+programmable device
+it<00:09:09.600><c> basically</c><00:09:11.279><c> reads</c><00:09:12.399><c> the</c><00:09:12.560><c> binary</c>
+
+00:09:13.110 --> 00:09:13.120 align:start position:0%
+it basically reads the binary
+ 
+
+00:09:13.120 --> 00:09:15.430 align:start position:0%
+it basically reads the binary
+instructions
+
+00:09:15.430 --> 00:09:15.440 align:start position:0%
+instructions
+ 
+
+00:09:15.440 --> 00:09:19.350 align:start position:0%
+instructions
+from<00:09:15.839><c> a</c><00:09:16.000><c> storage</c><00:09:16.560><c> device</c><00:09:17.279><c> that</c><00:09:17.519><c> called</c><00:09:17.839><c> memory</c>
+
+00:09:19.350 --> 00:09:19.360 align:start position:0%
+from a storage device that called memory
+ 
+
+00:09:19.360 --> 00:09:22.470 align:start position:0%
+from a storage device that called memory
+the<00:09:19.600><c> memory</c><00:09:20.000><c> may</c><00:09:20.160><c> be</c><00:09:21.279><c> the</c><00:09:21.440><c> temporary</c><00:09:22.000><c> memory</c>
+
+00:09:22.470 --> 00:09:22.480 align:start position:0%
+the memory may be the temporary memory
+ 
+
+00:09:22.480 --> 00:09:23.430 align:start position:0%
+the memory may be the temporary memory
+or<00:09:22.720><c> it</c><00:09:22.880><c> may</c><00:09:23.040><c> be</c>
+
+00:09:23.430 --> 00:09:23.440 align:start position:0%
+or it may be
+ 
+
+00:09:23.440 --> 00:09:26.389 align:start position:0%
+or it may be
+the<00:09:23.600><c> permanent</c><00:09:24.160><c> memory</c><00:09:25.680><c> so</c><00:09:25.839><c> whatever</c><00:09:26.240><c> the</c>
+
+00:09:26.389 --> 00:09:26.399 align:start position:0%
+the permanent memory so whatever the
+ 
+
+00:09:26.399 --> 00:09:28.389 align:start position:0%
+the permanent memory so whatever the
+signals<00:09:26.880><c> which</c><00:09:27.120><c> are</c>
+
+00:09:28.389 --> 00:09:28.399 align:start position:0%
+signals which are
+ 
+
+00:09:28.399 --> 00:09:31.829 align:start position:0%
+signals which are
+getting<00:09:28.880><c> in</c><00:09:30.399><c> will</c><00:09:30.560><c> be</c><00:09:30.720><c> stored</c><00:09:31.120><c> in</c><00:09:31.279><c> a</c><00:09:31.360><c> temporary</c>
+
+00:09:31.829 --> 00:09:31.839 align:start position:0%
+getting in will be stored in a temporary
+ 
+
+00:09:31.839 --> 00:09:33.030 align:start position:0%
+getting in will be stored in a temporary
+memory
+
+00:09:33.030 --> 00:09:33.040 align:start position:0%
+memory
+ 
+
+00:09:33.040 --> 00:09:36.150 align:start position:0%
+memory
+the<00:09:33.240><c> microprocessor</c><00:09:34.959><c> process</c><00:09:35.839><c> this</c>
+
+00:09:36.150 --> 00:09:36.160 align:start position:0%
+the microprocessor process this
+ 
+
+00:09:36.160 --> 00:09:37.110 align:start position:0%
+the microprocessor process this
+information
+
+00:09:37.110 --> 00:09:37.120 align:start position:0%
+information
+ 
+
+00:09:37.120 --> 00:09:39.670 align:start position:0%
+information
+as<00:09:37.360><c> per</c><00:09:37.600><c> the</c><00:09:37.760><c> need</c><00:09:38.480><c> as</c><00:09:38.640><c> per</c><00:09:38.880><c> the</c><00:09:39.040><c> instructions</c>
+
+00:09:39.670 --> 00:09:39.680 align:start position:0%
+as per the need as per the instructions
+ 
+
+00:09:39.680 --> 00:09:43.990 align:start position:0%
+as per the need as per the instructions
+given<00:09:40.000><c> in</c><00:09:40.080><c> the</c><00:09:40.160><c> program</c>
+
+00:09:43.990 --> 00:09:44.000 align:start position:0%
+ 
+ 
+
+00:09:44.000 --> 00:09:47.030 align:start position:0%
+ 
+it<00:09:44.480><c> process</c><00:09:44.959><c> that</c><00:09:45.200><c> information</c><00:09:46.480><c> according</c><00:09:46.880><c> to</c>
+
+00:09:47.030 --> 00:09:47.040 align:start position:0%
+it process that information according to
+ 
+
+00:09:47.040 --> 00:09:49.190 align:start position:0%
+it process that information according to
+the<00:09:47.200><c> instructions</c>
+
+00:09:49.190 --> 00:09:49.200 align:start position:0%
+the instructions
+ 
+
+00:09:49.200 --> 00:09:52.310 align:start position:0%
+the instructions
+and<00:09:49.600><c> it</c><00:09:49.839><c> provides</c><00:09:50.320><c> the</c><00:09:50.560><c> results</c><00:09:51.600><c> as</c>
+
+00:09:52.310 --> 00:09:52.320 align:start position:0%
+and it provides the results as
+ 
+
+00:09:52.320 --> 00:09:55.990 align:start position:0%
+and it provides the results as
+the<00:09:52.560><c> output</c><00:09:54.000><c> so</c><00:09:54.240><c> getting</c>
+
+00:09:55.990 --> 00:09:56.000 align:start position:0%
+the output so getting
+ 
+
+00:09:56.000 --> 00:09:59.829 align:start position:0%
+the output so getting
+the<00:09:56.240><c> information</c><00:09:57.360><c> reading</c><00:09:58.320><c> the</c><00:09:58.560><c> information</c>
+
+00:09:59.829 --> 00:09:59.839 align:start position:0%
+the information reading the information.
+ 

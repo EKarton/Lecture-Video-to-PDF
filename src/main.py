@@ -79,7 +79,7 @@ class CommandLineArgRunner:
             video_subtitle_pages.append(ContentSegment(frame, subtitle_page))
 
         printer = ContentSegmentPdfBuilder()
-        pdf = printer.generate_pdf(video_subtitle_pages, output_filepath)
+        printer.generate_pdf(video_subtitle_pages, output_filepath)
 
 
 if __name__ == "__main__":

@@ -1,0 +1,3940 @@
+1
+00:00:01,520 --> 00:00:23,920
+[Music]
+
+2
+00:00:24,480 --> 00:00:25,119
+well
+
+3
+00:00:25,119 --> 00:00:28,480
+i welcome you all to the lecture four of
+
+4
+00:00:28,480 --> 00:00:31,840
+week five
+
+5
+00:00:33,440 --> 00:00:35,440
+in this week we will be studying the
+
+6
+00:00:35,440 --> 00:00:37,040
+important building block
+
+7
+00:00:37,040 --> 00:00:39,520
+of an automated system that is
+
+8
+00:00:39,520 --> 00:00:42,320
+microprocessor technology
+
+9
+00:00:42,320 --> 00:00:44,640
+let us look at the outline of this
+
+10
+00:00:44,640 --> 00:00:45,760
+lecture
+
+11
+00:00:45,760 --> 00:00:48,559
+at start of the lecture we will see the
+
+12
+00:00:48,559 --> 00:00:49,760
+definition of
+
+13
+00:00:49,760 --> 00:00:52,960
+a microprocessor
+
+14
+00:00:55,120 --> 00:00:58,320
+then we will see its architecture
+
+15
+00:00:58,320 --> 00:01:01,600
+it has various elements
+
+16
+00:01:01,600 --> 00:01:04,640
+how these elements operate
+
+17
+00:01:04,640 --> 00:01:07,280
+then we will learn what is the
+
+18
+00:01:07,280 --> 00:01:08,560
+difference between
+
+19
+00:01:08,560 --> 00:01:12,320
+a microcontroller and a microprocessor
+
+20
+00:01:12,320 --> 00:01:14,799
+the definition of microcontroller will
+
+21
+00:01:14,799 --> 00:01:16,000
+be studied
+
+22
+00:01:16,000 --> 00:01:19,200
+after that we will study
+
+23
+00:01:19,200 --> 00:01:23,280
+the microcomputers which we are using
+
+24
+00:01:23,280 --> 00:01:27,840
+for our regular day-to-day activities
+
+25
+00:01:28,960 --> 00:01:31,119
+at the end of the lecture we will study
+
+26
+00:01:31,119 --> 00:01:32,000
+about
+
+27
+00:01:32,000 --> 00:01:34,720
+the plcs the programmable logic
+
+28
+00:01:34,720 --> 00:01:35,680
+controllers
+
+29
+00:01:35,680 --> 00:01:38,840
+which are used in the automation
+
+30
+00:01:38,840 --> 00:01:41,840
+industry
+
+31
+00:01:42,000 --> 00:01:44,640
+its elements configuration and operation
+
+32
+00:01:44,640 --> 00:01:46,479
+will be studied in detail
+
+33
+00:01:46,479 --> 00:01:51,040
+fine let us begin in this lecture
+
+34
+00:01:51,040 --> 00:01:54,240
+we will be studying various programmable
+
+35
+00:01:54,240 --> 00:01:57,200
+logic devices
+
+36
+00:01:57,200 --> 00:01:59,840
+in a in our previous lectures we have
+
+37
+00:01:59,840 --> 00:02:02,079
+seen
+
+38
+00:02:02,799 --> 00:02:06,479
+the elements of measurement system
+
+39
+00:02:06,479 --> 00:02:09,520
+such as the sensors and
+
+40
+00:02:09,520 --> 00:02:12,879
+the signal conditioning devices
+
+41
+00:02:12,879 --> 00:02:17,440
+after that we have also seen how we can
+
+42
+00:02:17,920 --> 00:02:21,520
+convert the signals from one form to the
+
+43
+00:02:21,520 --> 00:02:26,319
+another form now let us look at
+
+44
+00:02:26,319 --> 00:02:28,800
+the fundamentals of programmable logic
+
+45
+00:02:28,800 --> 00:02:31,360
+devices
+
+46
+00:02:31,599 --> 00:02:35,120
+as the name suggests the programmable
+
+47
+00:02:35,120 --> 00:02:36,319
+logic devices
+
+48
+00:02:36,319 --> 00:02:39,440
+has two words
+
+49
+00:02:39,680 --> 00:02:44,560
+these are programmable and logic
+
+50
+00:02:44,560 --> 00:02:48,080
+the devices which are carrying out
+
+51
+00:02:48,080 --> 00:02:51,840
+logical operations on the data
+
+52
+00:02:51,840 --> 00:02:56,319
+are called as the logic devices
+
+53
+00:02:56,319 --> 00:03:00,560
+but when we are able to program them
+
+54
+00:03:00,560 --> 00:03:04,879
+when the users are able to program
+
+55
+00:03:04,879 --> 00:03:07,760
+these logic devices then we are call
+
+56
+00:03:07,760 --> 00:03:08,879
+them as
+
+57
+00:03:08,879 --> 00:03:11,360
+the programmable logic devices
+
+58
+00:03:11,360 --> 00:03:12,720
+programmable means
+
+59
+00:03:12,720 --> 00:03:16,560
+we can teach we can instruct
+
+60
+00:03:16,560 --> 00:03:20,640
+we can train these logic devices to
+
+61
+00:03:20,640 --> 00:03:22,400
+carry out
+
+62
+00:03:22,400 --> 00:03:25,840
+a certain set of instructions in
+
+63
+00:03:25,840 --> 00:03:28,879
+the given sequence
+
+64
+00:03:29,120 --> 00:03:32,000
+so what kind of operations these
+
+65
+00:03:32,000 --> 00:03:33,760
+programmable logical
+
+66
+00:03:33,760 --> 00:03:36,799
+logic devices are carrying out they are
+
+67
+00:03:36,799 --> 00:03:38,000
+carrying out various
+
+68
+00:03:38,000 --> 00:03:41,120
+control functions according to
+
+69
+00:03:41,120 --> 00:03:46,720
+the instructions written in its memory
+
+70
+00:03:46,720 --> 00:03:48,319
+so whatever the commands that we are
+
+71
+00:03:48,319 --> 00:03:50,000
+giving they are
+
+72
+00:03:50,000 --> 00:03:53,760
+the low level language commands
+
+73
+00:03:53,760 --> 00:03:55,200
+we will see what is the meaning of the
+
+74
+00:03:55,200 --> 00:03:57,599
+low level and the high level language
+
+75
+00:03:57,599 --> 00:04:01,120
+in the next few slides
+
+76
+00:04:01,120 --> 00:04:06,480
+the first pld is the microprocessor
+
+77
+00:04:06,480 --> 00:04:09,599
+microprocessor is a digital
+
+78
+00:04:09,599 --> 00:04:12,720
+integrated circuit it is
+
+79
+00:04:12,720 --> 00:04:17,759
+an electronic circuit and it carries out
+
+80
+00:04:17,759 --> 00:04:20,639
+various digital functions which are
+
+81
+00:04:20,639 --> 00:04:21,600
+necessary
+
+82
+00:04:21,600 --> 00:04:24,479
+to process the information which are
+
+83
+00:04:24,479 --> 00:04:26,160
+necessary
+
+84
+00:04:26,160 --> 00:04:28,960
+to process the data given to the
+
+85
+00:04:28,960 --> 00:04:31,199
+microprocessor
+
+86
+00:04:31,199 --> 00:04:34,720
+the microcomputer is
+
+87
+00:04:34,720 --> 00:04:38,560
+utilizing the microprocessor
+
+88
+00:04:38,560 --> 00:04:41,600
+as its cpu that is a central processing
+
+89
+00:04:41,600 --> 00:04:43,520
+unit
+
+90
+00:04:43,520 --> 00:04:46,400
+and it contains all functions of a
+
+91
+00:04:46,400 --> 00:04:47,840
+computer
+
+92
+00:04:47,840 --> 00:04:51,120
+so micro computer may have memory
+
+93
+00:04:51,120 --> 00:04:54,000
+it can communicate with the outside
+
+94
+00:04:54,000 --> 00:04:54,880
+world
+
+95
+00:04:54,880 --> 00:04:58,479
+with input output devices
+
+96
+00:04:58,479 --> 00:05:01,120
+so here you must know the difference
+
+97
+00:05:01,120 --> 00:05:01,840
+between
+
+98
+00:05:01,840 --> 00:05:05,440
+the processor and a computer processor
+
+99
+00:05:05,440 --> 00:05:06,639
+is a simple
+
+100
+00:05:06,639 --> 00:05:11,360
+circuit while computer is a system
+
+101
+00:05:11,360 --> 00:05:14,320
+it has processor as the cpu central
+
+102
+00:05:14,320 --> 00:05:17,120
+processing unit
+
+103
+00:05:17,440 --> 00:05:21,120
+third pld which is very
+
+104
+00:05:21,120 --> 00:05:23,520
+widely used which is very important as
+
+105
+00:05:23,520 --> 00:05:24,160
+far as
+
+106
+00:05:24,160 --> 00:05:27,360
+the automated system is concerned is
+
+107
+00:05:27,360 --> 00:05:29,680
+plc that is programmable logic
+
+108
+00:05:29,680 --> 00:05:32,320
+controller
+
+109
+00:05:32,880 --> 00:05:35,360
+programmable logic controller also
+
+110
+00:05:35,360 --> 00:05:37,199
+incorporates
+
+111
+00:05:37,199 --> 00:05:40,639
+the microprocessor as
+
+112
+00:05:40,720 --> 00:05:43,440
+the central processing unit and it
+
+113
+00:05:43,440 --> 00:05:45,280
+controls the operations
+
+114
+00:05:45,280 --> 00:05:48,320
+of electromechanical devices
+
+115
+00:05:48,320 --> 00:05:51,919
+but plc is working in very harsh
+
+116
+00:05:51,919 --> 00:05:52,639
+condition
+
+117
+00:05:52,639 --> 00:05:55,440
+so the construction of the plc must be
+
+118
+00:05:55,440 --> 00:05:56,400
+very rugged
+
+119
+00:05:56,400 --> 00:05:59,199
+very robust
+
+120
+00:05:59,520 --> 00:06:02,080
+the general microprocessors which are
+
+121
+00:06:02,080 --> 00:06:02,720
+used in
+
+122
+00:06:02,720 --> 00:06:06,160
+automation industry are the embedded
+
+123
+00:06:06,160 --> 00:06:09,039
+microprocessor
+
+124
+00:06:09,600 --> 00:06:11,520
+some of the features of this
+
+125
+00:06:11,520 --> 00:06:14,000
+microprocessor
+
+126
+00:06:14,000 --> 00:06:17,280
+are first
+
+127
+00:06:17,280 --> 00:06:20,319
+these kind of microprocessors are
+
+128
+00:06:20,319 --> 00:06:24,400
+dedicated to a specific function
+
+129
+00:06:24,400 --> 00:06:27,039
+control of a specific function for
+
+130
+00:06:27,039 --> 00:06:29,039
+example
+
+131
+00:06:29,039 --> 00:06:32,840
+we want to have an automatic control
+
+132
+00:06:32,840 --> 00:06:34,240
+system
+
+133
+00:06:34,240 --> 00:06:37,440
+to control the temperature of an
+
+134
+00:06:37,440 --> 00:06:39,120
+electric furnace
+
+135
+00:06:39,120 --> 00:06:42,319
+here the function is to control the
+
+136
+00:06:42,319 --> 00:06:43,440
+temperature of
+
+137
+00:06:43,440 --> 00:06:46,800
+the furnace if the temperature
+
+138
+00:06:46,800 --> 00:06:49,599
+if the inside temperature of the furnace
+
+139
+00:06:49,599 --> 00:06:52,560
+is above the set value
+
+140
+00:06:52,560 --> 00:06:55,599
+the microprocessor should cut off
+
+141
+00:06:55,599 --> 00:06:58,319
+the supply of electricity to that
+
+142
+00:06:58,319 --> 00:07:00,560
+electric furnace
+
+143
+00:07:00,560 --> 00:07:04,000
+so a simple electronic circuitry
+
+144
+00:07:04,000 --> 00:07:06,639
+which is embedded inside the electric
+
+145
+00:07:06,639 --> 00:07:07,599
+furnace
+
+146
+00:07:07,599 --> 00:07:09,199
+is nothing but the embedded
+
+147
+00:07:09,199 --> 00:07:11,360
+microprocessor
+
+148
+00:07:11,360 --> 00:07:14,840
+so it is dedicated to carry out specific
+
+149
+00:07:14,840 --> 00:07:16,160
+functions
+
+150
+00:07:16,160 --> 00:07:18,000
+second feature of the embedded
+
+151
+00:07:18,000 --> 00:07:20,240
+microprocessor is
+
+152
+00:07:20,240 --> 00:07:23,520
+they are self starting
+
+153
+00:07:23,520 --> 00:07:25,759
+so the processors are starting on their
+
+154
+00:07:25,759 --> 00:07:27,360
+own
+
+155
+00:07:27,360 --> 00:07:30,639
+as we switch on the system the processor
+
+156
+00:07:30,639 --> 00:07:31,759
+will start
+
+157
+00:07:31,759 --> 00:07:34,560
+on its own
+
+158
+00:07:35,840 --> 00:07:39,599
+why we are incorporating
+
+159
+00:07:39,599 --> 00:07:42,400
+the microprocessor is in automation as
+
+160
+00:07:42,400 --> 00:07:43,280
+we have seen
+
+161
+00:07:43,280 --> 00:07:46,000
+the definition of automation that we
+
+162
+00:07:46,000 --> 00:07:46,879
+want to
+
+163
+00:07:46,879 --> 00:07:50,800
+reduce the human intervention we want to
+
+164
+00:07:50,800 --> 00:07:53,840
+have no intervention
+
+165
+00:07:53,840 --> 00:07:56,840
+so to carry out the operations in auto
+
+166
+00:07:56,840 --> 00:07:58,240
+mode
+
+167
+00:07:58,240 --> 00:08:00,319
+we are taking help of the electronic
+
+168
+00:08:00,319 --> 00:08:02,160
+spec circuitry
+
+169
+00:08:02,160 --> 00:08:06,400
+that is nothing but the microprocessors
+
+170
+00:08:07,039 --> 00:08:11,360
+these are completely self-contained
+
+171
+00:08:11,360 --> 00:08:14,080
+the embedded microprocessor has their
+
+172
+00:08:14,080 --> 00:08:15,360
+own memory
+
+173
+00:08:15,360 --> 00:08:18,319
+has may have their own battery backup as
+
+174
+00:08:18,319 --> 00:08:19,280
+well
+
+175
+00:08:19,280 --> 00:08:24,800
+they may have their own energy source as
+
+176
+00:08:24,840 --> 00:08:26,479
+well
+
+177
+00:08:26,479 --> 00:08:29,120
+the microprocessor which are used in
+
+178
+00:08:29,120 --> 00:08:30,080
+automation
+
+179
+00:08:30,080 --> 00:08:32,799
+which are embedded in in the products or
+
+180
+00:08:32,799 --> 00:08:34,080
+systems
+
+181
+00:08:34,080 --> 00:08:38,320
+has their own operating system
+
+182
+00:08:39,039 --> 00:08:42,479
+so we can say an embedded microprocessor
+
+183
+00:08:42,479 --> 00:08:45,920
+will be dedicated to a specific function
+
+184
+00:08:45,920 --> 00:08:49,680
+it is self-starting it doesn't require
+
+185
+00:08:49,680 --> 00:08:52,800
+any human intervention
+
+186
+00:08:52,800 --> 00:08:55,600
+these are completely self-contained
+
+187
+00:08:55,600 --> 00:08:57,920
+everything is there inside the system
+
+188
+00:08:57,920 --> 00:09:00,399
+and they do have their own operating
+
+189
+00:09:00,399 --> 00:09:02,800
+system
+
+190
+00:09:03,200 --> 00:09:06,880
+the microprocessor a multi-purpose
+
+191
+00:09:06,880 --> 00:09:09,440
+programmable device
+
+192
+00:09:09,440 --> 00:09:13,120
+it basically reads the binary
+
+193
+00:09:13,120 --> 00:09:15,440
+instructions
+
+194
+00:09:15,440 --> 00:09:19,360
+from a storage device that called memory
+
+195
+00:09:19,360 --> 00:09:22,480
+the memory may be the temporary memory
+
+196
+00:09:22,480 --> 00:09:23,440
+or it may be
+
+197
+00:09:23,440 --> 00:09:26,399
+the permanent memory so whatever the
+
+198
+00:09:26,399 --> 00:09:28,399
+signals which are
+
+199
+00:09:28,399 --> 00:09:31,839
+getting in will be stored in a temporary
+
+200
+00:09:31,839 --> 00:09:33,040
+memory
+
+201
+00:09:33,040 --> 00:09:36,160
+the microprocessor process this
+
+202
+00:09:36,160 --> 00:09:37,120
+information
+
+203
+00:09:37,120 --> 00:09:39,680
+as per the need as per the instructions
+
+204
+00:09:39,680 --> 00:09:42,640
+given in the program
+
+205
+00:09:44,000 --> 00:09:47,040
+it process that information according to
+
+206
+00:09:47,040 --> 00:09:49,200
+the instructions
+
+207
+00:09:49,200 --> 00:09:52,320
+and it provides the results as
+
+208
+00:09:52,320 --> 00:09:56,000
+the output so getting
+
+209
+00:09:56,000 --> 00:09:59,839
+the information reading the information
+
+210
+00:09:59,839 --> 00:10:02,000
+and processing the information based
+
+211
+00:10:02,000 --> 00:10:05,040
+upon the instructions given
+
+212
+00:10:05,040 --> 00:10:08,959
+are the functions of a microprocessor
+
+213
+00:10:08,959 --> 00:10:13,760
+but how these functions are carried out
+
+214
+00:10:13,760 --> 00:10:16,839
+to carry out these functions the
+
+215
+00:10:16,839 --> 00:10:18,240
+microprocessor
+
+216
+00:10:18,240 --> 00:10:22,079
+basically has three elements
+
+217
+00:10:22,079 --> 00:10:25,120
+the processor memory element
+
+218
+00:10:25,120 --> 00:10:28,800
+and input output devices to carry out
+
+219
+00:10:28,800 --> 00:10:30,480
+these functions
+
+220
+00:10:30,480 --> 00:10:33,519
+the microprocessor basically has
+
+221
+00:10:33,519 --> 00:10:38,160
+hardware and this
+
+222
+00:10:38,160 --> 00:10:39,839
+and the hardware is nothing but the
+
+223
+00:10:39,839 --> 00:10:41,200
+electronic parts
+
+224
+00:10:41,200 --> 00:10:44,480
+which are integrated together to carry
+
+225
+00:10:44,480 --> 00:10:45,120
+out
+
+226
+00:10:45,120 --> 00:10:48,800
+the intended operation the processor is
+
+227
+00:10:48,800 --> 00:10:50,880
+an electrical circuitry
+
+228
+00:10:50,880 --> 00:10:54,160
+memory is an electronic part and
+
+229
+00:10:54,160 --> 00:10:56,880
+input output devices are are the
+
+230
+00:10:56,880 --> 00:10:58,839
+electromechanical
+
+231
+00:10:58,839 --> 00:11:01,600
+parts well these components are
+
+232
+00:11:01,600 --> 00:11:03,279
+integrated together
+
+233
+00:11:03,279 --> 00:11:06,000
+but their coordinated operation will be
+
+234
+00:11:06,000 --> 00:11:07,519
+carried out
+
+235
+00:11:07,519 --> 00:11:10,800
+by a set of instructions
+
+236
+00:11:10,800 --> 00:11:12,880
+and that of set of instruction is
+
+237
+00:11:12,880 --> 00:11:14,560
+nothing but the program
+
+238
+00:11:14,560 --> 00:11:18,320
+and when we group together
+
+239
+00:11:18,480 --> 00:11:20,959
+a variety of programs then we call that
+
+240
+00:11:20,959 --> 00:11:21,519
+as a
+
+241
+00:11:21,519 --> 00:11:24,079
+software
+
+242
+00:11:24,800 --> 00:11:29,519
+so let us see what this processor does
+
+243
+00:11:29,519 --> 00:11:32,320
+the processor recognizes the program
+
+244
+00:11:32,320 --> 00:11:33,920
+instructions
+
+245
+00:11:33,920 --> 00:11:37,279
+and it carry out it execute
+
+246
+00:11:37,279 --> 00:11:40,240
+that program instructions as per the
+
+247
+00:11:40,240 --> 00:11:42,000
+order given as per the sequence
+
+248
+00:11:42,000 --> 00:11:45,920
+given the microprocessor has the in
+
+249
+00:11:45,920 --> 00:11:48,959
+input output interfaces
+
+250
+00:11:48,959 --> 00:11:50,720
+so the microprocessor is also carrying
+
+251
+00:11:50,720 --> 00:11:53,120
+out the communication between
+
+252
+00:11:53,120 --> 00:11:56,320
+the cpu that is the processor and the
+
+253
+00:11:56,320 --> 00:11:57,920
+outside world
+
+254
+00:11:57,920 --> 00:12:02,560
+through the input output interfaces
+
+255
+00:12:02,959 --> 00:12:06,880
+so in general we call the interface as
+
+256
+00:12:06,880 --> 00:12:09,440
+port in our day to day language as well
+
+257
+00:12:09,440 --> 00:12:10,720
+we are using
+
+258
+00:12:10,720 --> 00:12:15,040
+the word port quite often
+
+259
+00:12:16,320 --> 00:12:18,880
+the third element which is there that is
+
+260
+00:12:18,880 --> 00:12:20,880
+a memory
+
+261
+00:12:20,880 --> 00:12:24,160
+the memory basically holds the program
+
+262
+00:12:24,160 --> 00:12:27,920
+instructions and the data
+
+263
+00:12:28,000 --> 00:12:31,120
+the applications of microprocessor can
+
+264
+00:12:31,120 --> 00:12:33,040
+be classified
+
+265
+00:12:33,040 --> 00:12:36,240
+basically in two categories so based
+
+266
+00:12:36,240 --> 00:12:38,000
+upon the applications of the
+
+267
+00:12:38,000 --> 00:12:39,760
+microprocessor
+
+268
+00:12:39,760 --> 00:12:42,720
+we can say that the microprocessor can
+
+269
+00:12:42,720 --> 00:12:43,760
+be utilized
+
+270
+00:12:43,760 --> 00:12:48,240
+as a reprogrammable system device
+
+271
+00:12:48,240 --> 00:12:51,600
+such as the microcomputer
+
+272
+00:12:51,600 --> 00:12:53,360
+so whatever the computing devices that
+
+273
+00:12:53,360 --> 00:12:54,880
+we do have
+
+274
+00:12:54,880 --> 00:12:58,240
+we can reprogram these systems we can
+
+275
+00:12:58,240 --> 00:13:00,240
+change its operating system
+
+276
+00:13:00,240 --> 00:13:03,600
+we can install some programs we can
+
+277
+00:13:03,600 --> 00:13:04,639
+modify
+
+278
+00:13:04,639 --> 00:13:06,639
+uh these programs we can edit the
+
+279
+00:13:06,639 --> 00:13:09,200
+programs
+
+280
+00:13:09,680 --> 00:13:12,760
+so to carry out these operations in
+
+281
+00:13:12,760 --> 00:13:14,000
+microcomputers
+
+282
+00:13:14,000 --> 00:13:17,839
+we are using the microprocessor
+
+283
+00:13:17,839 --> 00:13:22,000
+so when we are using the microprocessor
+
+284
+00:13:22,000 --> 00:13:25,040
+utility for developing the
+
+285
+00:13:25,040 --> 00:13:27,600
+reprogrammable system
+
+286
+00:13:27,600 --> 00:13:29,440
+that we call the application of
+
+287
+00:13:29,440 --> 00:13:30,720
+microprocessor
+
+288
+00:13:30,720 --> 00:13:35,839
+to have the microcomputers
+
+289
+00:13:35,920 --> 00:13:39,040
+in the second application we we want to
+
+290
+00:13:39,040 --> 00:13:39,519
+have
+
+291
+00:13:39,519 --> 00:13:41,440
+the dedicated functions that to be
+
+292
+00:13:41,440 --> 00:13:44,560
+carried out by the microprocessor
+
+293
+00:13:44,560 --> 00:13:47,040
+and these are nothing but the embedded
+
+294
+00:13:47,040 --> 00:13:49,040
+systems which we have already talked
+
+295
+00:13:49,040 --> 00:13:51,360
+about
+
+296
+00:13:51,839 --> 00:13:54,320
+let us consider the typical automated
+
+297
+00:13:54,320 --> 00:13:55,360
+system such as
+
+298
+00:13:55,360 --> 00:13:58,240
+a conveyor belt automated guided
+
+299
+00:13:58,240 --> 00:14:00,240
+vehicles
+
+300
+00:14:00,240 --> 00:14:03,279
+automatic furnaces
+
+301
+00:14:03,279 --> 00:14:06,959
+all the manufacturing industry equipment
+
+302
+00:14:06,959 --> 00:14:09,120
+whether it may be processing equipment
+
+303
+00:14:09,120 --> 00:14:10,320
+or it is
+
+304
+00:14:10,320 --> 00:14:13,360
+the conveying equipment or it is
+
+305
+00:14:13,360 --> 00:14:16,160
+the monitoring equipment so whenever we
+
+306
+00:14:16,160 --> 00:14:17,680
+are saying
+
+307
+00:14:17,680 --> 00:14:20,160
+we want to carry out the intended
+
+308
+00:14:20,160 --> 00:14:22,320
+application the desired application
+
+309
+00:14:22,320 --> 00:14:25,920
+in automatic mode there also
+
+310
+00:14:25,920 --> 00:14:28,959
+we need the microprocessor so the
+
+311
+00:14:28,959 --> 00:14:31,199
+application of microprocessor to carry
+
+312
+00:14:31,199 --> 00:14:32,079
+out
+
+313
+00:14:32,079 --> 00:14:36,000
+specific functions in automatic mode
+
+314
+00:14:36,000 --> 00:14:38,320
+that is nothing but the embedded system
+
+315
+00:14:38,320 --> 00:14:39,839
+these processors
+
+316
+00:14:39,839 --> 00:14:43,199
+do operate in binary digits that is
+
+317
+00:14:43,199 --> 00:14:47,279
+0 and 1 these digits are called bits
+
+318
+00:14:47,279 --> 00:14:50,000
+if the electrical voltage given to the
+
+319
+00:14:50,000 --> 00:14:51,040
+machine
+
+320
+00:14:51,040 --> 00:14:55,199
+is of low level then the bit would be 0
+
+321
+00:14:55,199 --> 00:14:58,320
+and if a high voltage is applied
+
+322
+00:14:58,320 --> 00:15:01,519
+high electrical energy is applied
+
+323
+00:15:01,519 --> 00:15:05,199
+then we are considering that as
+
+324
+00:15:05,199 --> 00:15:08,160
+the beat 1.
+
+325
+00:15:08,800 --> 00:15:12,800
+so when we group together these beads
+
+326
+00:15:12,800 --> 00:15:15,920
+a word is formed
+
+327
+00:15:16,880 --> 00:15:19,839
+and if the length of the word is 8 bits
+
+328
+00:15:19,839 --> 00:15:21,040
+then that
+
+329
+00:15:21,040 --> 00:15:24,839
+then we are calling that word as the
+
+330
+00:15:24,839 --> 00:15:27,839
+byte
+
+331
+00:15:28,000 --> 00:15:31,519
+if the word length is 4 then we are
+
+332
+00:15:31,519 --> 00:15:32,959
+calling that as
+
+333
+00:15:32,959 --> 00:15:35,440
+nibble
+
+334
+00:15:37,600 --> 00:15:39,920
+so as already i have talked to you a
+
+335
+00:15:39,920 --> 00:15:41,920
+command in binary
+
+336
+00:15:41,920 --> 00:15:44,000
+to accomplish a task is nothing but the
+
+337
+00:15:44,000 --> 00:15:46,320
+instruction
+
+338
+00:15:46,320 --> 00:15:49,440
+read write
+
+339
+00:15:49,440 --> 00:15:53,279
+add subtract
+
+340
+00:15:53,279 --> 00:15:54,639
+so so many operations the
+
+341
+00:15:54,639 --> 00:15:57,440
+microprocessors are carrying out
+
+342
+00:15:57,440 --> 00:16:00,959
+the command in binary to accomplish that
+
+343
+00:16:00,959 --> 00:16:01,600
+task
+
+344
+00:16:01,600 --> 00:16:04,560
+is nothing but the instructions that we
+
+345
+00:16:04,560 --> 00:16:08,880
+are giving to the microprocessor
+
+346
+00:16:08,880 --> 00:16:12,160
+so these instructions can be entered
+
+347
+00:16:12,160 --> 00:16:14,880
+either through input devices or they can
+
+348
+00:16:14,880 --> 00:16:15,920
+be stored
+
+349
+00:16:15,920 --> 00:16:19,440
+in the storage devices itself
+
+350
+00:16:19,440 --> 00:16:21,920
+so the instructions we can input by
+
+351
+00:16:21,920 --> 00:16:23,199
+using the keyboard
+
+352
+00:16:23,199 --> 00:16:26,880
+that is a very general input device that
+
+353
+00:16:26,880 --> 00:16:28,000
+we use
+
+354
+00:16:28,000 --> 00:16:30,639
+or we are using the pointing device and
+
+355
+00:16:30,639 --> 00:16:32,079
+clicking device
+
+356
+00:16:32,079 --> 00:16:34,639
+nothing but the pointer is nothing but
+
+357
+00:16:34,639 --> 00:16:36,560
+the mouse these are all
+
+358
+00:16:36,560 --> 00:16:40,720
+input devices but in in certain cases
+
+359
+00:16:40,720 --> 00:16:44,000
+the instructions are embedded they are
+
+360
+00:16:44,000 --> 00:16:46,399
+stored in the memory of the computer
+
+361
+00:16:46,399 --> 00:16:48,800
+itself
+
+362
+00:16:48,959 --> 00:16:52,079
+a typical architecture
+
+363
+00:16:52,079 --> 00:16:55,199
+of the microprocessor can be seen
+
+364
+00:16:55,199 --> 00:16:58,880
+on your screen so as i mentioned
+
+365
+00:16:58,880 --> 00:17:03,040
+it has the processor
+
+366
+00:17:03,360 --> 00:17:08,079
+the processor has three parts
+
+367
+00:17:08,079 --> 00:17:12,480
+first is arithmetic and logic unit
+
+368
+00:17:12,480 --> 00:17:18,240
+register arrays and the control unit
+
+369
+00:17:18,240 --> 00:17:22,000
+the second set of elements
+
+370
+00:17:22,000 --> 00:17:25,760
+is the input output devices
+
+371
+00:17:25,760 --> 00:17:28,720
+through which the microprocessors are
+
+372
+00:17:28,720 --> 00:17:30,320
+communicating with
+
+373
+00:17:30,320 --> 00:17:33,440
+the outside world
+
+374
+00:17:33,440 --> 00:17:36,960
+and the third element is the memory
+
+375
+00:17:36,960 --> 00:17:39,840
+so either we can have the read-only
+
+376
+00:17:39,840 --> 00:17:40,559
+memory
+
+377
+00:17:40,559 --> 00:17:43,760
+permanent memory or we can have
+
+378
+00:17:43,760 --> 00:17:47,280
+the random memory where we can read or
+
+379
+00:17:47,280 --> 00:17:47,679
+write
+
+380
+00:17:47,679 --> 00:17:52,320
+we can have the erasing operations
+
+381
+00:17:52,320 --> 00:17:56,640
+be possible so to communicate with these
+
+382
+00:17:56,640 --> 00:17:58,240
+input output devices
+
+383
+00:17:58,240 --> 00:18:02,640
+and the memory we required a mechanism
+
+384
+00:18:02,640 --> 00:18:05,039
+and that mechanism is nothing but the
+
+385
+00:18:05,039 --> 00:18:07,120
+communication mechanism
+
+386
+00:18:07,120 --> 00:18:10,480
+which is through the wires
+
+387
+00:18:10,480 --> 00:18:11,919
+through wires we are passing the
+
+388
+00:18:11,919 --> 00:18:13,520
+electrical signals
+
+389
+00:18:13,520 --> 00:18:16,320
+and a set of wires is nothing but the
+
+390
+00:18:16,320 --> 00:18:17,600
+bus through which
+
+391
+00:18:17,600 --> 00:18:20,559
+we are communicating with various
+
+392
+00:18:20,559 --> 00:18:23,760
+elements of the microprocessor
+
+393
+00:18:23,760 --> 00:18:26,640
+the resistor array has many resistors
+
+394
+00:18:26,640 --> 00:18:28,080
+and these resistors are
+
+395
+00:18:28,080 --> 00:18:32,240
+utilized as temporary memory locations
+
+396
+00:18:32,240 --> 00:18:35,440
+through which the microprocessor is
+
+397
+00:18:35,440 --> 00:18:39,919
+carrying out a variety of operations
+
+398
+00:18:39,919 --> 00:18:42,080
+what operations is it is carrying out it
+
+399
+00:18:42,080 --> 00:18:42,960
+is carrying out
+
+400
+00:18:42,960 --> 00:18:46,240
+the algebraic operations as well as the
+
+401
+00:18:46,240 --> 00:18:50,000
+logic operations so algebraic operations
+
+402
+00:18:50,000 --> 00:18:52,000
+are
+
+403
+00:18:52,000 --> 00:18:55,280
+the addition and subtraction and
+
+404
+00:18:55,280 --> 00:18:59,520
+the logic operations are and or
+
+405
+00:18:59,520 --> 00:19:02,640
+the input output devices are called the
+
+406
+00:19:02,640 --> 00:19:05,520
+peripherals
+
+407
+00:19:05,520 --> 00:19:08,400
+so when we have the central processing
+
+408
+00:19:08,400 --> 00:19:09,200
+unit
+
+409
+00:19:09,200 --> 00:19:11,840
+on a single chip that is called the
+
+410
+00:19:11,840 --> 00:19:14,320
+microprocessor
+
+411
+00:19:14,320 --> 00:19:17,440
+so as i mentioned the arithmetic and
+
+412
+00:19:17,440 --> 00:19:18,799
+logic unit
+
+413
+00:19:18,799 --> 00:19:21,440
+is carrying out the operations such as
+
+414
+00:19:21,440 --> 00:19:22,840
+addition
+
+415
+00:19:22,840 --> 00:19:25,440
+subtraction these are the algebraic
+
+416
+00:19:25,440 --> 00:19:26,480
+arithmetic
+
+417
+00:19:26,480 --> 00:19:30,640
+operations and the logic operations are
+
+418
+00:19:30,640 --> 00:19:34,720
+the and or operations
+
+419
+00:19:34,720 --> 00:19:38,640
+the register array is is having
+
+420
+00:19:38,640 --> 00:19:42,080
+a set of registers which are acting as
+
+421
+00:19:42,080 --> 00:19:45,440
+temporary storage devices so whatever
+
+422
+00:19:45,440 --> 00:19:45,760
+the
+
+423
+00:19:45,760 --> 00:19:48,880
+information we are getting from
+
+424
+00:19:48,880 --> 00:19:52,480
+the memory may be permanent or the
+
+425
+00:19:52,480 --> 00:19:56,160
+random access memory these information
+
+426
+00:19:56,160 --> 00:20:00,080
+will be stored in a temporary manner
+
+427
+00:20:00,080 --> 00:20:04,240
+inside the cpu itself
+
+428
+00:20:04,240 --> 00:20:07,520
+based on the control instructions
+
+429
+00:20:07,520 --> 00:20:10,080
+the microprocessor is taking this
+
+430
+00:20:10,080 --> 00:20:10,960
+information
+
+431
+00:20:10,960 --> 00:20:13,840
+which is at the temporary storage it
+
+432
+00:20:13,840 --> 00:20:14,960
+carries
+
+433
+00:20:14,960 --> 00:20:18,799
+out the arithmetic and logic operations
+
+434
+00:20:18,799 --> 00:20:21,840
+on this information which is
+
+435
+00:20:21,840 --> 00:20:24,400
+stored in the register arrays and it
+
+436
+00:20:24,400 --> 00:20:25,760
+further
+
+437
+00:20:25,760 --> 00:20:28,320
+gives the output which is stored in the
+
+438
+00:20:28,320 --> 00:20:30,799
+register array itself
+
+439
+00:20:30,799 --> 00:20:33,679
+so whatever the results are stored in
+
+440
+00:20:33,679 --> 00:20:35,360
+the register array
+
+441
+00:20:35,360 --> 00:20:38,880
+that will be taken through the bus
+
+442
+00:20:38,880 --> 00:20:42,240
+that will be communicated to the output
+
+443
+00:20:42,240 --> 00:20:44,400
+terminal if required or it will be
+
+444
+00:20:44,400 --> 00:20:45,520
+stored
+
+445
+00:20:45,520 --> 00:20:49,120
+inside the memory the control
+
+446
+00:20:49,120 --> 00:20:53,760
+unit is carrying out the controlling of
+
+447
+00:20:53,760 --> 00:20:56,960
+the signals or the data to
+
+448
+00:20:56,960 --> 00:21:00,400
+switch the data through the system bus
+
+449
+00:21:00,400 --> 00:21:04,640
+and apply the set of instructions
+
+450
+00:21:04,640 --> 00:21:08,080
+over the data would be controlled by
+
+451
+00:21:08,080 --> 00:21:11,919
+this control unit the timings will be
+
+452
+00:21:11,919 --> 00:21:12,480
+set
+
+453
+00:21:12,480 --> 00:21:15,679
+so it has a clock
+
+454
+00:21:15,679 --> 00:21:19,200
+it is nothing but a oscillator
+
+455
+00:21:19,200 --> 00:21:21,520
+oscillator circuit which we have seen in
+
+456
+00:21:21,520 --> 00:21:22,320
+our
+
+457
+00:21:22,320 --> 00:21:24,159
+the early lecture that is the
+
+458
+00:21:24,159 --> 00:21:26,240
+piezoelectric based
+
+459
+00:21:26,240 --> 00:21:30,559
+clocks the clocks are giving signals
+
+460
+00:21:30,559 --> 00:21:33,280
+the time has over now we have to execute
+
+461
+00:21:33,280 --> 00:21:36,000
+the next set of instruction
+
+462
+00:21:36,000 --> 00:21:38,640
+so accordingly the processor will take
+
+463
+00:21:38,640 --> 00:21:39,679
+the data
+
+464
+00:21:39,679 --> 00:21:42,640
+it will process the data and return the
+
+465
+00:21:42,640 --> 00:21:45,360
+data back to the register array
+
+466
+00:21:45,360 --> 00:21:48,880
+the peripherals the input
+
+467
+00:21:48,880 --> 00:21:53,200
+peripheral are nothing but
+
+468
+00:21:53,200 --> 00:21:56,720
+the keyboards or we can have
+
+469
+00:21:56,720 --> 00:21:59,280
+the adcs that is analog to digital
+
+470
+00:21:59,280 --> 00:22:00,799
+converters
+
+471
+00:22:00,799 --> 00:22:03,919
+we have seen in our previous class
+
+472
+00:22:03,919 --> 00:22:06,240
+that the analog to digital converters
+
+473
+00:22:06,240 --> 00:22:08,480
+are converting
+
+474
+00:22:08,480 --> 00:22:11,679
+the analog data into digital format
+
+475
+00:22:11,679 --> 00:22:14,480
+and that digital format data will be
+
+476
+00:22:14,480 --> 00:22:16,480
+given to the microprocessor
+
+477
+00:22:16,480 --> 00:22:20,240
+in case of it is used for the embedded
+
+478
+00:22:20,240 --> 00:22:24,080
+operations but if the microprocessor is
+
+479
+00:22:24,080 --> 00:22:24,960
+a part of a
+
+480
+00:22:24,960 --> 00:22:27,679
+microcomputer then we are inputting the
+
+481
+00:22:27,679 --> 00:22:28,480
+data
+
+482
+00:22:28,480 --> 00:22:32,320
+through the keyboard if
+
+483
+00:22:32,320 --> 00:22:36,039
+the microprocessor is utilized in a
+
+484
+00:22:36,039 --> 00:22:40,320
+microcontroller then the output would be
+
+485
+00:22:40,320 --> 00:22:44,960
+given to the actuating device
+
+486
+00:22:44,960 --> 00:22:47,520
+through the signal condition device such
+
+487
+00:22:47,520 --> 00:22:48,720
+as
+
+488
+00:22:48,720 --> 00:22:50,720
+dac that is a digital to analog
+
+489
+00:22:50,720 --> 00:22:51,840
+converter
+
+490
+00:22:51,840 --> 00:22:54,960
+but if it is a micro computer then the
+
+491
+00:22:54,960 --> 00:22:56,080
+output would be
+
+492
+00:22:56,080 --> 00:22:59,600
+simple display devices such as leds
+
+493
+00:22:59,600 --> 00:23:02,640
+crts or a printer or
+
+494
+00:23:02,640 --> 00:23:05,919
+a magnetic tape as i mentioned there are
+
+495
+00:23:05,919 --> 00:23:06,640
+two
+
+496
+00:23:06,640 --> 00:23:08,720
+types of memories are used that is a
+
+497
+00:23:08,720 --> 00:23:10,240
+read-only memory
+
+498
+00:23:10,240 --> 00:23:13,919
+and the random access memory
+
+499
+00:23:13,919 --> 00:23:16,559
+in read-only memory we are storing the
+
+500
+00:23:16,559 --> 00:23:18,320
+programs
+
+501
+00:23:18,320 --> 00:23:22,080
+which we cannot alter these are
+
+502
+00:23:22,080 --> 00:23:25,200
+the system programs which we are
+
+503
+00:23:25,200 --> 00:23:28,240
+storing the user cannot change the
+
+504
+00:23:28,240 --> 00:23:30,080
+programs
+
+505
+00:23:30,080 --> 00:23:33,600
+so some programs like the monitor
+
+506
+00:23:33,600 --> 00:23:35,360
+program
+
+507
+00:23:35,360 --> 00:23:38,159
+or the drivers of the hardware are
+
+508
+00:23:38,159 --> 00:23:39,360
+stored in
+
+509
+00:23:39,360 --> 00:23:42,400
+the read-only memory
+
+510
+00:23:42,400 --> 00:23:44,799
+the data on the random access memory can
+
+511
+00:23:44,799 --> 00:23:47,120
+easily be changed
+
+512
+00:23:47,120 --> 00:23:50,400
+here we are giving the data
+
+513
+00:23:50,400 --> 00:23:53,440
+that to be processed or even we can
+
+514
+00:23:53,440 --> 00:23:56,480
+have the programs that to be modify or
+
+515
+00:23:56,480 --> 00:23:57,600
+edit
+
+516
+00:23:57,600 --> 00:24:00,240
+so bus is nothing but a group of wires
+
+517
+00:24:00,240 --> 00:24:01,600
+which are used to
+
+518
+00:24:01,600 --> 00:24:03,520
+communicate the signals among the
+
+519
+00:24:03,520 --> 00:24:05,600
+various elements of
+
+520
+00:24:05,600 --> 00:24:10,000
+the microprocessor system after studying
+
+521
+00:24:10,000 --> 00:24:13,559
+the definition of a microprocessor
+
+522
+00:24:13,559 --> 00:24:19,200
+microcomputer now let us look at
+
+523
+00:24:19,200 --> 00:24:23,600
+the configuration of the microcomputer
+
+524
+00:24:23,600 --> 00:24:26,880
+on your screen you can see typical
+
+525
+00:24:26,880 --> 00:24:28,159
+arrangement of
+
+526
+00:24:28,159 --> 00:24:32,799
+a variety of elements of a microcomputer
+
+527
+00:24:32,799 --> 00:24:36,000
+so it has the alu
+
+528
+00:24:36,000 --> 00:24:39,039
+and control unit it has
+
+529
+00:24:39,039 --> 00:24:43,679
+the input output devices
+
+530
+00:24:43,679 --> 00:24:48,720
+these are the peripherals the memory
+
+531
+00:24:48,720 --> 00:24:53,679
+and various types of buses
+
+532
+00:24:53,679 --> 00:24:57,039
+these buses are carrying the digital
+
+533
+00:24:57,039 --> 00:24:58,559
+signals
+
+534
+00:24:58,559 --> 00:25:03,200
+from one section to another section
+
+535
+00:25:03,200 --> 00:25:06,559
+these are the paths through which we are
+
+536
+00:25:06,559 --> 00:25:09,600
+communicating either the data
+
+537
+00:25:09,600 --> 00:25:12,720
+related to the variable
+
+538
+00:25:12,720 --> 00:25:16,080
+the instructions to carrying out
+
+539
+00:25:16,080 --> 00:25:18,640
+the controlling operation or to
+
+540
+00:25:18,640 --> 00:25:19,679
+communicate
+
+541
+00:25:19,679 --> 00:25:24,000
+the address of the data
+
+542
+00:25:26,240 --> 00:25:29,840
+the bus is nothing but
+
+543
+00:25:30,640 --> 00:25:33,200
+collection of a number of parallel
+
+544
+00:25:33,200 --> 00:25:35,760
+conductors
+
+545
+00:25:35,760 --> 00:25:39,840
+these are carrying electrical signals
+
+546
+00:25:39,840 --> 00:25:43,679
+and these buses are being shared by
+
+547
+00:25:43,679 --> 00:25:47,360
+many chips which are integrated
+
+548
+00:25:47,360 --> 00:25:50,480
+in a typical micro computer so you
+
+549
+00:25:50,480 --> 00:25:53,120
+might have gone through various
+
+550
+00:25:53,120 --> 00:25:54,159
+configurations
+
+551
+00:25:54,159 --> 00:25:57,360
+of microcomputer
+
+552
+00:25:57,360 --> 00:26:00,559
+based upon the number of bits
+
+553
+00:26:00,559 --> 00:26:04,960
+so we can call a 16 bits configuration
+
+554
+00:26:04,960 --> 00:26:08,080
+or 32 bits configuration or
+
+555
+00:26:08,080 --> 00:26:12,400
+64 bits com configuration
+
+556
+00:26:12,640 --> 00:26:17,039
+the meaning is that we can handle
+
+557
+00:26:17,039 --> 00:26:21,120
+2 raised to power number of bits
+
+558
+00:26:21,120 --> 00:26:25,440
+values by using these
+
+559
+00:26:25,440 --> 00:26:28,320
+communication paths if the number of
+
+560
+00:26:28,320 --> 00:26:29,600
+bits are 16
+
+561
+00:26:29,600 --> 00:26:32,640
+that means we can handle 2 raised to
+
+562
+00:26:32,640 --> 00:26:33,200
+power
+
+563
+00:26:33,200 --> 00:26:36,640
+16 types of values by
+
+564
+00:26:36,640 --> 00:26:40,240
+using this communication path so as
+
+565
+00:26:40,240 --> 00:26:43,440
+the number of paths are more we can
+
+566
+00:26:43,440 --> 00:26:47,279
+have the faster communication
+
+567
+00:26:47,679 --> 00:26:50,000
+in earlier days there was a serial
+
+568
+00:26:50,000 --> 00:26:52,240
+communication in the microprocessor
+
+569
+00:26:52,240 --> 00:26:55,679
+the information or the instructions
+
+570
+00:26:55,679 --> 00:26:59,840
+used to pass in a sequential manner
+
+571
+00:26:59,840 --> 00:27:02,000
+so that's why the microprocessors were
+
+572
+00:27:02,000 --> 00:27:04,080
+very very slow
+
+573
+00:27:04,080 --> 00:27:06,880
+with the invention with the introduction
+
+574
+00:27:06,880 --> 00:27:07,360
+of
+
+575
+00:27:07,360 --> 00:27:10,080
+the parallel communication by using
+
+576
+00:27:10,080 --> 00:27:10,799
+these
+
+577
+00:27:10,799 --> 00:27:14,400
+wires now the microprocessors
+
+578
+00:27:14,400 --> 00:27:17,679
+are very fast very rapid
+
+579
+00:27:17,679 --> 00:27:20,880
+each path carries one bit of data
+
+580
+00:27:20,880 --> 00:27:23,360
+there are basically three types of buses
+
+581
+00:27:23,360 --> 00:27:24,559
+being used
+
+582
+00:27:24,559 --> 00:27:28,159
+in microprocessor or a micro computer
+
+583
+00:27:28,159 --> 00:27:32,159
+the first type of bus is the data bus
+
+584
+00:27:32,159 --> 00:27:35,840
+the data bus is associated with
+
+585
+00:27:35,840 --> 00:27:39,760
+processing of the information
+
+586
+00:27:40,080 --> 00:27:42,240
+if we are saying that there is a word
+
+587
+00:27:42,240 --> 00:27:44,799
+length of four bits
+
+588
+00:27:44,799 --> 00:27:48,240
+consider a word of one zero one zero
+
+589
+00:27:48,240 --> 00:27:50,880
+that means we require four parallel
+
+590
+00:27:50,880 --> 00:27:52,399
+wires
+
+591
+00:27:52,399 --> 00:27:56,000
+that to be laid down to communicate
+
+592
+00:27:56,000 --> 00:27:59,760
+this this word one zero one zero
+
+593
+00:27:59,760 --> 00:28:03,279
+so the number of values which can be
+
+594
+00:28:03,279 --> 00:28:07,440
+possible by using this 4 bit data bus
+
+595
+00:28:07,440 --> 00:28:10,159
+so we can have 2 raise to power 4 that
+
+596
+00:28:10,159 --> 00:28:10,480
+is
+
+597
+00:28:10,480 --> 00:28:14,320
+16 number of values can be handled by
+
+598
+00:28:14,320 --> 00:28:18,480
+this data so if you take example of a
+
+599
+00:28:18,480 --> 00:28:22,880
+embedded system which is used to
+
+600
+00:28:22,880 --> 00:28:25,120
+record forces and to process the
+
+601
+00:28:25,120 --> 00:28:27,360
+information about the forces
+
+602
+00:28:27,360 --> 00:28:31,039
+say automatic way balance machine
+
+603
+00:28:31,039 --> 00:28:34,799
+so when the force is in between
+
+604
+00:28:34,799 --> 00:28:38,799
+20 to 180 newton we are using this
+
+605
+00:28:38,799 --> 00:28:42,159
+device this is the the range of
+
+606
+00:28:42,159 --> 00:28:45,760
+the device is 22 or 80 newton
+
+607
+00:28:45,760 --> 00:28:50,880
+capacity the span would be 160
+
+608
+00:28:50,880 --> 00:28:54,720
+so as the number of values are only 16
+
+609
+00:28:54,720 --> 00:28:58,480
+so we can have only 16 segments
+
+610
+00:28:58,480 --> 00:29:01,520
+of the span so the 16 segments of the
+
+611
+00:29:01,520 --> 00:29:03,600
+span can be handled by
+
+612
+00:29:03,600 --> 00:29:07,039
+this microprocessor or the embedded
+
+613
+00:29:07,039 --> 00:29:08,080
+system
+
+614
+00:29:08,080 --> 00:29:11,360
+each segment may have a 10
+
+615
+00:29:11,360 --> 00:29:14,640
+newton of the capacity
+
+616
+00:29:14,640 --> 00:29:18,399
+the 4 bits type of data buses
+
+617
+00:29:18,399 --> 00:29:20,960
+or 4 bits type of the communication
+
+618
+00:29:20,960 --> 00:29:22,240
+systems
+
+619
+00:29:22,240 --> 00:29:25,279
+are quite often used in toys
+
+620
+00:29:25,279 --> 00:29:28,559
+so automatic toys very small
+
+621
+00:29:28,559 --> 00:29:30,960
+type of in very small variety of
+
+622
+00:29:30,960 --> 00:29:32,159
+information
+
+623
+00:29:32,159 --> 00:29:35,120
+we need to process but the general
+
+624
+00:29:35,120 --> 00:29:36,559
+computers that we are
+
+625
+00:29:36,559 --> 00:29:38,880
+using nowadays they do have the capacity
+
+626
+00:29:38,880 --> 00:29:40,399
+of 64 bit
+
+627
+00:29:40,399 --> 00:29:43,919
+maybe more than that
+
+628
+00:29:44,000 --> 00:29:46,880
+the next bus is the address bus it
+
+629
+00:29:46,880 --> 00:29:48,320
+carries the signal
+
+630
+00:29:48,320 --> 00:29:51,440
+which is indicating where the data
+
+631
+00:29:51,440 --> 00:29:55,279
+is to be find out so it carries
+
+632
+00:29:55,279 --> 00:29:57,760
+the location it carries the information
+
+633
+00:29:57,760 --> 00:29:59,600
+about the location of the data from
+
+634
+00:29:59,600 --> 00:30:00,880
+which we have to
+
+635
+00:30:00,880 --> 00:30:03,679
+fetch the data or we have to load the
+
+636
+00:30:03,679 --> 00:30:04,159
+data
+
+637
+00:30:04,159 --> 00:30:05,679
+or write the data in the memory
+
+638
+00:30:05,679 --> 00:30:07,840
+locations
+
+639
+00:30:07,840 --> 00:30:10,960
+select the certain memory location
+
+640
+00:30:10,960 --> 00:30:14,240
+at the input or output ports as well
+
+641
+00:30:14,240 --> 00:30:17,279
+it's not only getting the data from the
+
+642
+00:30:17,279 --> 00:30:18,480
+memory locations
+
+643
+00:30:18,480 --> 00:30:21,840
+at the memory in the memory each store
+
+644
+00:30:21,840 --> 00:30:23,600
+storage location has
+
+645
+00:30:23,600 --> 00:30:26,320
+a unique identification and that that
+
+646
+00:30:26,320 --> 00:30:27,919
+unique identification
+
+647
+00:30:27,919 --> 00:30:32,159
+is called the address the next type of
+
+648
+00:30:32,159 --> 00:30:35,440
+bus is the control bus
+
+649
+00:30:35,440 --> 00:30:38,880
+the control bus is carrying out
+
+650
+00:30:38,880 --> 00:30:42,159
+the signals related to the control
+
+651
+00:30:42,159 --> 00:30:44,799
+actions so what may be the control
+
+652
+00:30:44,799 --> 00:30:45,520
+action
+
+653
+00:30:45,520 --> 00:30:48,840
+say reading the data from the input
+
+654
+00:30:48,840 --> 00:30:50,000
+device
+
+655
+00:30:50,000 --> 00:30:54,240
+it's basically the function of
+
+656
+00:30:54,240 --> 00:30:57,360
+the microprocessor read the data
+
+657
+00:30:57,360 --> 00:31:00,080
+so it is controlling this operation
+
+658
+00:31:00,080 --> 00:31:01,039
+write the data
+
+659
+00:31:01,039 --> 00:31:03,919
+to the output device and this
+
+660
+00:31:03,919 --> 00:31:05,600
+controlling operations would be carried
+
+661
+00:31:05,600 --> 00:31:06,720
+out based upon
+
+662
+00:31:06,720 --> 00:31:10,080
+a clock the clock is nothing but
+
+663
+00:31:10,080 --> 00:31:12,720
+a crystal controlled oscillator which we
+
+664
+00:31:12,720 --> 00:31:14,640
+have already seen in our previous
+
+665
+00:31:14,640 --> 00:31:16,080
+lectures
+
+666
+00:31:16,080 --> 00:31:18,960
+it produces pulses at regular intervals
+
+667
+00:31:18,960 --> 00:31:20,720
+and based upon the
+
+668
+00:31:20,720 --> 00:31:23,919
+the clock signals
+
+669
+00:31:23,919 --> 00:31:25,919
+the control bus operations would be
+
+670
+00:31:25,919 --> 00:31:27,120
+carried out by
+
+671
+00:31:27,120 --> 00:31:30,240
+the microprocessor
+
+672
+00:31:31,279 --> 00:31:34,960
+well now see what are the various
+
+673
+00:31:34,960 --> 00:31:38,720
+programmable controllers which are based
+
+674
+00:31:38,720 --> 00:31:39,360
+upon
+
+675
+00:31:39,360 --> 00:31:41,919
+the mic processor in the industry
+
+676
+00:31:41,919 --> 00:31:42,960
+basically
+
+677
+00:31:42,960 --> 00:31:45,279
+plc's that is a programmable logic
+
+678
+00:31:45,279 --> 00:31:46,320
+controllers
+
+679
+00:31:46,320 --> 00:31:50,640
+and microcontrollers are often being
+
+680
+00:31:50,640 --> 00:31:55,440
+used these two devices
+
+681
+00:31:55,440 --> 00:31:58,559
+are incorporating microprocessor as
+
+682
+00:31:58,559 --> 00:31:59,360
+their
+
+683
+00:31:59,360 --> 00:32:03,440
+cpu central processing unit
+
+684
+00:32:03,440 --> 00:32:05,039
+so what is the microcontroller the
+
+685
+00:32:05,039 --> 00:32:06,640
+microcontroller has
+
+686
+00:32:06,640 --> 00:32:09,519
+the central processor it has the memory
+
+687
+00:32:09,519 --> 00:32:09,840
+and
+
+688
+00:32:09,840 --> 00:32:13,120
+it has the input output ports so
+
+689
+00:32:13,120 --> 00:32:14,960
+together it is called as the
+
+690
+00:32:14,960 --> 00:32:17,919
+microcontroller
+
+691
+00:32:20,000 --> 00:32:23,120
+it is implementing
+
+692
+00:32:23,120 --> 00:32:25,679
+the functions of a computer and the
+
+693
+00:32:25,679 --> 00:32:26,880
+controller
+
+694
+00:32:26,880 --> 00:32:29,519
+but all these functions and all this
+
+695
+00:32:29,519 --> 00:32:30,399
+circuitry
+
+696
+00:32:30,399 --> 00:32:34,080
+is on a single chip that is
+
+697
+00:32:34,080 --> 00:32:37,120
+the uniqueness of the microcontroller
+
+698
+00:32:37,120 --> 00:32:39,600
+it is a very small device which can
+
+699
+00:32:39,600 --> 00:32:40,399
+easily
+
+700
+00:32:40,399 --> 00:32:45,440
+embed inside the equipment itself
+
+701
+00:32:45,440 --> 00:32:48,880
+so all the processing circuitry
+
+702
+00:32:48,880 --> 00:32:52,240
+memory and input output ports are
+
+703
+00:32:52,240 --> 00:32:55,519
+manufactured integrated on a single chip
+
+704
+00:32:55,519 --> 00:32:57,840
+itself
+
+705
+00:32:58,960 --> 00:33:01,039
+but the capability of microcontroller is
+
+706
+00:33:01,039 --> 00:33:03,039
+limited it is generally
+
+707
+00:33:03,039 --> 00:33:05,840
+programmed to carry out a few
+
+708
+00:33:05,840 --> 00:33:06,880
+applications
+
+709
+00:33:06,880 --> 00:33:09,600
+few operations a simple operation say
+
+710
+00:33:09,600 --> 00:33:10,080
+control
+
+711
+00:33:10,080 --> 00:33:12,799
+of temperature in in an electrical
+
+712
+00:33:12,799 --> 00:33:14,559
+furnace a simple operation
+
+713
+00:33:14,559 --> 00:33:17,200
+is there to control the temperature if
+
+714
+00:33:17,200 --> 00:33:17,679
+the
+
+715
+00:33:17,679 --> 00:33:19,840
+set temperature is more than then cut
+
+716
+00:33:19,840 --> 00:33:21,440
+off it
+
+717
+00:33:21,440 --> 00:33:23,600
+so for one or two applications the
+
+718
+00:33:23,600 --> 00:33:25,440
+microcontrollers are used
+
+719
+00:33:25,440 --> 00:33:27,039
+again i am giving the example of the
+
+720
+00:33:27,039 --> 00:33:28,480
+washing machine
+
+721
+00:33:28,480 --> 00:33:31,120
+so to control the operations of washing
+
+722
+00:33:31,120 --> 00:33:32,720
+machines which is having the limited
+
+723
+00:33:32,720 --> 00:33:34,320
+capability
+
+724
+00:33:34,320 --> 00:33:37,440
+we cannot change its program
+
+725
+00:33:37,440 --> 00:33:39,440
+it is dedicated to specific control
+
+726
+00:33:39,440 --> 00:33:41,279
+function
+
+727
+00:33:41,279 --> 00:33:43,519
+so generally microcontrollers are used
+
+728
+00:33:43,519 --> 00:33:46,399
+in automobiles
+
+729
+00:33:46,399 --> 00:33:49,600
+aircrafts and medical electronics
+
+730
+00:33:49,600 --> 00:33:52,080
+and majorly they are being used in the
+
+731
+00:33:52,080 --> 00:33:53,360
+home automation
+
+732
+00:33:53,360 --> 00:33:56,399
+home appliances
+
+733
+00:34:00,000 --> 00:34:02,399
+so as i mentioned they are very small
+
+734
+00:34:02,399 --> 00:34:04,080
+and can be embedded
+
+735
+00:34:04,080 --> 00:34:07,600
+in electromechanical system without
+
+736
+00:34:07,600 --> 00:34:10,639
+taking up much space
+
+737
+00:34:10,639 --> 00:34:14,000
+they are space effective very small
+
+738
+00:34:14,000 --> 00:34:18,560
+integrated compact devices
+
+739
+00:34:18,560 --> 00:34:21,440
+they need very little programmable
+
+740
+00:34:21,440 --> 00:34:22,879
+memory
+
+741
+00:34:22,879 --> 00:34:26,560
+memory is also required very less
+
+742
+00:34:26,560 --> 00:34:29,520
+so some of the standard microcontrollers
+
+743
+00:34:29,520 --> 00:34:31,440
+available in the market
+
+744
+00:34:31,440 --> 00:34:34,320
+uh can be seen on your screen these are
+
+745
+00:34:34,320 --> 00:34:35,440
+motorola
+
+746
+00:34:35,440 --> 00:34:39,440
+68 hd11 xylox
+
+747
+00:34:39,440 --> 00:34:43,040
+intel mcs51
+
+748
+00:34:43,040 --> 00:34:46,240
+and 96 series
+
+749
+00:34:46,879 --> 00:34:49,199
+the next type of controller is the
+
+750
+00:34:49,199 --> 00:34:51,679
+programmable logic controller
+
+751
+00:34:51,679 --> 00:34:54,960
+and it is often used in the
+
+752
+00:34:54,960 --> 00:34:59,200
+heavy industry heavy automation industry
+
+753
+00:35:00,000 --> 00:35:02,400
+we can say that any computer which is
+
+754
+00:35:02,400 --> 00:35:03,359
+having the
+
+755
+00:35:03,359 --> 00:35:06,960
+input output interface which can be used
+
+756
+00:35:06,960 --> 00:35:07,440
+to
+
+757
+00:35:07,440 --> 00:35:10,880
+communicate with the external devices
+
+758
+00:35:10,880 --> 00:35:12,480
+it's nothing but a programmable logic
+
+759
+00:35:12,480 --> 00:35:15,280
+controller but what is the difference of
+
+760
+00:35:15,280 --> 00:35:18,880
+a typical plc with
+
+761
+00:35:18,880 --> 00:35:22,640
+the micro controller or micro computer
+
+762
+00:35:22,640 --> 00:35:24,160
+is that
+
+763
+00:35:24,160 --> 00:35:26,640
+the computers or controllers are not
+
+764
+00:35:26,640 --> 00:35:27,599
+industrially
+
+765
+00:35:27,599 --> 00:35:30,880
+hardened they are not designed
+
+766
+00:35:30,880 --> 00:35:34,560
+to sustain in the harsh conditions
+
+767
+00:35:34,560 --> 00:35:38,160
+in the industry harsh conditions may be
+
+768
+00:35:38,160 --> 00:35:40,560
+very high currents high voltages
+
+769
+00:35:40,560 --> 00:35:42,880
+high temperature high humidity high
+
+770
+00:35:42,880 --> 00:35:43,680
+noise
+
+771
+00:35:43,680 --> 00:35:46,720
+vibrations so micro computers
+
+772
+00:35:46,720 --> 00:35:49,760
+may not sustain this harsh environment
+
+773
+00:35:49,760 --> 00:35:53,680
+so when we are designing spatial
+
+774
+00:35:53,680 --> 00:35:56,240
+microprocessor based device which will
+
+775
+00:35:56,240 --> 00:35:56,880
+sustain
+
+776
+00:35:56,880 --> 00:35:59,119
+all these harsh conditions that is
+
+777
+00:35:59,119 --> 00:36:01,119
+nothing but the programmable logic
+
+778
+00:36:01,119 --> 00:36:03,599
+controller
+
+779
+00:36:03,599 --> 00:36:07,599
+the plcs have electrically isolation
+
+780
+00:36:07,599 --> 00:36:10,720
+circuitry so we have seen one very
+
+781
+00:36:10,720 --> 00:36:11,680
+important
+
+782
+00:36:11,680 --> 00:36:14,160
+isolation circuitry that is a optical
+
+783
+00:36:14,160 --> 00:36:15,920
+isolators of toy
+
+784
+00:36:15,920 --> 00:36:18,560
+isolators
+
+785
+00:36:19,200 --> 00:36:21,520
+so these type of isolation circuitries
+
+786
+00:36:21,520 --> 00:36:23,280
+are
+
+787
+00:36:23,280 --> 00:36:27,040
+integrated in the plc to safeguard the
+
+788
+00:36:27,040 --> 00:36:30,000
+the circuitry of the plc from the
+
+789
+00:36:30,000 --> 00:36:32,160
+harmful signals
+
+790
+00:36:32,160 --> 00:36:34,800
+a typical definition of the plc can be
+
+791
+00:36:34,800 --> 00:36:36,960
+seen on your screen
+
+792
+00:36:36,960 --> 00:36:41,359
+it is a digital electronic device
+
+793
+00:36:41,359 --> 00:36:46,079
+it uses the programmable memory
+
+794
+00:36:46,240 --> 00:36:48,880
+to store the instructions and to
+
+795
+00:36:48,880 --> 00:36:50,560
+implement the functions such as
+
+796
+00:36:50,560 --> 00:36:55,599
+logic sequencing timing counting
+
+797
+00:36:55,599 --> 00:36:58,240
+and arithmetic words to control the
+
+798
+00:36:58,240 --> 00:36:59,200
+machines
+
+799
+00:36:59,200 --> 00:37:02,480
+and processes so i want i would like to
+
+800
+00:37:02,480 --> 00:37:04,480
+emphasize here that
+
+801
+00:37:04,480 --> 00:37:07,280
+these are very general these these
+
+802
+00:37:07,280 --> 00:37:07,839
+functions
+
+803
+00:37:07,839 --> 00:37:09,760
+are very general they are there in the
+
+804
+00:37:09,760 --> 00:37:11,200
+microprocessor
+
+805
+00:37:11,200 --> 00:37:14,240
+in microcomputer and in microcontroller
+
+806
+00:37:14,240 --> 00:37:15,359
+as well
+
+807
+00:37:15,359 --> 00:37:19,359
+but when we use these technology
+
+808
+00:37:19,359 --> 00:37:23,040
+especially to control the machines
+
+809
+00:37:23,040 --> 00:37:26,160
+and the processes then we then we
+
+810
+00:37:26,160 --> 00:37:28,960
+we are calling that device as the
+
+811
+00:37:28,960 --> 00:37:32,160
+programmable logic controller
+
+812
+00:37:32,160 --> 00:37:34,960
+a schematic of the arrangement of
+
+813
+00:37:34,960 --> 00:37:36,320
+various elements
+
+814
+00:37:36,320 --> 00:37:41,040
+of plc can be seen on your screen
+
+815
+00:37:41,280 --> 00:37:44,640
+here you can notice that
+
+816
+00:37:44,640 --> 00:37:48,480
+the plc has all the typical elements
+
+817
+00:37:48,480 --> 00:37:50,960
+which are there in a micro computer it
+
+818
+00:37:50,960 --> 00:37:51,520
+has
+
+819
+00:37:51,520 --> 00:37:55,760
+microprocessor communication
+
+820
+00:37:55,760 --> 00:37:58,800
+ports communication paths that is a
+
+821
+00:37:58,800 --> 00:37:59,760
+buses
+
+822
+00:37:59,760 --> 00:38:03,440
+memory but
+
+823
+00:38:03,440 --> 00:38:07,359
+you just notice that the plc's has
+
+824
+00:38:07,359 --> 00:38:10,400
+a power supply that is supporting the
+
+825
+00:38:10,400 --> 00:38:11,119
+memory
+
+826
+00:38:11,119 --> 00:38:13,839
+that is assisting the memory and that is
+
+827
+00:38:13,839 --> 00:38:14,240
+also
+
+828
+00:38:14,240 --> 00:38:17,440
+assisting the microprocessor it has
+
+829
+00:38:17,440 --> 00:38:20,000
+inbuilt power supply which is helping
+
+830
+00:38:20,000 --> 00:38:24,160
+the memory and microprocessor to survive
+
+831
+00:38:24,960 --> 00:38:29,119
+the plc's have the input output circuits
+
+832
+00:38:29,119 --> 00:38:32,240
+and dedicated input and industrially
+
+833
+00:38:32,240 --> 00:38:32,960
+hardened
+
+834
+00:38:32,960 --> 00:38:36,000
+output interfaces
+
+835
+00:38:36,000 --> 00:38:40,400
+so that the circuitry of the plc will be
+
+836
+00:38:40,400 --> 00:38:44,079
+safeguarded little more
+
+837
+00:38:44,079 --> 00:38:46,800
+details about the plc's can be seen on
+
+838
+00:38:46,800 --> 00:38:48,400
+your screen
+
+839
+00:38:48,400 --> 00:38:52,720
+see it has all the elements
+
+840
+00:38:52,720 --> 00:38:55,920
+of a typical microprocessor based system
+
+841
+00:38:55,920 --> 00:38:59,520
+that is cpu the clock
+
+842
+00:38:59,520 --> 00:39:01,520
+which is controlling the operations of
+
+843
+00:39:01,520 --> 00:39:03,280
+the cpu
+
+844
+00:39:03,280 --> 00:39:05,680
+the memory elements such as the
+
+845
+00:39:05,680 --> 00:39:07,839
+read-only memory
+
+846
+00:39:07,839 --> 00:39:12,160
+random access memory input output units
+
+847
+00:39:12,160 --> 00:39:15,520
+various buses input
+
+848
+00:39:15,520 --> 00:39:18,400
+system address bus system and the
+
+849
+00:39:18,400 --> 00:39:21,280
+control bus system
+
+850
+00:39:21,280 --> 00:39:24,640
+but as i mentioned it has the battery
+
+851
+00:39:24,640 --> 00:39:27,680
+which is supporting the memory the user
+
+852
+00:39:27,680 --> 00:39:28,079
+program
+
+853
+00:39:28,079 --> 00:39:30,720
+memory here
+
+854
+00:39:32,240 --> 00:39:34,720
+and the important thing is that we are
+
+855
+00:39:34,720 --> 00:39:35,440
+using
+
+856
+00:39:35,440 --> 00:39:38,640
+opto isolators in the plc system
+
+857
+00:39:38,640 --> 00:39:42,320
+opto isolators are protecting the plc
+
+858
+00:39:42,320 --> 00:39:44,079
+from very harsh
+
+859
+00:39:44,079 --> 00:39:47,440
+signals so the input output system
+
+860
+00:39:47,440 --> 00:39:50,480
+is having a buffer and the buffer is
+
+861
+00:39:50,480 --> 00:39:52,560
+attached to the opto isolator system
+
+862
+00:39:52,560 --> 00:39:56,160
+if the signals are in acceptable range
+
+863
+00:39:56,160 --> 00:39:58,400
+they will be buffered in a buffer
+
+864
+00:39:58,400 --> 00:39:59,359
+register
+
+865
+00:39:59,359 --> 00:40:02,640
+and then the through input output system
+
+866
+00:40:02,640 --> 00:40:03,040
+bus
+
+867
+00:40:03,040 --> 00:40:04,800
+it will be communicated inside the
+
+868
+00:40:04,800 --> 00:40:07,119
+circuitry
+
+869
+00:40:07,119 --> 00:40:11,520
+a typical plc can be seen
+
+870
+00:40:11,520 --> 00:40:13,599
+a photograph of a typical plc can be
+
+871
+00:40:13,599 --> 00:40:14,880
+seen on your screen
+
+872
+00:40:14,880 --> 00:40:18,560
+so it has the output
+
+873
+00:40:18,560 --> 00:40:22,720
+relay and input relay output
+
+874
+00:40:22,720 --> 00:40:27,440
+output terminals and input terminals
+
+875
+00:40:30,640 --> 00:40:34,079
+few more pictures of the plcs can be
+
+876
+00:40:34,079 --> 00:40:36,079
+seen on your screen
+
+877
+00:40:36,079 --> 00:40:41,599
+so this is the mitsubishi fx 1s 20 mr
+
+878
+00:40:41,599 --> 00:40:43,520
+you you can see the construction of the
+
+879
+00:40:43,520 --> 00:40:46,560
+plc is very rugged very robust
+
+880
+00:40:46,560 --> 00:40:50,880
+only that the interfaces are open to the
+
+881
+00:40:50,880 --> 00:40:54,079
+external world and the construction is
+
+882
+00:40:54,079 --> 00:40:57,680
+very compact very strong
+
+883
+00:40:57,839 --> 00:41:00,240
+we can collapse together many plcs and
+
+884
+00:41:00,240 --> 00:41:01,680
+they can be stored
+
+885
+00:41:01,680 --> 00:41:04,640
+in a in a rack on your screen you can
+
+886
+00:41:04,640 --> 00:41:05,200
+see
+
+887
+00:41:05,200 --> 00:41:09,760
+a rack with multiple number of plc's are
+
+888
+00:41:09,760 --> 00:41:13,680
+stored they are stationed
+
+889
+00:41:16,000 --> 00:41:17,839
+so let us summarize the basic functions
+
+890
+00:41:17,839 --> 00:41:20,400
+of the plcs
+
+891
+00:41:20,400 --> 00:41:23,520
+the plc is scanning a set of sensor
+
+892
+00:41:23,520 --> 00:41:24,480
+inputs
+
+893
+00:41:24,480 --> 00:41:27,839
+very rapidly and repetitively
+
+894
+00:41:27,839 --> 00:41:30,240
+so they are getting the inputs at a very
+
+895
+00:41:30,240 --> 00:41:30,880
+fast
+
+896
+00:41:30,880 --> 00:41:35,359
+rate and then they evaluate
+
+897
+00:41:35,359 --> 00:41:38,960
+that sensor input they carry out
+
+898
+00:41:38,960 --> 00:41:41,839
+the logic operations on that and
+
+899
+00:41:41,839 --> 00:41:42,880
+according to
+
+900
+00:41:42,880 --> 00:41:45,520
+the program written they are generating
+
+901
+00:41:45,520 --> 00:41:49,839
+the output
+
+902
+00:41:50,960 --> 00:41:53,520
+so where the plc's are being used plcs
+
+903
+00:41:53,520 --> 00:41:54,960
+are used in
+
+904
+00:41:54,960 --> 00:41:57,040
+automation in open loop it is a
+
+905
+00:41:57,040 --> 00:41:58,640
+sequential manner
+
+906
+00:41:58,640 --> 00:42:01,680
+they are also used in the assembly lines
+
+907
+00:42:01,680 --> 00:42:05,839
+in the industry the plc's has
+
+908
+00:42:05,839 --> 00:42:08,319
+multiple inputs and they do have the
+
+909
+00:42:08,319 --> 00:42:10,160
+multiple outputs
+
+910
+00:42:10,160 --> 00:42:13,200
+so the same plc can be connected to many
+
+911
+00:42:13,200 --> 00:42:14,319
+equipment
+
+912
+00:42:14,319 --> 00:42:16,880
+with multiple inputs can be taken in
+
+913
+00:42:16,880 --> 00:42:17,520
+inside
+
+914
+00:42:17,520 --> 00:42:20,240
+and the output can be given to the the
+
+915
+00:42:20,240 --> 00:42:21,440
+actuators
+
+916
+00:42:21,440 --> 00:42:24,880
+or the actuation devices
+
+917
+00:42:25,040 --> 00:42:28,960
+what are the various advantages of plcs
+
+918
+00:42:28,960 --> 00:42:32,240
+the plc is a very cost effective
+
+919
+00:42:32,240 --> 00:42:36,000
+it is a flexible and it has ability to
+
+920
+00:42:36,000 --> 00:42:40,319
+use similar system for other processes
+
+921
+00:42:40,319 --> 00:42:43,440
+the plc is not a very dedicated or a
+
+922
+00:42:43,440 --> 00:42:45,200
+special purpose device it is
+
+923
+00:42:45,200 --> 00:42:48,319
+general purpose device so as i mentioned
+
+924
+00:42:48,319 --> 00:42:50,000
+it is having multiple inputs and
+
+925
+00:42:50,000 --> 00:42:51,440
+multiple output
+
+926
+00:42:51,440 --> 00:42:54,720
+the same plc device can be utilized for
+
+927
+00:42:54,720 --> 00:42:57,040
+the other processes provided you have to
+
+928
+00:42:57,040 --> 00:42:59,920
+program it accordingly
+
+929
+00:42:59,920 --> 00:43:03,040
+it has capability to resist the impact
+
+930
+00:43:03,040 --> 00:43:05,119
+and vibrations
+
+931
+00:43:05,119 --> 00:43:08,400
+it has very good resistance towards
+
+932
+00:43:08,400 --> 00:43:11,520
+electrical and mechanical noise and it
+
+933
+00:43:11,520 --> 00:43:12,480
+can be
+
+934
+00:43:12,480 --> 00:43:15,440
+used in very high temperature so that's
+
+935
+00:43:15,440 --> 00:43:17,040
+why they are very popular
+
+936
+00:43:17,040 --> 00:43:19,520
+very important in the automation
+
+937
+00:43:19,520 --> 00:43:20,800
+industry
+
+938
+00:43:20,800 --> 00:43:24,319
+well with with this i would like to
+
+939
+00:43:24,319 --> 00:43:25,920
+stop for the introduction to
+
+940
+00:43:25,920 --> 00:43:29,440
+microprocessor technology
+
+941
+00:43:29,520 --> 00:43:32,560
+fine let us summarize uh this lecture
+
+942
+00:43:32,560 --> 00:43:33,280
+four
+
+943
+00:43:33,280 --> 00:43:36,480
+friends we have seen the important
+
+944
+00:43:36,480 --> 00:43:37,280
+building block
+
+945
+00:43:37,280 --> 00:43:40,160
+of a typical or mechatronics based
+
+946
+00:43:40,160 --> 00:43:41,520
+automated system
+
+947
+00:43:41,520 --> 00:43:44,880
+that is microprocessor we have seen its
+
+948
+00:43:44,880 --> 00:43:46,079
+importance
+
+949
+00:43:46,079 --> 00:43:48,560
+the microprocessor is the brain of the
+
+950
+00:43:48,560 --> 00:43:50,640
+automatic system
+
+951
+00:43:50,640 --> 00:43:53,520
+we studied the architecture of a
+
+952
+00:43:53,520 --> 00:43:55,359
+microprocessor
+
+953
+00:43:55,359 --> 00:43:58,720
+we have seen its elements
+
+954
+00:43:58,720 --> 00:44:02,160
+various modules the operations of
+
+955
+00:44:02,160 --> 00:44:06,839
+these modules and elements have been
+
+956
+00:44:06,839 --> 00:44:09,440
+studied
+
+957
+00:44:09,440 --> 00:44:11,920
+after that we learned about the
+
+958
+00:44:11,920 --> 00:44:14,720
+microcontroller
+
+959
+00:44:14,720 --> 00:44:17,680
+the microcontroller its definition and
+
+960
+00:44:17,680 --> 00:44:18,160
+its
+
+961
+00:44:18,160 --> 00:44:20,839
+its difference with the concept of the
+
+962
+00:44:20,839 --> 00:44:22,960
+microprocessor
+
+963
+00:44:22,960 --> 00:44:26,079
+then we have also seen the
+
+964
+00:44:26,079 --> 00:44:27,440
+microcomputers
+
+965
+00:44:27,440 --> 00:44:31,280
+its meaning and finally we studied
+
+966
+00:44:31,280 --> 00:44:34,400
+the plcs that is programmable logic
+
+967
+00:44:34,400 --> 00:44:35,599
+controllers
+
+968
+00:44:35,599 --> 00:44:38,880
+its elements configuration and operation
+
+969
+00:44:38,880 --> 00:44:42,960
+in lecture 5 of week 5
+
+970
+00:44:42,960 --> 00:44:45,440
+we will go ahead with programming
+
+971
+00:44:45,440 --> 00:44:46,319
+languages
+
+972
+00:44:46,319 --> 00:44:48,839
+which are used in designing of
+
+973
+00:44:48,839 --> 00:44:50,400
+microprocessors
+
+974
+00:44:50,400 --> 00:44:52,720
+we will have an introduction to the
+
+975
+00:44:52,720 --> 00:44:55,839
+programming languages
+
+976
+00:44:55,839 --> 00:44:58,640
+the number system what is the meaning of
+
+977
+00:44:58,640 --> 00:45:00,720
+low level programming language
+
+978
+00:45:00,720 --> 00:45:03,680
+what is the meaning of assembly language
+
+979
+00:45:03,680 --> 00:45:04,720
+and
+
+980
+00:45:04,720 --> 00:45:07,839
+in association with that we will have an
+
+981
+00:45:07,839 --> 00:45:09,040
+example we will
+
+982
+00:45:09,040 --> 00:45:12,480
+have a case study till then good bye
+
+983
+00:45:12,480 --> 00:45:19,680
+thank you
+
+984
+00:45:19,680 --> 00:45:36,640
+[Music]
+
+985
+00:45:36,640 --> 00:45:38,720
+you
+

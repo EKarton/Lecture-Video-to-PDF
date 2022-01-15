@@ -1,6 +1,6 @@
 import webvtt
 from subtitle_part import SubtitlePart
-from time_utils import convert_clock_time_to_timestamp_ms, convert_timestamp_ms_to_clock_time
+from time_utils import convert_clock_time_to_timestamp_ms
 
 class SubtitleWebVTTParser:
     """Parses the subtitles and its parts from a .vtt file
@@ -28,6 +28,9 @@ class SubtitleWebVTTParser:
             start_time = convert_clock_time_to_timestamp_ms(caption.start)
             end_time = convert_clock_time_to_timestamp_ms(caption.end)
             clean_text = self.__filter_text__(caption.text)
+
+            if len(clean_text) == 0:
+                continue
 
             parts.append(SubtitlePart(start_time, end_time, clean_text))
 
