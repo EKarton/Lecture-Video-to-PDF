@@ -28,6 +28,10 @@ class SubtitleSRTParser:
                 start_time = self.__convert_timedelta_to_ms__(sub.start)
                 end_time = self.__convert_timedelta_to_ms__(sub.end)
                 clean_text = self.__filter_text__(sub.content)
+
+                if len(clean_text) == 0:
+                    continue
+
                 parts.append(SubtitlePart(start_time, end_time, clean_text))
 
         # Extend certain subtitle times to fill in gaps

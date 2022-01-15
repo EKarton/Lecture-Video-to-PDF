@@ -38,8 +38,18 @@ class SubtitleSegmentFinder:
         """
         part_positions = []
 
-        for time_break in video_segment_end_times:
-            pos = self.__get_part_position_of_time_break__(time_break)
+        for i in range(len(video_segment_end_times)):
+            time_break = video_segment_end_times[i]
+
+            prev_time_break = 0
+            if i > 0:
+                prev_time_break = video_segment_end_times[i - 1]
+
+            next_time_break = float('inf')
+            if i < len(video_segment_end_times) - 1:
+                next_time_break =  video_segment_end_times[i + 1]
+
+            pos = self.__get_part_position_of_time_break__(time_break, prev_time_break, next_time_break)
             part_positions.append(pos)
 
         start_pos = (0, 0)
@@ -71,8 +81,16 @@ class SubtitleSegmentFinder:
 
         return segments
 
-    def __get_part_position_of_time_break__(self, time_break):
+    def __get_part_position_of_time_break__(self, time_break, min_time_break, max_time_break):
+        min_part_idx = self.__find_part__(min_time_break)
+        max_part_idx = self.__find_part__(max_time_break)
         part_index = self.__find_part__(time_break)
+
+        if min_part_idx is None:
+            min_part_idx = 0
+
+        if max_part_idx is None:
+            max_part_idx = len(self.parts)
 
         # If the page_break_time > last fragment's time, then that page needs to capture the entire thing
         if time_break >= self.parts[-1].end_time:
@@ -93,7 +111,7 @@ class SubtitleSegmentFinder:
         right_part_index = part_index
         right_part_char_index = part_char_index
 
-        while left_part_index >= 0 and right_part_index < len(self.parts):
+        while left_part_index >= min_part_idx and right_part_index < max_part_idx:
             if self.parts[left_part_index].text[left_part_char_index] == ".":
                 return left_part_index, left_part_char_index
 
@@ -111,7 +129,7 @@ class SubtitleSegmentFinder:
                 right_part_index += 1
                 right_part_char_index = 0
 
-        while left_part_index >= 0:
+        while left_part_index >= min_part_idx:
             if self.parts[left_part_index].text[left_part_char_index] == ".":
                 return left_part_index, left_part_char_index
 
@@ -121,7 +139,7 @@ class SubtitleSegmentFinder:
                 left_part_index -= 1
                 left_part_char_index = len(self.parts[left_part_index].text) - 1
 
-        while right_part_index < len(self.parts):
+        while right_part_index < max_part_idx:
             if self.parts[right_part_index].text[right_part_char_index] == ".":
                 return right_part_index, right_part_char_index
 
