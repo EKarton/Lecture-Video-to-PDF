@@ -1,18 +1,16 @@
-import sys
-
-sys.path.append("../src")
-
 import unittest
 import snapshottest
-from time_utils import convert_clock_time_to_timestamp_ms as get_timestamp
-from subtitle_segment_finder import SubtitleSegmentFinder
-from subtitle_part import SubtitlePart
-from subtitle_webvtt_parser import SubtitleWebVTTParser
-from subtitle_srt_parser import SubtitleSRTParser
+from src.time_utils import convert_clock_time_to_timestamp_ms as get_timestamp
+from src.subtitle_segment_finder import SubtitleSegmentFinder
+from src.subtitle_part import SubtitlePart
+from src.subtitle_webvtt_parser import SubtitleWebVTTParser
+from src.subtitle_srt_parser import SubtitleSRTParser
 
 
 class SubtitleSplitterTests(snapshottest.TestCase):
-    def test_get_pages_given_subtitle_without_periods_and_future_timestamp_should_return_correct_pages(self):
+    def test_get_pages_given_subtitle_without_periods_and_future_timestamp_should_return_correct_pages(
+        self,
+    ):
         segments = [
             SubtitlePart(
                 get_timestamp("00:00:00"),
@@ -21,12 +19,14 @@ class SubtitleSplitterTests(snapshottest.TestCase):
             )
         ]
         pager = SubtitleSegmentFinder(segments)
-        time_breaks = [ get_timestamp('00:00:14') ]
+        time_breaks = [get_timestamp("00:00:14")]
         transcript_pages = pager.get_subtitle_segments(time_breaks)
 
-        self.assertEqual(transcript_pages[0], 'hi there my name is Bob')
+        self.assertEqual(transcript_pages[0], "hi there my name is Bob")
 
-    def test_get_pages_given_subtitle_without_periods_and_middle_timestamp_should_return_correct_pages(self):
+    def test_get_pages_given_subtitle_without_periods_and_middle_timestamp_should_return_correct_pages(
+        self,
+    ):
         segments = [
             SubtitlePart(
                 get_timestamp("00:00:00"),
@@ -35,12 +35,14 @@ class SubtitleSplitterTests(snapshottest.TestCase):
             )
         ]
         pager = SubtitleSegmentFinder(segments)
-        time_breaks = [ get_timestamp('00:00:05') ]
+        time_breaks = [get_timestamp("00:00:05")]
         transcript_pages = pager.get_subtitle_segments(time_breaks)
 
-        self.assertEqual(transcript_pages[0], 'hi there my')
+        self.assertEqual(transcript_pages[0], "hi there my")
 
-    def test_get_pages_given_subtitle_without_periods_and_past_timestamp_should_return_correct_pages(self):
+    def test_get_pages_given_subtitle_without_periods_and_past_timestamp_should_return_correct_pages(
+        self,
+    ):
         segments = [
             SubtitlePart(
                 get_timestamp("00:00:10"),
@@ -49,10 +51,10 @@ class SubtitleSplitterTests(snapshottest.TestCase):
             )
         ]
         pager = SubtitleSegmentFinder(segments)
-        time_breaks = [ get_timestamp('00:00:05') ]
+        time_breaks = [get_timestamp("00:00:05")]
         transcript_pages = pager.get_subtitle_segments(time_breaks)
 
-        self.assertEqual(transcript_pages[0], '')
+        self.assertEqual(transcript_pages[0], "")
 
     def test_get_pages_given_subtitle_with_period_should_return_correct_pages(self):
         segments = [
@@ -63,11 +65,13 @@ class SubtitleSplitterTests(snapshottest.TestCase):
             )
         ]
         pager = SubtitleSegmentFinder(segments)
-        time_breaks = [ get_timestamp('00:00:05') ]
+        time_breaks = [get_timestamp("00:00:05")]
         transcript_pages = pager.get_subtitle_segments(time_breaks)
-        self.assertEqual(transcript_pages[0], 'Hi.')
+        self.assertEqual(transcript_pages[0], "Hi.")
 
-    def test_get_pages_given_multiple_subtitle_segments_should_return_correct_pages(self):
+    def test_get_pages_given_multiple_subtitle_segments_should_return_correct_pages(
+        self,
+    ):
         segments = [
             SubtitlePart(
                 get_timestamp("00:00:00"),
@@ -78,16 +82,18 @@ class SubtitleSplitterTests(snapshottest.TestCase):
                 get_timestamp("00:00:10"),
                 get_timestamp("00:00:20"),
                 "and his name is Alice. Today, we are",
-            )
+            ),
         ]
         pager = SubtitleSegmentFinder(segments)
-        time_breaks = [ get_timestamp('00:00:02'), get_timestamp('00:00:15') ]
+        time_breaks = [get_timestamp("00:00:02"), get_timestamp("00:00:15")]
         transcript_pages = pager.get_subtitle_segments(time_breaks)
 
-        self.assertEqual(transcript_pages[0], 'Hi.')
-        self.assertEqual(transcript_pages[1], 'My name is Bob and his name is Alice.')
+        self.assertEqual(transcript_pages[0], "Hi.")
+        self.assertEqual(transcript_pages[1], "My name is Bob and his name is Alice.")
 
-    def test_get_pages_given_multiple_subtitle_segments_when_selecting_subtitle_at_break_should_return_correct_pages(self):
+    def test_get_pages_given_multiple_subtitle_segments_when_selecting_subtitle_at_break_should_return_correct_pages(
+        self,
+    ):
         segments = [
             SubtitlePart(
                 get_timestamp("00:00:00"),
@@ -98,19 +104,21 @@ class SubtitleSplitterTests(snapshottest.TestCase):
                 get_timestamp("00:00:10"),
                 get_timestamp("00:00:20"),
                 "and his name is Alice. Today, we are",
-            )
+            ),
         ]
         pager = SubtitleSegmentFinder(segments)
-        time_breaks = [ get_timestamp('00:00:10'), get_timestamp("00:00:20") ]
+        time_breaks = [get_timestamp("00:00:10"), get_timestamp("00:00:20")]
         transcript_pages = pager.get_subtitle_segments(time_breaks)
-        
+
         self.assertEqual(len(transcript_pages), 2)
-        self.assertEqual(transcript_pages[0], 'Hi.')
-        self.assertEqual(transcript_pages[1], 'My name is Bob and his name is Alice. Today, we are')
+        self.assertEqual(transcript_pages[0], "Hi.")
+        self.assertEqual(
+            transcript_pages[1], "My name is Bob and his name is Alice. Today, we are"
+        )
 
     def test_get_pages_given_subtitle_1_should_return_correct_pages(self):
         segments = SubtitleWebVTTParser(
-            "../tests/subtitles/subtitles_1.vtt"
+            "tests/subtitles/subtitles_1.vtt"
         ).get_subtitle_parts()
         pager = SubtitleSegmentFinder(segments)
 
@@ -129,7 +137,9 @@ class SubtitleSplitterTests(snapshottest.TestCase):
         self.assertMatchSnapshot(transcript_pages)
 
     def test_get_pages_given_subtitle_8_should_return_correct_pages(self):
-        segments = SubtitleSRTParser("../tests/subtitles/subtitles_8.srt").get_subtitle_parts()
+        segments = SubtitleSRTParser(
+            "tests/subtitles/subtitles_8.srt"
+        ).get_subtitle_parts()
         pager = SubtitleSegmentFinder(segments)
 
         breaks = [
@@ -177,15 +187,12 @@ class SubtitleSplitterTests(snapshottest.TestCase):
                 get_timestamp("00:00:10"),
                 get_timestamp("00:00:20"),
                 "and his name is Alice Today, we are",
-            )
+            ),
         ]
         pager = SubtitleSegmentFinder(segments)
-        time_breaks = [ get_timestamp('00:00:08'), get_timestamp("00:00:20") ]
+        time_breaks = [get_timestamp("00:00:08"), get_timestamp("00:00:20")]
         transcript_pages = pager.get_subtitle_segments(time_breaks)
-        
-        self.assertEqual(len(transcript_pages), 2)
-        self.assertEqual(transcript_pages[0], 'Hi my name is')
-        self.assertEqual(transcript_pages[1], 'Bob and his name is Alice Today, we are')
 
-if __name__ == "__main__":
-    unittest.main()
+        self.assertEqual(len(transcript_pages), 2)
+        self.assertEqual(transcript_pages[0], "Hi my name is")
+        self.assertEqual(transcript_pages[1], "Bob and his name is Alice Today, we are")

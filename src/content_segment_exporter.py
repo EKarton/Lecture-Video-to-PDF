@@ -1,12 +1,11 @@
 import os
-import shutil
-
 import cv2
 from fpdf import FPDF
+import tempfile
 
-from subtitle_webvtt_parser import SubtitleWebVTTParser
-from subtitle_segment_finder import SubtitleSegmentFinder
-from video_segment_finder import VideoSegmentFinder
+from .subtitle_webvtt_parser import SubtitleWebVTTParser
+from .subtitle_segment_finder import SubtitleSegmentFinder
+from .video_segment_finder import VideoSegmentFinder
 
 
 class ContentSegment:
@@ -27,7 +26,7 @@ class ContentSegment:
 
 
 class ContentSegmentPdfBuilder:
-    """ This class creates a PDF from a lecture segment """
+    """This class creates a PDF from a lecture segment"""
 
     def generate_pdf(self, pages, output_filepath):
         """Generates and saves a PDF from an ordered list of lecture segments
@@ -39,37 +38,26 @@ class ContentSegmentPdfBuilder:
         output_filepath: str
             The filepath for the output pdf
         """
-        self.__prepare_tmp_folder__()
-        pdf = FPDF()
-        pdf.add_font('DejaVu', '', 'fonts/DejaVuSansCondensed.ttf', uni=True)
+        with tempfile.TemporaryDirectory() as temp_dir_path:
+            pdf = FPDF()
+            pdf.add_font("DejaVu", "", "fonts/DejaVuSansCondensed.ttf", uni=True)
 
-        for i in range(0, len(pages)):
-            # Temporarily save the frames
-            cv2.imwrite("./tmp/{}_frame.jpeg".format(i), pages[i].image)
+            for i in range(0, len(pages)):
+                # Temporarily save the frames
+                temp_filepath = os.path.join(temp_dir_path, f"{i}_frame.jpeg")
+                cv2.imwrite(temp_filepath, pages[i].image)
 
-            pdf.add_page()
+                pdf.add_page()
 
-            # Add the image
-            pdf.image("./tmp/{}_frame.jpeg".format(i), w=195)
+                # Add the image
+                pdf.image(temp_filepath, w=195)
 
-            # Add the captions
-            pdf.set_font("DejaVu", "", 12)
-            pdf.multi_cell(0, 10, pages[i].text)
+                # Add the captions if exist
+                if pages[i].text is not None:
+                    pdf.set_font("DejaVu", "", 12)
+                    pdf.multi_cell(0, 10, pages[i].text)
 
-        pdf.output(output_filepath, "F")
-
-    def __prepare_tmp_folder__(self):
-        if os.path.exists("./tmp"):
-
-            # Delete all the contents in the tmp folder
-            for filename in os.listdir("./tmp"):
-                file_path = os.path.join("./tmp", filename)
-                if os.path.isfile(file_path) or os.path.islink(file_path):
-                    os.unlink(file_path)
-                elif os.path.isdir(file_path):
-                    shutil.rmtree(file_path)
-        else:
-            os.mkdir("./tmp")
+            pdf.output(output_filepath, "F")
 
 
 if __name__ == "__main__":

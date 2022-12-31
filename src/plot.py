@@ -1,12 +1,8 @@
-import sys
-
-sys.path.append("src")
-
 import glob
 import os
-from video_segment_finder import VideoSegmentFinder
 import matplotlib.pyplot as plt
 import cv2
+from .video_segment_finder import VideoSegmentFinder
 
 
 def plot_timestamps_vs_pixel_change(stats):
