@@ -1,0 +1,73 @@
+##################################################################
+# A Github action used to check pull requests
+# More info at https://docs.github.com/en/actions/learn-github-actions/workflow-syntax-for-github-actions
+##################################################################
+
+name: Check the pull request automatically
+on:
+  push:
+    branches: [main]
+  pull_request:
+    branches: [main]
+
+jobs:
+  run-tests:
+    name: Runs all tests
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout branch
+        uses: actions/checkout@v2
+
+      - name: Setup Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: "3.9"
+
+      - name: Cache dependencies
+        uses: actions/cache@v3.0.11
+        with:
+          path: "**/node_modules"
+          key: ${{ runner.os }}-build-${{ env.cache-name }}-${{ hashFiles('**/requirements.txt') }}
+
+      - name: Install dependencies
+        run: |
+          sudo apt install ghostscript
+          sudo apt install imagemagick
+          sudo apt install graphicsmagick
+          sudo apt install pdftk
+
+          # Remove the policy to allow pdf generation
+          sudo rm /etc/ImageMagick-6/policy.xml
+
+          python -m pip install --upgrade pip
+          pip install -r requirements.txt
+
+      - name: Run all test cases
+        run: |
+          python3 -m unittest discover
+
+  run-app:
+    name: Run the app
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout branch
+        uses: actions/checkout@v2
+
+      - name: Setup Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: "3.9"
+
+      - name: Cache dependencies
+        uses: actions/cache@v3.0.11
+        with:
+          path: "**/node_modules"
+          key: ${{ runner.os }}-build-${{ env.cache-name }}-${{ hashFiles('**/requirements.txt') }}
+
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install -r requirements.txt
+
+      - name: Run the app with sample input
+        run: python3 -m src.main tests/videos/input_1.mp4 -s tests/subtitles/subtitles_1.vtt -o output.pdf
