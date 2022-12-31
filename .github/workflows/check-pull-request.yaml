@@ -31,14 +31,18 @@ jobs:
 
       - name: Install dependencies
         run: |
+          sudo apt install ghostscript
           sudo apt install imagemagick
           sudo apt install graphicsmagick
           sudo apt install pdftk
-          python -m pip install --upgrade pip
-          pip install -r requirements.txt
+          ls /etc | grep 'ImageMagick'
+          # python -m pip install --upgrade pip
+          # pip install -r requirements.txt
 
       - name: Run all test cases
-        run: python3 -m unittest discover
+        run: |
+          echo "Hi"
+          python3 -m unittest discover
 
   run-app:
     name: Run the app
