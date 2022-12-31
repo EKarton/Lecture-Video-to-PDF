@@ -1,0 +1,60 @@
+##################################################################
+# A Github action used to check pull requests
+# More info at https://docs.github.com/en/actions/learn-github-actions/workflow-syntax-for-github-actions
+##################################################################
+
+name: Check the pull request automatically
+on:
+  push:
+    branches: [main]
+  pull_request:
+    branches: [main]
+
+jobs:
+  run-tests:
+    name: Runs all tests
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout branch
+        uses: actions/checkout@v2
+
+      - name: Setup Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: "3.10"
+
+      - name: Cache dependencies
+        uses: actions/cache@v3.0.11
+        with:
+          path: "**/node_modules"
+          key: ${{ runner.os }}-build-${{ env.cache-name }}-${{ hashFiles('**/requirements.txt') }}
+
+      - name: Install dependencies
+        run: pip3 install -r requirements.txt
+
+      - name: Run all test cases
+        run: python3 -m unittest discover
+
+  run-app:
+    name: Run the app
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout branch
+        uses: actions/checkout@v2
+
+      - name: Setup Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: "3.10"
+
+      - name: Cache dependencies
+        uses: actions/cache@v3.0.11
+        with:
+          path: "**/node_modules"
+          key: ${{ runner.os }}-build-${{ env.cache-name }}-${{ hashFiles('**/requirements.txt') }}
+
+      - name: Install dependencies
+        run: pip3 install -r requirements.txt
+
+      - name: Run the app with sample input
+        run: python3 -m src.main tests/videos/input_1.mp4 -s tests/subtitles/subtitles_1.vtt -o output.pdf
