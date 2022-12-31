@@ -35,13 +35,15 @@ jobs:
           sudo apt install imagemagick
           sudo apt install graphicsmagick
           sudo apt install pdftk
-          ls /etc | grep 'ImageMagick'
-          # python -m pip install --upgrade pip
-          # pip install -r requirements.txt
+
+          # Remove the policy to allow pdf generation
+          sudo rm /etc/ImageMagick-6/policy.xml
+
+          python -m pip install --upgrade pip
+          pip install -r requirements.txt
 
       - name: Run all test cases
         run: |
-          echo "Hi"
           python3 -m unittest discover
 
   run-app:
