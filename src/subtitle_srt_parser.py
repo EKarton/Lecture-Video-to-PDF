@@ -1,5 +1,5 @@
 import srt
-from subtitle_part import SubtitlePart
+from .subtitle_part import SubtitlePart
 
 class SubtitleSRTParser:
     """Parses the subtitles and its parts from a .srt file

@@ -1,6 +1,6 @@
 import webvtt
-from subtitle_part import SubtitlePart
-from time_utils import convert_clock_time_to_timestamp_ms
+from .subtitle_part import SubtitlePart
+from .time_utils import convert_clock_time_to_timestamp_ms
 
 class SubtitleWebVTTParser:
     """Parses the subtitles and its parts from a .vtt file

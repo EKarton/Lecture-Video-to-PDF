@@ -1,5 +1,5 @@
-from subtitle_webvtt_parser import SubtitleWebVTTParser
-from subtitle_srt_parser import SubtitleSRTParser
+from .subtitle_webvtt_parser import SubtitleWebVTTParser
+from .subtitle_srt_parser import SubtitleSRTParser
 
 
 class SubtitleGenerator:

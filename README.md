@@ -2,7 +2,7 @@
 
 ### Description
 
-Want to go through lecture videos faster without missing any information? Wish you can **read** the lecture video instead of watching it? Now you can! With this python application, you can convert lecture videos to a PDF file! The PDF file will contain a screenshot of lecture slides presented in the video, along with a transcription of your instructor explaining those lecture slide. It can also handle instructors making annotations on their lecture slides and mild amounts of PowerPoint animations.
+Want to go through lecture videos faster without missing any information? Wish you can **read** the lecture video instead of watching it? Now you can! With this python app, you can convert lecture videos to PDF files! The PDF file will contain a screenshot of lecture slides presented in the video, along with a transcription of your instructor explaining those lecture slide. It can also handle instructors making annotations on their lecture slides and mild amounts of PowerPoint animations.
 
 ### Table of Contents
 
@@ -45,13 +45,23 @@ where each page contains an image of the lecture video, and a transcription of t
 
 3. Now, run:
 
-   `python3 src/main.py tests/videos/input_1.mp4 -s tests/subtitles/subtitles_1.vtt -o output.pdf`
+   `python3 -m src.main tests/videos/input_1.mp4 -s tests/subtitles/subtitles_1.vtt -o output.pdf`
 
    to generate a PDF of [this lecture video](tests/videos/input_1.mp4) with [these subtitles](```tests/subtitles/subtitles_1.vtt```)
 
+   Note: If you don't want subtitles in the pdf, you can use the `-S` flag, like:
+
+      `python3 -m src.main tests/videos/input_1.mp4 -S -o output.pdf`
+
 4. The generated PDF will be saved as _output.pdf_
 
-5. [Optional] To run all unit tests, run `cd tests && python3 -m unittest`
+### Running Tests
+
+1. Install graphicsmagick, imagemagick, and pdftk on your machine
+2. To run all unit tests, run `python3 -m unittest discover`
+3. To run a specific unit tests (ex: tests/test_main.py), run `python3 -m unittest tests/test_main.py`
+
+Note: Running the `tests/test_main.py` takes a while
 
 ### Tweeking the Application
 
