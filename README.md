@@ -40,26 +40,38 @@ where each page contains an image of the lecture video, and a transcription of t
 
 1. Ensure Python3 and Pip is installed on your machine
 2. Next, install package dependencies by running:
-
-   `pip3 install -r requirements.txt`
+    
+    ```bash
+    pip3 install -r requirements.txt
+    ```
 
 3. Now, run:
-
-   `python3 -m src.main tests/videos/input_1.mp4 -s tests/subtitles/subtitles_1.vtt -o output.pdf`
+    
+    ```bash
+    python3 -m src.main tests/videos/input_1.mp4 -s tests/subtitles/subtitles_1.vtt -o output.pdf
+    ```
 
    to generate a PDF of [this lecture video](tests/videos/input_1.mp4) with [these subtitles](```tests/subtitles/subtitles_1.vtt```)
 
    Note: If you don't want subtitles in the pdf, you can use the `-S` flag, like:
-
-      `python3 -m src.main tests/videos/input_1.mp4 -S -o output.pdf`
+   
+   ```bash
+   python3 -m src.main tests/videos/input_1.mp4 -S -o output.pdf
+   ```
 
 4. The generated PDF will be saved as _output.pdf_
 
 ### Running Tests
 
 1. Install graphicsmagick, imagemagick, and pdftk on your machine
-2. To run all unit tests, run `python3 -m unittest discover`
-3. To run a specific unit tests (ex: tests/test_main.py), run `python3 -m unittest tests/test_main.py`
+2. To run all unit tests, run
+    ```bash
+    python3 -m unittest discover
+    ```
+3. To run a specific unit tests (ex: tests/test_main.py), run
+    ```bash
+    python3 -m unittest tests/test_main.py
+    ```
 
 Note: Running the `tests/test_main.py` takes a while
 
