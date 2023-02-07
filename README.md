@@ -64,8 +64,14 @@ where each page contains an image of the lecture video, and a transcription of t
 ### Running Tests
 
 1. Install graphicsmagick, imagemagick, and pdftk on your machine
-2. To run all unit tests, run `python3 -m unittest discover`
-3. To run a specific unit tests (ex: tests/test_main.py), run `python3 -m unittest tests/test_main.py`
+2. To run all unit tests, run
+    ```bash
+    python3 -m unittest discover
+    ```
+3. To run a specific unit tests (ex: tests/test_main.py), run
+    ```bash
+    python3 -m unittest tests/test_main.py
+    ```
 
 Note: Running the `tests/test_main.py` takes a while
 
